@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'thesod-icons';
+	src:url('../fonts/thesod-icons.eot?-yiqymz');
+	src:url('../fonts/thesod-icons.eot?#iefix-yiqymz') format('embedded-opentype'),
+		url('../fonts/thesod-icons.woff?-yiqymz') format('woff'),
+		url('../fonts/thesod-icons.ttf?-yiqymz') format('truetype'),
+		url('../fonts/thesod-icons.svg?-yiqymz#thesod-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'thesod-socials';
+	src:url('../fonts/thesod-socials.eot');
+	src:url('../fonts/thesod-socials.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/thesod-socials.ttf') format('truetype'),
+		url('../fonts/thesod-socials.woff') format('woff'),
+		url('../fonts/thesod-socials.svg#thesod-socials') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

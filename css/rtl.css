@@ -1,0 +1,572 @@
+/*
+Theme Name: thesod
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+.site-title * {
+	direction: ltr !important;
+	text-align: left !important;
+}
+li.menu-item-logo {
+	direction: ltr;
+}
+body .widget_recent_entries ul li a{
+	padding-right: 42px;
+	padding-left: 15px;
+}
+body h1,
+body .title-h1,
+body h2,
+body .title-h2,
+body h3,
+body .title-h3,
+body h4,
+body .title-h4,
+body  h5,
+body .title-h5,
+body  h6,
+body .title-h6 {
+	letter-spacing: 0;
+}
+.sod-icon * {
+	direction: ltr;
+}
+textarea {
+	text-align: right;
+}
+#footer-menu li + li:before {
+	left: auto;
+	right: -1px;
+}
+#primary-menu.no-responsive {
+	margin: 0px !important;
+}
+#primary-menu.no-responsive li {
+	text-align: right;
+}
+#primary-menu.no-responsive > li li.menu-item-parent > a:after {
+	content: '\e603';
+}
+#primary-menu.no-responsive > li > ul a {
+	padding-right: 35px;
+}
+.top-area-menu .nav-menu {
+	margin: 0;
+}
+.top-area-menu .nav-menu > li a:before {
+	content: '\e603';
+	float: right;
+}
+
+.wpb-js-composer .page .vc_tta.vc_general.vc_tta-color-thesod .vc_tta-panel-heading .vc_tta-panel-title > a {
+	text-align: right;
+	padding-right: 20px;
+	padding-left: 30px;
+}
+.wpb-js-composer #main .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-right .vc_tta-controls-icon {
+	left: 20px;
+	right: auto;
+}
+.sod-counter-inner {
+	text-align: right;
+}
+body .sod-icon-with-text.sod-icon-with-text-float-right .sod-icon-with-text-icon {
+	float: left;
+}
+.widget .wpcf7-form input.wpcf7-text {
+	padding-right: 20px;
+	text-align: right;
+}
+.widget .wpcf7-form .phone:after,
+.widget .wpcf7-form .website:after,
+.widget .wpcf7-form .email:after,
+.widget .wpcf7-form .name:after {
+	top: 7px;
+	left: 15px;
+}
+.widget .wpcf7-form textarea {
+	text-align: right;
+}
+.widget .wpcf7-form input[type='submit'] {
+	text-align: right;
+	padding-right: 15px;
+}
+.sod-list > ul > li:before {
+	float: left;
+}
+.sod-list > ul {
+	padding-left: 0;
+}
+.sod-list > ul > li {
+	text-indent: 0;
+}
+.pricing-table-style-1 .pricing-column * {
+	text-align: right;
+}
+.pricing-table-style-2 .pricing-footer .sod-button-position-center,
+.pricing-table-style-1 .pricing-footer .sod-button-position-center,
+.pricing-table-style-1 .pricing-row,
+.pricing-table-style-1 .time,
+.pricing-table-style-1 .pricing-cost,
+.pricing-table-style-1 .pricing-price-title {
+	padding-right: 10px;
+}
+.pricing-table-style-2 .pricing-footer .sod-button-position-center,
+.pricing-table-style-6 .pricing-footer .sod-button,
+.pricing-table-style-2 .pricing-footer .sod-button,
+.pricing-table-style-2 .pricing-footer .sod-button,
+.pricing-table-style-2 .pricing-row,
+.pricing-table-style-2 .pricing-price,
+.pricing-table-style-2 .pricing-price-subtitle,
+.pricing-table-style-2 .pricing-price-title {
+	text-align: right;
+}
+.pricing-table-style-8 .pricing-price-wrapper,
+.pricing-table-style-3 .pricing-price-wrapper {
+	direction: ltr;
+}
+.pricing-table-style-8 .pricing-price,
+.pricing-table-style-3 .pricing-price {
+	direction: rtl;
+}
+.pricing-table-style-6 .pricing-price-title,
+.pricing-table-style-6 .pricing-price-subtitle {
+	text-align: right;
+	padding-right: 20px;
+}
+.pricing-table-style-6 .pricing-row {
+	padding-right: 20px;
+	text-align: right;
+}
+.pricing-table-style-6 .pricing-price-wrapper {
+	right: 11%;
+	left: auto;
+}
+.pricing-table-style-6 .pricing-column-top-choice {
+	top: -40px;
+	left: -137px;
+}
+.pricing-table-style-6 .sod-button-position-center {
+	text-align: right;
+	margin-right: 20px;
+}
+.pricing-table-style-7 .pricing-column-top-choice {
+	left: 75px;
+}
+.pricing-table-style-7 .pricing-footer .sod-button-position-center,
+.pricing-table-style-7 .pricing-row,
+.pricing-table-style-7 .pricing-price,
+.pricing-table-style-7 .pricing-price-title-wrapper {
+	text-align: right;
+	padding-right: 20px;
+}
+.pricing-table-style-7 .wrap-style {
+	left: auto;
+	right: -50px;
+}
+.wpb-js-composer .vc_tta.vc_tta-tabs.vc_general .vc_tta-tab > a {
+	text-align: right;
+}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-icon.sod-print-icon.sod-icon-pack-material {
+	float: left;
+	margin-top: 12px;
+}
+.wpb-js-composer .widget .vc_tta.vc_tta-tabs.vc_tta-color-thesod.vc_general .vc_tta-tab > a {
+	padding-right: 8px;
+}
+.wpb-js-composer .widget .vc_tta.vc_tta-tabs.vc_tta-color-thesod.vc_general.vc_tta-style-classic:not([class*="vc_tta-gap"]) .vc_tta-tab.vc_active > a {
+	padding-right: 12px;
+}
+.wpb-js-composer .vc_tta.vc_tta-gap-15.vc_tta-tabs-position-left .vc_tta-tabs-container {
+	margin-left: -1px;
+}
+.sod-icon-with-title > .sod-icon-with-title-icon {
+	float: left;
+}
+.wpcf7-form .phone:after,
+.wpcf7-form .website:after,
+.wpcf7-form .email:after,
+.wpcf7-form .name:after {
+	right: auto;
+	top: 12px;
+	font-size: 24px;
+	left: 12px;
+}
+.wpcf7-form .wpcf7-quiz,
+.wpcf7-form input[type="number"],
+.wpcf7-form input[type="date"],
+.wpcf7-form input.wpcf7-text {
+	padding: 12px;
+	padding-left: 20px;
+	text-align: right;
+	padding-right: 20px;
+}
+.cf-style1-textarea textarea {
+	height: 220px;
+	text-align: right;
+}
+.wpcf7-form .combobox-wrapper .combobox-button {
+	height: 51px;
+	width: 51px;
+	left: 0;
+}
+.wpcf7-form .combobox-wrapper .combobox-text {
+	float: right;
+}
+.sod-icon-with-text-icon-size-medium > .sod-icon-with-text-icon {
+	float: left;
+}
+.checkbox-sign, .radio-sign {
+	float: right;
+	margin-left: 10px;
+}
+body .cf-style1-checkbox {
+	clear: both;
+	width: 100%;
+	margin-bottom: 24px;
+	text-align: right;
+}
+.wpcf7-form span.wpcf7-list-item {
+	margin-right: 0;
+	margin-left: 0px;
+}
+.wpcf7-form .checkbox-sign,
+.wpcf7-form .radio-sign, .wpcf7-quiz-label {
+	margin-right: 0;
+}
+.contact-form-style-1 p:last-child * {
+	text-align: right;
+	float: right;
+	margin-right: 0;
+}
+.wpcf7-form .contact-form-style-2 .combobox-wrapper {
+	padding-right: 0;
+}
+p.cf-style2-checkbox .wpcf7-list-item,
+p.cf-style2-radio .wpcf7-list-item {
+	padding-bottom: 24px;
+	display: block;
+	float: right;
+	margin-left: 21px;
+}
+.contact-form-style-2 h5 {
+	text-align: right;
+}
+.wpcf7 p {
+	text-align: right;
+}
+input.wpcf7-form-control.wpcf7-submit {
+	text-align: right;
+}
+.sod-dropcap .sod-dropcap-letter {
+	float: right;
+}
+.sod-dropcap-shape-hexagon span.sod-dropcap-letter {
+	text-indent: 9px;
+	text-align: right;
+}
+.sod-dropcap-shape-hexagon.sod-dropcap-style-medium .sod-dropcap-letter {
+	text-indent: 3px;
+	line-height: 36px;
+}
+
+.sod-testimonials.style2 .sod-testimonial-wrapper p:after {
+	float: right;
+}
+.sod-testimonials.style2 .testimonials_svg {
+	right: 64px;
+}
+.diagram-wrapper.style-2 .digram-line-box .skill-amount {
+	float: left;
+}
+.diagram-wrapper.style-1 .digram-line-box .skill-amount {
+	margin-top: -30px;
+	float: left;
+	margin-left: 30px;
+}
+.diagram-wrapper.style-3 .digram-line-box .skill-title span {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.vc_chart .vc_chart-legend span {
+	margin-left: 10px;
+}
+.team-person .team-person-socials,
+.team-person .team-person-email,
+.team-person .team-person-phone,
+.team-person .team-person-position.date-color,
+.team-person .team-person-name {
+	text-align: right;
+}
+.sod-team-style-4 .team-person {
+	text-align: right;
+}
+.sod-team-style-5 .team-person-image {
+	padding-right: 0;
+	float: right;
+}
+.sod-team-style-5 .team-person-description {
+	text-align: right;
+}
+.sod-counter-team .team-person-image a {
+
+	float: right;
+	margin-right: 50px;
+}
+.sod-counter-style-vertical .sod-counter-icon {
+	right: 25px;
+}
+.teams_page_testimonial_grid .quickfinder-item-box {
+	text-align: right;
+}
+.sod-testimonials.style2 .sod-testimonial-content * {
+	text-align: right;
+}
+body .sod-testimonials.style2 .sod-testimonial-wrapper * {
+	text-align: right;
+}
+.sod-testimonials.style2 .sod-testimonial-wrapper p:after {
+	float: left;
+}
+.form-submit.sod-button-position-inline button {
+	margin-right: 0;
+}
+.related-posts-navigation {
+	position: absolute;
+	top: -85px;
+	right: auto;
+	left: 0;
+}
+.sod-print-icon.sod-icon-pack-thesod-icons.sod-icon-next::before {
+	content: '\e636';
+	font-size: 24px;
+}
+.sod-print-icon.sod-icon-pack-thesod-icons.sod-icon-prev::before {
+	content: '\e634';
+	font-size: 24px;
+}
+.zilla-likes .zilla-likes-count {
+	float: right;
+}
+.comments-link a:before {
+	float: left;
+}
+.blog-style-default .post-meta-right, .single-post-meta .post-meta-right {
+	margin-left: 0;
+}
+.bc-devider:before {
+	font-family: thesod-icons;
+	content: '\e64b';
+}
+.widget-title:after {
+	float: right;
+	font-weight: normal;
+	margin-top: 3px;
+}
+.block-product-navigation-next .sod-button .sod-print-icon {
+	margin-left: 3px;
+	float: right;
+}
+.block-product-navigation-prev .sod-button {
+	padding-left: 14px;
+	text-align: right;
+}
+.sod-print-icon.sod-icon-pack-thesod-icons.sod-icon-prev::before {
+	content: '\e636';
+}
+
+.wpb-js-composer .vc_tta-tabs.vc_tta-tabs-position-left {
+	direction: ltr;
+}
+.wpb-js-composer .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-list,
+.wpb-js-composer .vc_tta.vc_tta-color-thesod.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels .vc_tta-panel-body {
+	direction: rtl;
+}
+.product-quantity label.screen-reader-text {
+	float: right;
+}
+.woocommerce-cart-form .shop_table .product-quantity {
+	width: 18%;
+}
+tr.woocommerce-cart-form__cart-item.cart_item {
+	border-right: 1px solid #dfe5e8;
+	border-left: 1px solid #dfe5e8;
+}
+
+.woocommerce .shop_table tbody tr:last-child td {
+	border-color: #dfe5e8;
+}
+.woocommerce .woocommerce-cart-form .shop_table td.product-subtotal {
+	border-right: none;
+}
+.woocommerce .woocommerce-cart-form  td.product-remove {
+	border-left: none !important;
+}
+.product-quantity label.screen-reader-text {
+	padding-left: 10px;
+}
+.portfilio-top-panel-right {
+	text-align: left;
+}
+.widget_calendar table {
+	width: 85%;
+	margin-right: 14%;
+}
+body .widget .sod-contacts-address:before,
+body .wpb_widgetised_column .sod-contacts-address:before,
+body .widget .sod-contacts-phone:before,
+body .wpb_widgetised_column .sod-contacts-phone:before,
+body .widget .sod-contacts-website:before,
+body .wpb_widgetised_column .sod-contacts-website:before,
+body .widget .sod-contacts-email:before,
+body .wpb_widgetised_column .sod-contacts-email:before,
+body .widget .sod-contacts-email:before,
+body .wpb_widgetised_column .sod-contacts-email:before,
+body .widget .sod-contacts-fax:before,
+body .wpb_widgetised_column .sod-contacts-fax:before {
+	float: right;
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.widget_nav_menu ul.menu li > a,
+.widget_submenu > div > ul li > a {
+	display: block;
+	padding: 12px 40px 12px 20px;
+}
+.widget .menu-item-has-children.menu-item-parent > a:after {
+	content: '\e603';
+}
+.sod-pp-posts-text {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 17px;
+}
+.widget_meta li:before,
+.widget_rss li:before {
+	content: '\e603';
+}
+.widget_meta li:before, .widget_rss li:before {
+	content: '\e603';
+	float: right;
+}
+.widget .sod-products-content {
+	border-left: 1px solid #dfe5e8;
+	border-right: none;
+}
+.widget-area .woocommerce .star-rating {
+	float: right;
+}
+.widget .sod-products-content {
+	border-right: none;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+.sod-pp-posts-item {
+	text-align: right;
+}
+.sod-pp-posts-date {
+	text-align: right;
+}
+#colophon .widget-title {
+	color: #feffff;
+	text-align: right;
+}
+.sod-latest-news-title {
+	text-align: right;
+}
+ul.product_list_widget {
+	text-align: right;
+	padding-right: 0px;
+}
+ul.product_list_widget li {
+	padding-right: 7px;
+}
+.header-main.logo-position-left.header-layout-fullwidth_hamburger.header-style-vertical {
+	direction: ltr;
+}
+body #page.vertical-header #primary-navigation #primary-menu > li.menu-item-cart > a:before,
+body .header-layout-fullwidth_hamburger #primary-navigation #primary-menu > li.menu-item-cart > a:before {
+	text-align: right;
+}
+body  #page.vertical-header #primary-menu.no-responsive > li.menu-item-cart > a .minicart-item-count {
+	right: -28px;
+	left: auto;
+}
+#site-header .header-layout-overlay .site-title {
+	float: left;
+}
+.overlay-menu-wrapper.active * {
+	text-align: center;
+}
+.header-main.logo-position-left.header-layout-perspective {
+	direction: ltr;
+}
+.mobile-menu-layout-default .primary-navigation.responsive ul > li.menu-item {
+	text-align: right;
+}
+.mobile-menu-layout-default .primary-navigation.responsive li.dl-back:after,
+.mobile-menu-layout-default .primary-navigation.responsive li.menu-item-parent > a:after,
+.mobile-menu-layout-default .primary-navigation.responsive li.menu-item-parent > span > a:after,
+.mobile-menu-layout-default .primary-navigation.responsive li.dl-parent > a:after {
+	position: absolute;
+	width: 9px;
+	height: 16px;
+	right: auto;
+	left: 19px;
+	top: 50%;
+	margin-top: -8px;
+	font-weight: normal;
+	font-family: 'thesod-icons';
+	content: '\e601';
+	font-size: 15px;
+	line-height: 16px;
+}
+#primary-navigation.responsive #primary-menu > li.menu-item-cart > a:before {
+	text-align: right;
+}
+body .widget .tagcloud a {
+	float: right;
+}
+.woocommerce .star-rating, .woocommerce-page .star-rating {
+	float: right;
+}
+.sod-latest-news-title {
+	padding-right: 11px;
+}
+.project_info-item-style-1 .project_info-item .icon {
+	float: right;
+}
+.widget .product_list_widget .onsale, .shop-widget-area .onsale {
+	 top: -14px;
+	 left: -9px;
+
+ }
+.checkout-steps .checkout-step {
+	padding-right: 32px;
+}
+.portfolio:not(.hover-horizontal-sliding) .portfolio-item .image .image-inner img {
+	left: 0;
+}
+

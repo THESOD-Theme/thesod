@@ -1,0 +1,6055 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: thesod Wordpress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-14 11:33+0300\n"
+"PO-Revision-Date: 2019-08-14 11:34+0300\n"
+"Last-Translator: \n"
+"Language-Team: Codex Themes\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:27
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Bu konumda hiçbir şey bulunamadı gibi görünüyor. Aramayı denemek ister "
+"misiniz?"
+
+#: comments.php:18
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: comments.php:32
+msgid "Comments are closed."
+msgstr "Yoruma kapalı."
+
+#: comments.php:40 woocommerce/single-product-reviews.php:86
+msgid "Name"
+msgstr "İsim"
+
+#: comments.php:41 woocommerce/single-product-reviews.php:87
+msgid "Mail"
+msgstr "E-Posta"
+
+#: comments.php:42 inc/options.php:3248 inc/options.php:3362
+msgid "Website"
+msgstr "İnternet sitesi"
+
+#: comments.php:46 woocommerce/single-product-reviews.php:89
+msgid "Message *"
+msgstr "Mesajınız *"
+
+#: comments.php:47 comments.php:55
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Yorum yapmak için <a href=\"%s\">giriş yapmış olmanız</a> gerekir."
+
+#: comments.php:48
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a>olarak giriş yapıldı."
+
+#: comments.php:48
+msgid "Log out of this account"
+msgstr "Bu hesaptan çıkış yap"
+
+#: comments.php:48
+msgid "Log out &raquo;"
+msgstr "Çıkış yap &raquo;"
+
+#: comments.php:50
+msgid "Send Comment"
+msgstr "Yorum gönder"
+
+#: comments.php:53
+msgid "Leave <span class=\"light\">a comment</span>"
+msgstr "<Span class=\"light\">bir yorum bırakın</span>"
+
+#: comments.php:54
+#, php-format
+msgid "Comment to %s"
+msgstr "%s için yorum yapın"
+
+#: comments.php:60 woocommerce/single-product-reviews.php:118
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:70 content-page.php:227 inc/woocommerce.php:277
+msgid "Prev"
+msgstr "Önceki"
+
+#: comments.php:71 content-page.php:242 inc/woocommerce.php:293
+#: woocommerce/myaccount/orders.php:95
+msgid "Next"
+msgstr "Sonraki"
+
+#: content-blog-item.php:23 content-page.php:77
+#: sod-templates/blog/content-blog-item-justified.php:10
+#: sod-templates/blog/content-blog-item-masonry.php:10
+#: sod-templates/blog/content-blog-item-multi-author.php:12
+#: sod-templates/blog/content-blog-item-styled_list1.php:10
+#: sod-templates/blog/content-blog-item-styled_list2.php:10
+#: sod-templates/blog/content-blog-item-timeline.php:10
+#: sod-templates/blog/content-blog-item-timeline_new.php:14
+#, php-format
+msgid "View all posts in %s"
+msgstr "%s içindeki tüm mesajları görüntüle"
+
+#: content-blog-item.php:69 content-page.php:111
+#: sod-templates/blog/content-blog-item-compact.php:57
+#: sod-templates/blog/content-blog-item-justified.php:102
+#: sod-templates/blog/content-blog-item-masonry.php:118
+#: sod-templates/blog/content-blog-item-multi-author.php:84
+#: sod-templates/blog/content-blog-item-slider.php:58
+#: sod-templates/blog/content-blog-item-styled_list1.php:67
+#: sod-templates/blog/content-blog-item-styled_list2.php:67
+#: sod-templates/blog/content-blog-item-timeline.php:62
+#: sod-templates/blog/content-blog-item-timeline_new.php:74
+#: sod-templates/news-grid/content-item.php:238
+#, php-format
+msgid "By %s"
+msgstr "%s tarafından"
+
+#: content-blog-item.php:93
+#: sod-templates/blog/content-blog-item-justified.php:124
+#: sod-templates/blog/content-blog-item-masonry.php:145
+#: sod-templates/blog/content-blog-item-multi-author.php:111
+#: sod-templates/blog/content-blog-item-styled_list1.php:85
+#: sod-templates/blog/content-blog-item-styled_list2.php:85
+#: sod-templates/blog/content-blog-item-timeline.php:89
+#: sod-templates/blog/content-blog-item-timeline_new.php:98
+msgid "Read More"
+msgstr "Devamı"
+
+#: content-none.php:2
+msgid "<span class=\"light\">Nothing</span> Found"
+msgstr "<span class=\"light\">Hiçbir şey</span> bulunamadı"
+
+#: content-none.php:8
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"İlk paylaşımını yapmak için hazır mısın? <a href=\"%1$s\">Buradan başlayın</"
+"a>."
+
+#: content-none.php:11
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Üzgünüz, arama terimlerinizle hiçbir şey eşleşmedi. Lütfen farklı anahtar "
+"kelimelerle tekrar deneyin."
+
+#: content-none.php:13
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Görünüşe göre aradığınızı bulamıyoruz. Belki de arama yardımcı olabilir."
+
+#: content-page-content-block.php:43 content-page.php:182 content-shop.php:48
+#: content.php:53
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: content-page.php:100 content-page.php:149
+msgid "Previous post"
+msgstr "Önceki yazı"
+
+#: content-page.php:105 content-page.php:154
+msgid "Next post"
+msgstr "Sonraki yazı"
+
+#: content-page.php:217
+msgid "Go to project"
+msgstr "Projeye git"
+
+#: content.php:51
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Okumaya devam edin <Span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:35
+msgid "Top primary menu"
+msgstr "Üst ana menü"
+
+#: functions.php:36
+msgid "Footer menu"
+msgstr "Altbilgi menüsü"
+
+#: functions.php:37
+msgid "Top area menu"
+msgstr "Üst alan menüsü"
+
+#: functions.php:121
+msgid "thesod"
+msgstr ""
+
+#: functions.php:126 functions.php:1425
+msgid "Support Center"
+msgstr "Destek Merkezi"
+
+#: functions.php:127 functions.php:1433
+msgid "Documentation"
+msgstr "Döküman"
+
+#: functions.php:138
+msgid "Upload directory cannot be created. Check your permissions."
+msgstr "Yükleme dizini oluşturulamıyor. İzinlerini kontrol et."
+
+#: functions.php:151
+msgid "Link"
+msgstr "Bağlantı"
+
+#: functions.php:159 inc/post-types/init.php:726
+msgid "Show as Highlight?"
+msgstr "Vurgulu olarak gösterilsin mi?"
+
+#: functions.php:170 inc/post-types/init.php:610 inc/post-types/init.php:730
+msgid "Highlight Type"
+msgstr "Vurgu Türü"
+
+#: functions.php:226
+msgid "Main Page Sidebar"
+msgstr "Ana Sayfa Kenar Çubuğu"
+
+#: functions.php:228 functions.php:237 functions.php:246
+msgid "Main sidebar that appears on the left."
+msgstr "Sol ana kenar çubuğu."
+
+#: functions.php:235
+msgid "VC Page Sidebar 01"
+msgstr "VC Sayfa Kenar Çubuğu 01"
+
+#: functions.php:244
+msgid "VC Page Sidebar 02"
+msgstr "VC Sayfa Kenar Çubuğu 02"
+
+#: functions.php:253
+msgid "Footer Widget Area"
+msgstr "Altbilgi Pencere Öğelesi Alanı"
+
+#: functions.php:255
+msgid "Footer Widget Area."
+msgstr "Altbilgi Pencere Öğesi Alanı."
+
+#: functions.php:262
+msgid "Shop sidebar"
+msgstr "Mağaza kenar çubuğu"
+
+#: functions.php:264 functions.php:273
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+"Kendi pencere öğelerine sahip olan isteğe bağlı Ön Sayfa şablonu dışındaki "
+"gönderilerde ve sayfalarda görüntülenir."
+
+#: functions.php:271
+msgid "Shop widget area"
+msgstr "Mağaza pencere öğesi alanı"
+
+#: functions.php:294
+msgid "Back"
+msgstr "Geri"
+
+#: functions.php:295
+msgid "Show this page"
+msgstr "Bu sayfayı göster"
+
+#: functions.php:507
+msgid "Select icon"
+msgstr "Simge seçin"
+
+#: functions.php:767
+msgctxt " font: on or off"
+msgid "on"
+msgstr "üzerinde"
+
+#: functions.php:1020
+#, php-format
+msgid ""
+"<span class=\"light\">Search Results</span> <span class=\"highlight\">\"%1$s"
+"\"</span>"
+msgstr ""
+"<span class=\"light\">Arama Sonuçları</span><span class=\"highlight\"> \"%1$s"
+"\"</span>"
+
+#: functions.php:1025
+msgid "Page not found"
+msgstr "Sayfa bulunamadı"
+
+#: functions.php:1249
+msgid "Styled Subtitle"
+msgstr "Stilize altyazı"
+
+#: functions.php:1254
+msgid "Title H1"
+msgstr "Başlık H1"
+
+#: functions.php:1259
+msgid "Title H2"
+msgstr "Başlık H2"
+
+#: functions.php:1264
+msgid "Title H3"
+msgstr "Başlık H3"
+
+#: functions.php:1269
+msgid "Title H4"
+msgstr "Başlık H4"
+
+#: functions.php:1274
+msgid "Title H5"
+msgstr "Başlık H5"
+
+#: functions.php:1279
+msgid "Title H6"
+msgstr "Başlık H6"
+
+#: functions.php:1284 inc/post-types/init.php:107
+msgid "XLarge Title"
+msgstr "XLarge Başlık"
+
+#: functions.php:1289
+msgid "Letter-spacing Title"
+msgstr "Harf Boşluğu Başlığı"
+
+#: functions.php:1294
+msgid "Light Title"
+msgstr "Aydınlık Tema Başlığı"
+
+#: functions.php:1299
+msgid "Body small"
+msgstr "Küçük gövde"
+
+#: functions.php:1420 inc/options.php:5913
+msgid "Theme Options"
+msgstr "Tema Seçenekleri"
+
+#: functions.php:1876 functions.php:1913
+msgid "Self-Hosted Fonts"
+msgstr ""
+
+#: functions.php:1914
+msgid ""
+"Here you can upload your own font files or google font files on your own "
+"server to use it in your website directly. After adding the font files the "
+"corresponding fonts will be available for selection in \"Fonts\" section of "
+"Theme Options."
+msgstr ""
+
+#: functions.php:1918 functions.php:1976 functions.php:2004 functions.php:2065
+#: functions.php:2162 functions.php:2195
+#: inc/megamenu/edit-megamenu-walker.class.php:383
+msgid "Remove"
+msgstr "Kaldır"
+
+#: functions.php:1921 functions.php:2007
+msgid "Font name"
+msgstr "Yazı tipi adı"
+
+#: functions.php:1925 functions.php:2011
+msgid "Font file EOT url"
+msgstr "Yazı tipi dosyası EOT url'si"
+
+#: functions.php:1929 functions.php:2015
+msgid "Font file SVG url"
+msgstr "Yazı tipi dosyası SVG url'si"
+
+#: functions.php:1933 functions.php:2019
+msgid "ID inside SVG"
+msgstr "SVG içindeki ID"
+
+#: functions.php:1937 functions.php:2023
+msgid "Font file TTF url"
+msgstr "Yazı tipi dosyası TTF url'si"
+
+#: functions.php:1941 functions.php:2027
+msgid "Font file WOFF url"
+msgstr "Yazı tipi dosyası WOFF url'si"
+
+#: functions.php:1950 functions.php:2037
+msgid "Use as a fallback font for privacy settings."
+msgstr ""
+
+#: functions.php:1952 functions.php:2039
+msgid "if google fonts are disabled by website visitor in privacy preferences"
+msgstr ""
+
+#: functions.php:1980 functions.php:2070 inc/options.php:488
+#: inc/options.php:525 inc/options.php:562 inc/options.php:599
+#: inc/options.php:636 inc/options.php:717 inc/options.php:797
+#: inc/options.php:877 inc/options.php:957 inc/options.php:1037
+#: inc/options.php:1117 inc/options.php:1197 inc/options.php:1298
+#: inc/options.php:1335 inc/options.php:1415 inc/options.php:1494
+#: inc/options.php:1531 inc/options.php:1568 inc/options.php:1605
+#: inc/options.php:1642 inc/options.php:1679 inc/options.php:1716
+#: inc/options.php:1753 inc/options.php:1790 inc/options.php:1827
+#: inc/options.php:1907 inc/options.php:1944 inc/options.php:1981
+#: inc/options.php:2018 inc/options.php:2055 inc/options.php:4019
+#: inc/options.php:4053 inc/options.php:4086 inc/options.php:4119
+#: inc/options.php:4153 inc/options.php:4186 inc/options.php:4219
+#: inc/options.php:4252
+msgid "Font Size"
+msgstr "Yazı Tipi Boyutu"
+
+#: functions.php:1986 functions.php:2076 inc/options.php:496
+#: inc/options.php:533 inc/options.php:570 inc/options.php:607
+#: inc/options.php:644 inc/options.php:725 inc/options.php:805
+#: inc/options.php:885 inc/options.php:965 inc/options.php:1045
+#: inc/options.php:1125 inc/options.php:1205 inc/options.php:1306
+#: inc/options.php:1343 inc/options.php:1423 inc/options.php:1502
+#: inc/options.php:1539 inc/options.php:1576 inc/options.php:1613
+#: inc/options.php:1650 inc/options.php:1687 inc/options.php:1724
+#: inc/options.php:1761 inc/options.php:1798 inc/options.php:1835
+#: inc/options.php:1915 inc/options.php:1952 inc/options.php:1989
+#: inc/options.php:2026 inc/options.php:2063 inc/options.php:4026
+#: inc/options.php:4060 inc/options.php:4093 inc/options.php:4126
+#: inc/options.php:4160 inc/options.php:4193 inc/options.php:4226
+#: inc/options.php:4259
+msgid "Line Height"
+msgstr "Satır yüksekliği"
+
+#: functions.php:2094
+msgid "Upload new font file"
+msgstr ""
+
+#: functions.php:2095 functions.php:2228
+#: woocommerce/myaccount/form-reset-password.php:48
+#: woocommerce/myaccount/form-reset-password.php:53
+msgid "Save"
+msgstr "Kaydet"
+
+#: functions.php:2135 functions.php:2156 inc/options.php:3393
+msgid "Add new social network"
+msgstr ""
+
+#: functions.php:2157
+msgid ""
+"Here you can add new social networks, which are not included per default in "
+"thesod's theme options. Define ID, name, icon pack, icon and color. By "
+"clicking on \"Save\" this network will appear in \"Theme Options - Contacts "
+"& Socials\"."
+msgstr ""
+
+#: functions.php:2158
+msgid ""
+"By clicking on \"Save\" these networks will be added to the list of social "
+"networks available for teams, top area, footer, social network widget etc."
+msgstr ""
+
+#: functions.php:2164 functions.php:2197
+msgid "Social network ID"
+msgstr ""
+
+#: functions.php:2168 functions.php:2201
+msgid "Social network name"
+msgstr ""
+
+#: functions.php:2172 functions.php:2205
+msgid "Icon pack"
+msgstr ""
+
+#: functions.php:2176 functions.php:2209
+msgid "Default icon"
+msgstr ""
+
+#: functions.php:2180 functions.php:2213
+msgid "Rounded icon"
+msgstr ""
+
+#: functions.php:2184 functions.php:2217
+msgid "Squared icon"
+msgstr ""
+
+#: functions.php:2188 functions.php:2221
+msgid "Color"
+msgstr ""
+
+#: functions.php:2227
+msgid "+ Add new"
+msgstr "+ Yeni ekle"
+
+#: functions.php:2381
+msgid "Home"
+msgstr "Anasayfa"
+
+#: functions.php:2382
+msgid "Blog Category"
+msgstr "Blog Kategorisi"
+
+#: functions.php:2383
+msgid "Search Results"
+msgstr "Arama Sonuçları"
+
+#: functions.php:2384
+msgid "Tag"
+msgstr "Etiket"
+
+#: functions.php:2385
+msgid "Posts by"
+msgstr "Tarafından gönderilen yazılar"
+
+#: functions.php:2386
+msgid "404"
+msgstr "404"
+
+#: functions.php:2388
+#, php-format
+msgid "Comment %s"
+msgstr "Yorum Yap %s"
+
+#: functions.php:2467
+msgid "Shop"
+msgstr "Mağaza"
+
+#: functions.php:2566
+msgid "The Gem Avatar"
+msgstr "The Gem Avatarı"
+
+#: functions.php:2568
+msgid "The Gem Avatar 2"
+msgstr "The Gem Avatarı 2"
+
+#: functions.php:2577 functions.php:2590 functions.php:2824 functions.php:2833
+msgid "Search..."
+msgstr "Arama..."
+
+#: functions.php:2763
+msgid "Elegant"
+msgstr "Zarif"
+
+#: functions.php:2763
+msgid "Material Design"
+msgstr "Material Tasarım"
+
+#: functions.php:2763
+msgid "FontAwesome"
+msgstr "FontAwesome"
+
+#: functions.php:2765
+msgid "UserPack"
+msgstr "Kullanıcı Paketi"
+
+#: functions.php:2775 inc/megamenu/edit-megamenu-walker.class.php:220
+msgid "Enter icon code"
+msgstr "Simge kodunu girin"
+
+#: functions.php:2776 functions.php:2777 functions.php:2778 functions.php:2780
+#: inc/megamenu/edit-megamenu-walker.class.php:221
+msgid "Icons info"
+msgstr "Simge bilgileri"
+
+#: functions.php:2776
+msgid "Show Elegant Icon Codes"
+msgstr "Zarif Simge Kodlarını Göster"
+
+#: functions.php:2777
+msgid "Show Material Design Icon Codes"
+msgstr "Material Tasarım Simge Kodlarını Göster"
+
+#: functions.php:2778 inc/megamenu/edit-megamenu-walker.class.php:221
+msgid "Show FontAwesome Icon Codes"
+msgstr "FontAwesome Simge Kodlarını Göster"
+
+#: functions.php:2780
+msgid "Show UserPack Icon Codes"
+msgstr "Kullanıcı Paketi Simge Kodlarını Göster"
+
+#: functions.php:2836 functions.php:2840
+msgid "Search"
+msgstr "Arama"
+
+#: functions.php:3035 inc/options.php:354 inc/options.php:365
+#: inc/options.php:374 inc/options.php:4662 inc/post-types/init.php:104
+msgid "Default"
+msgstr "Varsayılan"
+
+#: functions.php:3123
+#, php-format
+msgid "Edit &#8220;%s&#8221; in the gutenberg editor"
+msgstr ""
+
+#: functions.php:3127
+msgid "Gutenberg Editor"
+msgstr ""
+
+#: functions.php:3189
+msgid "Switch to Page Builder"
+msgstr ""
+
+#: sod-templates/blog/content-blog-item-featured-posts-slider.php:7
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: sod-templates/blog/content-blog-item-styled_list1.php:69
+msgid "in "
+msgstr ""
+
+#: sod-templates/blog/content-blog-item-styled_list2.php:67
+msgid " in"
+msgstr " içinde"
+
+#: sod-templates/portfolios/content-portfolio-item-1x.php:162
+#: sod-templates/portfolios/content-portfolio-item-1x.php:205
+msgctxt "in categories"
+msgid "in"
+msgstr "içinde"
+
+#: sod-templates/portfolios/content-portfolio-item-1x.php:221
+msgid "Launch"
+msgstr "Başlat"
+
+#: sod-templates/portfolios/content-portfolio-item-1x.php:222
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: sod-templates/quickfinders/content-quickfinder-item-classic.php:51
+#: sod-templates/quickfinders/content-quickfinder-item-iconed.php:55
+#: sod-templates/quickfinders/content-quickfinder-item-tag.php:51
+#: sod-templates/quickfinders/content-quickfinder-item.php:48
+msgid "Read more"
+msgstr "Devamı"
+
+#: sod-templates/teams/content-team-person-style-2.php:27
+#: sod-templates/teams/content-team-person-style-5.php:27
+#: sod-templates/teams/content-team-person-style-6.php:27
+#: sod-templates/teams/content-team-person-style-counter.php:15
+#: sod-templates/teams/content-team-person.php:27
+msgid "Send Message"
+msgstr "Mesaj gönder"
+
+#: header.php:96
+msgid "Primary Menu"
+msgstr "Ana Menü"
+
+#: inc/content.php:20
+msgid "thesod Theme"
+msgstr "thesod Tema"
+
+#: inc/content.php:22
+#, php-format
+msgid ""
+"Log in to <a href=\"%s\">wordpress</a> admin and set up your starting page "
+"using <a href=\"%s\">Home Constructor</a>."
+msgstr ""
+"<a href=\"%s\">wordpress</a> giriş yapın ve başlangıç sayfanızı <a href=\"%s"
+"\">Home Constructor</a>'ı kullanarak ayarlayın."
+
+#: inc/content.php:23
+msgid ""
+"Please refer to thesod documentation <b>(Getting Started &mdash; Setting Up "
+"Homepage)</b> in order to learn how to use Home Constructor."
+msgstr ""
+"Ev Kurucunun nasıl kullanılacağını öğrenmek için lütfen <b>(Başlangıç ve "
+"Başlarken; Ana Sayfayı Kurma)</b> belgelerine bakın."
+
+#: inc/content.php:24
+msgid ""
+"Additionally you can use demo content included in thesod to quickly setup a "
+"demo of your starting page."
+msgstr ""
+"Ek olarak, başlangıç sayfanızın demosunu hızlı bir şekilde ayarlamak için "
+"thesod'deki demo içeriğini kullanabilirsiniz."
+
+#: inc/content.php:124
+msgid "Address:"
+msgstr "Adres:"
+
+#: inc/content.php:127 woocommerce/order/order-details-customer.php:40
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: inc/content.php:130
+msgid "Fax:"
+msgstr "Faks:"
+
+#: inc/content.php:133 woocommerce/checkout/thankyou.php:58
+#: woocommerce/order/order-details-customer.php:34
+msgid "Email:"
+msgstr "E-posta:"
+
+#: inc/content.php:136
+msgid "Website:"
+msgstr "Web sitesi:"
+
+#: inc/content.php:199
+msgid "Related Posts"
+msgstr "Benzer Gönderiler"
+
+#: inc/content.php:266
+#, php-format
+msgid "<div class=\"fn title-h6\">%s</div>"
+msgstr "<div class=\"fn title-h6\">%s</div>"
+
+#: inc/content.php:270
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s de %2$s"
+
+#: inc/content.php:270
+msgid "(Edit)"
+msgstr "(Düzenle)"
+
+#: inc/content.php:279
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz onay bekliyor."
+
+#: inc/content.php:296 inc/content.php:613
+#: woocommerce/product-searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr "Arama"
+
+#: inc/content.php:319
+msgid "/ About Author"
+msgstr "/ Yazar hakkında"
+
+#: inc/content.php:321
+#, php-format
+msgid "More posts by %s"
+msgstr "%s tarafından gönderilmiş daha fazla mesaj"
+
+#: inc/content.php:358
+msgid "<span class=\"sep\"></span>"
+msgstr "<span class=\"sep\"></span>"
+
+#: inc/content.php:389 inc/options.php:3881 woocommerce/loop/pagination.php:68
+msgid "Load More"
+msgstr "Daha fazla yükle"
+
+#: inc/content.php:1162
+msgid "Send"
+msgstr ""
+
+#: inc/image-generator/image-generator.php:178
+msgid "Purge Thumbnails Cache"
+msgstr "Küçük Resim Önbelleğini Temizle"
+
+#: inc/image-generator/image-generator.php:187
+msgid "thesod thumbnails"
+msgstr "thesod küçük resimleri"
+
+#: inc/image-generator/image-generator.php:262
+msgid "Cached post thumbnails have been deleted successfully!"
+msgstr "Önbelleğe alınmış yazıların küçük resimleri başarıyla silindi!"
+
+#: inc/image-generator/image-generator.php:266
+msgid "All cached thumbnails have been deleted successfully!"
+msgstr "Tüm önbelleğe alınmış küçük resimler başarıyla silindi!"
+
+#: inc/image-generator/image-generator.php:270
+msgid "Nonce verification is faield!"
+msgstr "Doğrulama başarısız oldu!"
+
+#: inc/image-generator/image-generator.php:274
+msgid "Post not found"
+msgstr "Gönderi bulunamadı"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:91
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Geçersiz)"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:95
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (Beklemede)"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:118
+msgid "sub item"
+msgstr "alt öğe"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:133
+msgid "Move up"
+msgstr "Yukarı taşı"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:146
+msgid "Move down"
+msgstr "Aşağı taşı"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:148
+#: inc/megamenu/edit-megamenu-walker.class.php:150
+msgid "Edit Menu Item"
+msgstr "Menü Öğesini Düzenle"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:159
+msgid "URL"
+msgstr "URL"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:166
+msgid "Navigation Label"
+msgstr "Gezinti Etiketi"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:172
+msgid "Title Attribute"
+msgstr "Başlık Özniteliği"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:179
+msgid "Open link in a new window/tab"
+msgstr "Bağlantıyı yeni pencerede/sekmede aç"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:184
+msgid "CSS Classes (optional)"
+msgstr "CSS Sınıfları (isteğe bağlı)"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:190
+msgid "Link Relationship (XFN)"
+msgstr "Bağlantı İlişkisi (XFN)"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:196 inc/woocommerce.php:784
+msgid "Description"
+msgstr "Açıklama"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:198
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr "Geçerli tema destekliyorsa açıklama menüde gösterilecektir."
+
+#: inc/megamenu/edit-megamenu-walker.class.php:206
+msgid "Make clickable on mobile"
+msgstr "Cep telefonunda tıklanabilir yap"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:217 inc/options.php:3277
+#: inc/options.php:3303 inc/options.php:3329 inc/options.php:3355
+#: inc/options.php:3381 inc/post-types/init.php:183 inc/post-types/init.php:197
+msgid "Icon"
+msgstr "Simge"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:230
+msgid "Enable Mega Menu"
+msgstr "Mega Menüyü Etkinleştir"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:236
+msgid "Mega Menu Style"
+msgstr "Mega Menü Stili"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:248
+msgid "Mega Menu Masonry Style"
+msgstr "Mega Menü Yığın Stili"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:254
+msgid "Number of columns: "
+msgstr "Sütun sayısı: "
+
+#: inc/megamenu/edit-megamenu-walker.class.php:265
+msgid "Background image"
+msgstr "Arkaplan resmi"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:267
+msgid "Select"
+msgstr "Seç"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:273
+msgid "Position: "
+msgstr "Pozisyon: "
+
+#: inc/megamenu/edit-megamenu-walker.class.php:283
+msgid "Padding: "
+msgstr "Dolgu: "
+
+#: inc/megamenu/edit-megamenu-walker.class.php:287 inc/options.php:340
+#: inc/options.php:398 inc/options.php:3466 inc/options.php:3594
+#: inc/post-types/init.php:104 inc/post-types/init.php:571
+msgid "Left"
+msgstr "Sol"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:294 inc/options.php:341
+#: inc/options.php:399 inc/options.php:3467 inc/options.php:3595
+#: inc/post-types/init.php:104 inc/post-types/init.php:571
+msgid "Right"
+msgstr "Sağ"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:301
+msgid "Top"
+msgstr "Üst"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:308
+msgid "Bottom"
+msgstr "Alt"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:318
+msgid "Column width"
+msgstr "Sütun genişliği"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:326
+msgid "Don't link"
+msgstr "Bağlama"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:333
+msgid "Don't show"
+msgstr "Gösterme"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:340
+msgid "This item should start a new row"
+msgstr "Bu öğe yeni bir satır başlatmalı"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:347
+msgid "Label"
+msgstr "Etiket"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:358
+#: woocommerce/wishlist-view.php:197 woocommerce/wishlist-view.php:443
+msgid "Move"
+msgstr "Taşı"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:359
+msgid "Up one"
+msgstr "Bir kez yukarı"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:360
+msgid "Down one"
+msgstr "Bir kez aşağı"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:363
+msgid "To the top"
+msgstr "En üste git"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:370
+#, php-format
+msgid "Original: %s"
+msgstr "Orijinal: %s"
+
+#: inc/megamenu/edit-megamenu-walker.class.php:384
+msgid "Cancel"
+msgstr "İptal etmek"
+
+#: inc/megamenu/megamenu.class.php:20
+msgid "Left Top"
+msgstr "Sol üst"
+
+#: inc/megamenu/megamenu.class.php:21
+msgid "Left Center"
+msgstr "Sol Merkez"
+
+#: inc/megamenu/megamenu.class.php:22
+msgid "Left Bottom"
+msgstr "Sol alt"
+
+#: inc/megamenu/megamenu.class.php:23
+msgid "Center Top"
+msgstr "Merkez Üst"
+
+#: inc/megamenu/megamenu.class.php:24
+msgid "Center Bottom"
+msgstr "Merkez Alt"
+
+#: inc/megamenu/megamenu.class.php:25
+msgid "Center Center"
+msgstr "Merkez Merkez"
+
+#: inc/megamenu/megamenu.class.php:26
+msgid "Right Top"
+msgstr "Sağ üst"
+
+#: inc/megamenu/megamenu.class.php:27
+msgid "Right Center"
+msgstr "Sağ Merkez"
+
+#: inc/megamenu/megamenu.class.php:28
+msgid "Right Bottom"
+msgstr "Sağ alt"
+
+#: inc/options.php:6
+msgid "General"
+msgstr "Genel"
+
+#: inc/options.php:9
+msgid "Theme Layout"
+msgstr "Tema düzeni"
+
+#: inc/options.php:12
+msgid "Page Layout Style"
+msgstr "Sayfa Düzeni Stili"
+
+#: inc/options.php:15
+msgid "Fullwidth Layout"
+msgstr "Tam Genişlik Düzeni"
+
+#: inc/options.php:16
+msgid "Boxed Layout"
+msgstr "Kutulu Düzen"
+
+#: inc/options.php:19
+msgid "Select theme layout style"
+msgstr "Tema düzeni stilini seçin"
+
+#: inc/options.php:22
+msgid "Fullwidth With Page Paddings"
+msgstr "Sayfa Dolgularıyla Tam Genişlik"
+
+#: inc/options.php:26
+msgid "Top (px)"
+msgstr "Üst (px)"
+
+#: inc/options.php:33
+msgid "Bottom (px)"
+msgstr "Alt (px)"
+
+#: inc/options.php:40
+msgid "Left (px)"
+msgstr "Sol (px)"
+
+#: inc/options.php:47
+msgid "Right (px)"
+msgstr "Sağ (px)"
+
+#: inc/options.php:56
+msgid "Disable \"Scroll To Top\" Button"
+msgstr "\"Yukarı Kaydır\" Düğmesini Devre Dışı Bırak"
+
+#: inc/options.php:57
+msgid "Disable on-scroll \"to the top\" button"
+msgstr "Yukarı kaydırırken \"En Üste Git\" tuşunu devre dışı bırak"
+
+#: inc/options.php:63
+msgid "Disable uppercase font"
+msgstr "Büyük harf stilini devre dışı bırak"
+
+#: inc/options.php:64
+msgid ""
+"Disable uppercase style for main menu items, headings etc. across the whole "
+"website"
+msgstr ""
+"Tüm web sitesi genelinde ana menü öğeleri, başlıklar vb. İçin büyük harf "
+"stilini devre dışı bırakın"
+
+#: inc/options.php:70
+msgid "Disable \"Smooth Scroll\""
+msgstr "\"Yumuşak Kaydırma\" efektini devre dışı bırakın"
+
+#: inc/options.php:71
+msgid "Disable \"Smooth Scroll\" effect for vertical scrolling"
+msgstr "Dikey kaydırma için \"Yumuşak Kaydırma\" efektini devre dışı bırak"
+
+#: inc/options.php:77 inc/post-types/init.php:456
+msgid "Enable Page Preloader"
+msgstr "Sayfa Ön Yükleyicisini Etkinleştir"
+
+#: inc/options.php:78
+msgid "Enable page preloader for the whole website"
+msgstr "Tüm web sitesi için sayfa önyükleyicisini etkinleştir"
+
+#: inc/options.php:86
+msgid "Identity"
+msgstr "Kimliklendirme"
+
+#: inc/options.php:89
+msgid "Desktop Logo Width For Non-Retina Screens"
+msgstr "Retina Olmayan Ekranlar İçin Masaüstü Logo Genişliği"
+
+#: inc/options.php:94
+msgid "On our demo website we use 164 pix. logo"
+msgstr "Demo web sitemizde 164 piksel logo kullanıyoruz"
+
+#: inc/options.php:97
+msgid "Mobile Logo Width For Non-Retina Screens"
+msgstr "Retina Olmayan Ekranlar İçin Mobil Logo Genişliği"
+
+#: inc/options.php:102
+msgid "On our demo website we use 132 pix. logo"
+msgstr "Demo web sitemizde 132 piksel logo kullanıyoruz"
+
+#: inc/options.php:105
+msgid "Desktop Logo"
+msgstr "Masaüstü Logosu"
+
+#: inc/options.php:108
+msgid ""
+"Upload your logo for desktop screens here. Pls note: if you wish to achieve "
+"best quality on retina screens, your logo size should be 3 times larger as "
+"the size you have set in \"Desktop Logo Width For Non-Retina Screens\". On "
+"our demo website we use 164 x 3 = 492 pix"
+msgstr ""
+"Logonuzu masaüstü ekranları için buraya yükleyin. Not: retina ekranlarında "
+"en iyi kaliteyi elde etmek istiyorsanız, logo boyutunuz \"Retina Olmayan "
+"Ekranlar İçin Masaüstü Logosu Genişliği\" bölümünde ayarladığınız boyuttan 3 "
+"kat daha büyük olmalıdır. Örnek internet sitesinde 164 x 3 = 492 piksel "
+"kullanıyoruz"
+
+#: inc/options.php:111
+msgid "Small Size & Mobile logo"
+msgstr ""
+
+#: inc/options.php:114
+msgid ""
+"Upload your logo for mobile screens here. Pls note: if you wish to achieve "
+"best quality on retina mobile screens, your logo size should be 3 times "
+"larger as the size you have set in \"Mobile Logo Width For Non-Retina Screens"
+"\". On our demo website we use 132 x 3 = 396 pix"
+msgstr ""
+"Mobil ekranlar için logonuzu buraya yükleyin. Not: retina mobil ekranlarında "
+"en iyi kaliteyi elde etmek istiyorsanız, logo boyutunuz \"Retina Olmayan "
+"Ekranlar İçin Mobil Logo Genişliği\" bölümünde ayarladığınız boyuttan 3 kat "
+"daha büyük olmalıdır. Örnek internet sitesinde 132 x 3 = 396 piksel "
+"kullanıyoruz"
+
+#: inc/options.php:117
+msgid "Light Desktop Logo"
+msgstr "Hafif Masaüstü Logosu"
+
+#: inc/options.php:120
+msgid ""
+"Here you can upload a light version of your desktop logo to be used on dark "
+"header backgrounds. Pls note: if you wish to achieve best quality on retina "
+"screens, your logo size should be 3 times larger as the size you have set in "
+"\"Desktop Logo Width For Non-Retina Screens\". On our demo website we use "
+"164 x 3 = 492 pix"
+msgstr ""
+"Buradan koyu başlık arkaplanlarında kullanılmak üzere masaüstü logonuzun "
+"açık bir sürümünü yükleyebilirsiniz. Not: retina ekranlarında en iyi "
+"kaliteyi elde etmek istiyorsanız, logo boyutunuz \"Retina Olmayan Ekranlar "
+"İçin Masaüstü Logosu Genişliği\" bölümünde ayarladığınız boyuttan 3 kat daha "
+"büyük olmalıdır. Örnek internet sitesinde 164 x 3 = 492 piksel kullanıyoruz"
+
+#: inc/options.php:123
+msgid "Light Small Size & Mobile logo"
+msgstr ""
+
+#: inc/options.php:126
+msgid ""
+"Here you can upload a light version of your mobile logo to be used on dark "
+"header backgrounds. Pls note: if you wish to achieve best quality on retina "
+"screens, your logo size should be 3 times larger as the size you have set in "
+"\"Mobile Logo Width For Non-Retina Screens\". On our demo website we use 132 "
+"x 3 = 396 pix"
+msgstr ""
+"Buradan koyu başlık arkaplanlarında kullanılmak üzere mobil logonuzun hafif "
+"bir sürümünü yükleyebilirsiniz. Not: retina ekranlarında en iyi kaliteyi "
+"elde etmek istiyorsanız, logo boyutunuz \"Retina Olmayan Ekranlar İçin Mobil "
+"Logo Genişliği\" bölümünde ayarladığınız boyuttan 3 kat daha büyük "
+"olmalıdır. Örnek internet sitesinde 132 x 3 = 396 piksel kullanıyoruz"
+
+#: inc/options.php:129
+msgid "Favicon"
+msgstr "Favicon"
+
+#: inc/options.php:132
+msgid "Upload or select file for your favicon"
+msgstr "Favicon'unuz için dosya yükleyin veya seçin"
+
+#: inc/options.php:137
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: inc/options.php:140
+msgid "Preloader Style"
+msgstr "Önyükleyici Stili"
+
+#: inc/options.php:143
+msgid "Preloader 1"
+msgstr "Ön yükleyici 1"
+
+#: inc/options.php:144
+msgid "Preloader 2"
+msgstr "Önyükleyici 2"
+
+#: inc/options.php:145
+msgid "Preloader 3"
+msgstr "Önyükleyici 3"
+
+#: inc/options.php:146
+msgid "Preloader 4"
+msgstr "Önyükleyici 4"
+
+#: inc/options.php:149
+msgid "Choose preloader you wish to use on your website"
+msgstr "Web sitenizde kullanmak istediğiniz önyükleyiciyi seçin"
+
+#: inc/options.php:152
+msgid "Custom CSS"
+msgstr "Özel CSS"
+
+#: inc/options.php:154
+msgid ""
+"Type your custom css here, which you would like to add to theme's css (or "
+"overwrite it)"
+msgstr ""
+"Kendi css'ine eklemek istediğiniz özel css'inizi buraya yazın (veya üzerine "
+"yazın)"
+
+#: inc/options.php:157
+msgid "Custom JS"
+msgstr "Özel js"
+
+#: inc/options.php:159
+msgid ""
+"Type your custom javascript here, which you would like to add to theme's js"
+msgstr "Özel javascript’inizi buraya yazarak temanın javascript’ine ekleyin."
+
+#: inc/options.php:162
+msgid "Tracking"
+msgstr ""
+
+#: inc/options.php:164
+msgid "Google Analytics, Google Tag Manager, Facebook Pixel etc."
+msgstr ""
+
+#: inc/options.php:167
+msgid "Portfolio post type rewrite slug"
+msgstr "Portföy yazılarını yeniden SEO Dostu URL olarak yaz"
+
+#: inc/options.php:169
+#, php-format
+msgid ""
+"Here you can define your own slug to appear as part of portfolio's URL. By "
+"default /pf/ is used.<br><b>IMPORTANT:</b> after changing this slugs, please "
+"visit <a href=\"%s\">\"Permalink Settings\"</a> page and click on \"Save "
+"changes\"."
+msgstr ""
+
+#: inc/options.php:172
+msgid " Parent page for portfolio items"
+msgstr ""
+
+#: inc/options.php:174
+msgid ""
+"Here you can define the main parent page for your portfolio items. This "
+"feature is useful for defining your breadcrumb structure on portfolio pages."
+msgstr ""
+
+#: inc/options.php:180
+msgid "News post type rewrite slug"
+msgstr "Haber yazılarını yeniden SEO Dostu URL olarak yaz"
+
+#: inc/options.php:182
+#, php-format
+msgid ""
+"Here you can define your own slug to appear as part of news URL. By default /"
+"news/ is used.<br><b>IMPORTANT:</b> after changing this slugs, please visit "
+"<a href=\"%s\">\"Permalink Settings\"</a> page and click on \"Save changes\"."
+msgstr ""
+
+#: inc/options.php:185
+msgid "Deactivate thesod's Open Graph Tags"
+msgstr ""
+
+#: inc/options.php:191
+msgid "Activate \"News\" post type"
+msgstr ""
+
+#: inc/options.php:195
+msgid ""
+"Additional custom post type, similar to blog posts. This post type can be "
+"used to manage news on the website separately to your blog and blog posts."
+msgstr ""
+
+#: inc/options.php:198
+msgid "Activate NivoSlider"
+msgstr ""
+
+#: inc/options.php:202
+#, php-format
+msgid ""
+"Additional simple slider, which can be used to insert slideshows into your "
+"pages. Learn more in our <a href=\"%s\" target=\"_blank\">documentation</a>"
+msgstr ""
+
+#: inc/options.php:205
+msgid ""
+"In case you will delete any image thumbnails (portfolio grids, products, "
+"galleries etc.) from your hosting, you need to click this button to clear "
+"the thumbnails cache in the database in order to be able to regenerate new "
+"thumbnails."
+msgstr ""
+
+#: inc/options.php:205
+msgid "Purge All Thumbnails Cache"
+msgstr ""
+
+#: inc/options.php:211
+msgid "Additional Settings"
+msgstr "Ek ayarlar"
+
+#: inc/options.php:214
+msgid "Custom 404 Page"
+msgstr "Özel 404 Sayfası"
+
+#: inc/options.php:220 inc/options.php:221
+msgid "Enabe Lazy Loading Animations On Mobiles"
+msgstr "Gecikmeli Yükleme Animasyonunu Mobil Üzerinde Etkinleştir"
+
+#: inc/options.php:229
+msgid "Pagespeed Optimization"
+msgstr ""
+
+#: inc/options.php:232
+msgid "Activate image loading optimization (for desktops)"
+msgstr ""
+
+#: inc/options.php:233
+msgid ""
+"All images on a webpage will start loading only by nearing the desktop "
+"device viewport"
+msgstr ""
+
+#: inc/options.php:239
+msgid "Activate image loading optimization (for mobiles)"
+msgstr ""
+
+#: inc/options.php:240
+msgid ""
+"All images on a webpage will start loading only by nearing the mobile device "
+"viewport"
+msgstr ""
+
+#: inc/options.php:246
+msgid "\"Start loading\" distance to viewport (in px)"
+msgstr ""
+
+#: inc/options.php:248
+msgid ""
+"The distance to a device's viewport in pixel, when the images should start "
+"loading (i.e. buffering zone)"
+msgstr ""
+
+#: inc/options.php:251
+msgid "Does your website use any caching plugins?"
+msgstr ""
+
+#: inc/options.php:252
+msgid ""
+"Select this in case your website uses any of caching plugins like WP Super "
+"Cache, W3 Total Cache etc"
+msgstr ""
+
+#: inc/options.php:263
+msgid "Menu &amp; Header"
+msgstr ""
+
+#: inc/options.php:266
+msgid "Main Menu &amp; Header Area"
+msgstr "Ana Menü &amp; Başlık Alanı"
+
+#: inc/options.php:269
+msgid "Disable Fixed Header"
+msgstr "Sabit Başlığı Devre Dışı Bırak"
+
+#: inc/options.php:275 inc/post-types/init.php:92
+msgid "Hide Breadcrumbs"
+msgstr "Rehberi Gizle"
+
+#: inc/options.php:281
+msgid "Sticky Header On Mobile"
+msgstr "Mobil Üzerinde Yapışkan Başlık"
+
+#: inc/options.php:287
+msgid "Hide Search Icon"
+msgstr "Arama Simgesini Gizle"
+
+#: inc/options.php:293
+msgid "Main Menu & Header Layout "
+msgstr "Ana Menü & Başlık Düzeni "
+
+#: inc/options.php:296
+msgid "Horizontal"
+msgstr "Yatay"
+
+#: inc/options.php:297
+msgid "100% Width"
+msgstr "%100 Genişlik"
+
+#: inc/options.php:298
+msgid "100% Width & Hamburger Menu"
+msgstr "%100 Genişlik & Hamburger Menü"
+
+#: inc/options.php:299
+msgid "Vertical"
+msgstr "Dikey"
+
+#: inc/options.php:300
+msgid "Overlay"
+msgstr "Kaplama"
+
+#: inc/options.php:301
+msgid "Perspective"
+msgstr "Perspektif"
+
+#: inc/options.php:303
+msgid "Choose the layout for displaying your main menu and website header."
+msgstr "Ana menünüzü ve web sitesi başlığınızı görüntülemek için düzen seçin."
+
+#: inc/options.php:306
+msgid "Main Menu & Header Style"
+msgstr "Ana Menü & Üstbilgi Stili"
+
+#: inc/options.php:309
+msgid "Light Main Menu & Dark Submenu"
+msgstr "Aydınlık Tema Ana Menü & Karanlık Tema Alt Menü"
+
+#: inc/options.php:310
+msgid "Elegant Font Light Menu"
+msgstr "Zarif Yazı Tipi Aydınlık Tema Menüsü"
+
+#: inc/options.php:311
+msgid "Light Main Menu & Light Submenu"
+msgstr "Aydınlık Tema Ana Menüsü & Aydınlık Tema Alt Menüsü"
+
+#: inc/options.php:312
+msgid "Dark Main Menu & Dark Submenu"
+msgstr "Karanlık Tema Ana Menü & Koyu Tema Alt Menü"
+
+#: inc/options.php:314
+msgid ""
+"Choose the style / colors for displaying your main menu and website header."
+msgstr ""
+"Ana menünüzü ve web sitesi başlığınızı görüntülemek için stil/renk seçin."
+
+#: inc/options.php:317
+msgid "Mobile Menu Layout"
+msgstr "Mobil Menü Düzeni"
+
+#: inc/options.php:320
+msgid "Default layout"
+msgstr "Varsayılan düzen"
+
+#: inc/options.php:321
+msgid "Overlay layout"
+msgstr "Bindirme düzeni"
+
+#: inc/options.php:322
+msgid "Slide Left layout"
+msgstr "Sola Kaydırma Düzeni"
+
+#: inc/options.php:323
+msgid "Slide Top layout"
+msgstr "Üste Kaydırma Düzeni"
+
+#: inc/options.php:325
+msgid "Choose the layout for displaying your mobile menu."
+msgstr "Mobil menünüzü görüntülemek stil düzeni seçin."
+
+#: inc/options.php:328
+msgid "Mobile Menu Layout Style"
+msgstr "Mobil Menü Düzeni Stili"
+
+#: inc/options.php:331
+msgid "Light"
+msgstr "Aydınlık"
+
+#: inc/options.php:332
+msgid "Dark"
+msgstr "Karanlık"
+
+#: inc/options.php:334
+msgid "Choose the layout style for displaying your mobile menu."
+msgstr "Mobil menünüzü görüntülemek için stil düzeni seçin."
+
+#: inc/options.php:337
+msgid "Logo Alignment"
+msgstr "Logo Hizalama"
+
+#: inc/options.php:342
+msgid "Centered Above Main Menu"
+msgstr "Ana Menü Üstünde Ortalanmış"
+
+#: inc/options.php:343
+msgid "Centered In Main Menu"
+msgstr "Ana Menü İçinde Ortalanmış"
+
+#: inc/options.php:346
+msgid "Select position of your logo in website header"
+msgstr "Web sitesi başlığında logonuzun konumunu seçin"
+
+#: inc/options.php:349
+msgid "Menu appearance on tablets (portrait orientation)"
+msgstr "Tabletlerde menü görünümü (dikey yönlendirme)"
+
+#: inc/options.php:352 inc/options.php:363
+msgid "Responsive"
+msgstr "Duyarlı"
+
+#: inc/options.php:353 inc/options.php:364 inc/options.php:400
+msgid "Centered"
+msgstr "Ortalanmış"
+
+#: inc/options.php:357
+msgid ""
+"Select the menu appearance style on tablet screens in portrait orientation"
+msgstr "Tablet ekranlarında menü görünüm stilini dikey yönde seçin"
+
+#: inc/options.php:360
+msgid "Menu appearance on tablets (landscape orientation)"
+msgstr "Tabletlerde menü görünümü (yatay yönlendirme)"
+
+#: inc/options.php:368
+msgid ""
+"Select the menu appearance style on tablet screens in landscape orientation"
+msgstr "Yatay yönde tablet ekranlarında menü görünüm stilini seçin"
+
+#: inc/options.php:371
+msgid "Hamburger Icon Style"
+msgstr "Hamburger Simge Stili"
+
+#: inc/options.php:375 inc/options.php:3477 inc/options.php:3605
+#: inc/post-types/init.php:220
+msgid "Small"
+msgstr "Küçük"
+
+#: inc/options.php:381
+msgid "Top Area"
+msgstr "Üst Alan"
+
+#: inc/options.php:384
+msgid "Top Area Style"
+msgstr "Üst Alan Stili"
+
+#: inc/options.php:387 inc/post-types/init.php:61
+msgid "Disabled"
+msgstr "Engelli"
+
+#: inc/options.php:388
+msgid "Light Background"
+msgstr "Aydınlık Arkaplan"
+
+#: inc/options.php:389
+msgid "Dark Background"
+msgstr "Karanlık Arkaplan"
+
+#: inc/options.php:390
+msgid "Anthracite Background"
+msgstr "Antrasit Arkaplan"
+
+#: inc/options.php:392
+msgid ""
+"Select the style of top area (contacts & socials bar above main menu and "
+"logo) or disable it"
+msgstr ""
+"Üst alanın stilini seçin (ana menünün ve logonun üstündeki rehber ve sosyal "
+"çubuklar) veya devre dışı bırakın"
+
+#: inc/options.php:395
+msgid "Top Area Alignment"
+msgstr "Üst Alan Hizalaması"
+
+#: inc/options.php:401
+msgid "Justified"
+msgstr "Yaslanmış "
+
+#: inc/options.php:403
+msgid "Select content alignment in the top area of your website"
+msgstr "Web sitenizin en üstündeki içerik uyumunu seçin"
+
+#: inc/options.php:406
+msgid "Show Contacts"
+msgstr "Kişileri Göster"
+
+#: inc/options.php:410
+msgid ""
+"By activating this option your contact data will be displayed in top area of "
+"your website. You can edit your contact data in \"Contacts & Socials\" "
+"section of Theme Options"
+msgstr ""
+"Bu seçeneği aktif hale getirdiğinizde iletişim verileriniz web sitenizin en "
+"üst kısmında gösterilecektir. İletişim verilerinizi, Tema Seçeneklerinin "
+"\"Kişiler ve Sosyal\" bölümünde düzenleyebilirsiniz."
+
+#: inc/options.php:413
+msgid "Show Socials"
+msgstr "Sosyal Medyaları Göster"
+
+#: inc/options.php:417
+msgid ""
+"By activating this option the links to your social profiles will be "
+"displayed in top area of your website. You can edit your social profiles in "
+"\"Contacts & Socials\" section of Theme Options"
+msgstr ""
+"Bu seçeneği etkinleştirdiğinizde, sosyal profillerinize bağlantılar web "
+"sitenizin en üst kısmında gösterilecektir. Sosyal profillerinizi Tema "
+"Seçeneklerinin \"Kişiler ve Sosyal\" bölümünde düzenleyebilirsiniz."
+
+#: inc/options.php:420
+msgid "Top Area Button Text"
+msgstr "Üst Alan Düğme Metni"
+
+#: inc/options.php:423
+msgid ""
+"Here you can activate and name the button to be displayed in top area. Leave "
+"blank if you don't wish to use a button in top area."
+msgstr ""
+"Burada, üst alanda gösterilecek butonu aktif hale getirebilir ve "
+"adlandırabilirsiniz. Üst alanda bir düğme kullanmak istemiyorsanız boş "
+"bırakın."
+
+#: inc/options.php:426
+msgid "Top Area Button Link"
+msgstr "Üst Alan Düğme Bağlantısı"
+
+#: inc/options.php:429
+msgid "Here you can enter the link for your top area button."
+msgstr "Buraya üst alan düğmeniz için link girebilirsiniz."
+
+#: inc/options.php:432
+msgid "Disable Fixed Top Area"
+msgstr "Sabit Üst Alanı Devre Dışı Bırak"
+
+#: inc/options.php:438
+msgid "Disable Top Area For Mobiles"
+msgstr "Cep Telefonları İçin En Üst Alanı Devre Dışı Bırak"
+
+#: inc/options.php:444
+msgid "Disable Top Area For Tablets"
+msgstr ""
+
+#: inc/options.php:456
+msgid "Fonts"
+msgstr "Yazı Tipleri"
+
+#: inc/options.php:469
+msgid "Main Menu Font"
+msgstr "Ana Menü Yazı Tipi"
+
+#: inc/options.php:472 inc/options.php:509 inc/options.php:546
+#: inc/options.php:583 inc/options.php:620 inc/options.php:701
+#: inc/options.php:781 inc/options.php:861 inc/options.php:941
+#: inc/options.php:1021 inc/options.php:1101 inc/options.php:1181
+#: inc/options.php:1261 inc/options.php:1282 inc/options.php:1319
+#: inc/options.php:1399 inc/options.php:1436 inc/options.php:1457
+#: inc/options.php:1478 inc/options.php:1515 inc/options.php:1552
+#: inc/options.php:1589 inc/options.php:1626 inc/options.php:1663
+#: inc/options.php:1700 inc/options.php:1737 inc/options.php:1774
+#: inc/options.php:1811 inc/options.php:1891 inc/options.php:1928
+#: inc/options.php:1965 inc/options.php:2002 inc/options.php:2039
+#: inc/options.php:4006 inc/options.php:4040 inc/options.php:4073
+#: inc/options.php:4106 inc/options.php:4140 inc/options.php:4173
+#: inc/options.php:4206 inc/options.php:4239
+msgid "Font Family"
+msgstr "Yazı Tipi Ailesi"
+
+#: inc/options.php:474 inc/options.php:511 inc/options.php:548
+#: inc/options.php:585 inc/options.php:622 inc/options.php:703
+#: inc/options.php:783 inc/options.php:863 inc/options.php:943
+#: inc/options.php:1023 inc/options.php:1103 inc/options.php:1183
+#: inc/options.php:1263 inc/options.php:1284 inc/options.php:1321
+#: inc/options.php:1401 inc/options.php:1438 inc/options.php:1459
+#: inc/options.php:1480 inc/options.php:1517 inc/options.php:1554
+#: inc/options.php:1591 inc/options.php:1628 inc/options.php:1665
+#: inc/options.php:1702 inc/options.php:1739 inc/options.php:1776
+#: inc/options.php:1813 inc/options.php:1893 inc/options.php:1930
+#: inc/options.php:1967 inc/options.php:2004 inc/options.php:2041
+msgid ""
+"Select font family you would like to use. On the top of the fonts list "
+"you'll find web safe fonts"
+msgstr ""
+"Kullanmak istediğiniz yazı tipi ailesini seçin. Yazı tipleri listesinin "
+"üstünde güvenli web yazı tipleri bulacaksınız"
+
+#: inc/options.php:477 inc/options.php:514 inc/options.php:551
+#: inc/options.php:588 inc/options.php:625 inc/options.php:706
+#: inc/options.php:786 inc/options.php:866 inc/options.php:946
+#: inc/options.php:1026 inc/options.php:1106 inc/options.php:1186
+#: inc/options.php:1266 inc/options.php:1287 inc/options.php:1324
+#: inc/options.php:1404 inc/options.php:1441 inc/options.php:1462
+#: inc/options.php:1483 inc/options.php:1520 inc/options.php:1557
+#: inc/options.php:1594 inc/options.php:1631 inc/options.php:1668
+#: inc/options.php:1705 inc/options.php:1742 inc/options.php:1779
+#: inc/options.php:1816 inc/options.php:1896 inc/options.php:1933
+#: inc/options.php:1970 inc/options.php:2007 inc/options.php:2044
+#: inc/options.php:4010 inc/options.php:4044 inc/options.php:4077
+#: inc/options.php:4110 inc/options.php:4144 inc/options.php:4177
+#: inc/options.php:4210 inc/options.php:4243
+msgid "Font Style"
+msgstr "Yazı Tipi Stili"
+
+#: inc/options.php:479 inc/options.php:516 inc/options.php:553
+#: inc/options.php:590 inc/options.php:627 inc/options.php:708
+#: inc/options.php:788 inc/options.php:868 inc/options.php:948
+#: inc/options.php:1028 inc/options.php:1108 inc/options.php:1188
+#: inc/options.php:1268 inc/options.php:1289 inc/options.php:1326
+#: inc/options.php:1406 inc/options.php:1443 inc/options.php:1464
+#: inc/options.php:1485 inc/options.php:1522 inc/options.php:1559
+#: inc/options.php:1596 inc/options.php:1633 inc/options.php:1670
+#: inc/options.php:1707 inc/options.php:1744 inc/options.php:1781
+#: inc/options.php:1818 inc/options.php:1898 inc/options.php:1935
+#: inc/options.php:1972 inc/options.php:2009 inc/options.php:2046
+msgid "Select font style for your font"
+msgstr "Yazı tipiniz için yazı tipi stilini seçin"
+
+#: inc/options.php:482 inc/options.php:519 inc/options.php:556
+#: inc/options.php:593 inc/options.php:630 inc/options.php:711
+#: inc/options.php:791 inc/options.php:871 inc/options.php:951
+#: inc/options.php:1031 inc/options.php:1111 inc/options.php:1191
+#: inc/options.php:1271 inc/options.php:1292 inc/options.php:1329
+#: inc/options.php:1409 inc/options.php:1446 inc/options.php:1467
+#: inc/options.php:1488 inc/options.php:1525 inc/options.php:1562
+#: inc/options.php:1599 inc/options.php:1636 inc/options.php:1673
+#: inc/options.php:1710 inc/options.php:1747 inc/options.php:1784
+#: inc/options.php:1821 inc/options.php:1901 inc/options.php:1938
+#: inc/options.php:1975 inc/options.php:2012 inc/options.php:2049
+#: inc/options.php:4014 inc/options.php:4048 inc/options.php:4081
+#: inc/options.php:4114 inc/options.php:4148 inc/options.php:4181
+#: inc/options.php:4214 inc/options.php:4247
+msgid "Font Sets"
+msgstr "Yazı Tipi Kümeleri"
+
+#: inc/options.php:484 inc/options.php:521 inc/options.php:558
+#: inc/options.php:595 inc/options.php:632 inc/options.php:713
+#: inc/options.php:793 inc/options.php:873 inc/options.php:953
+#: inc/options.php:1033 inc/options.php:1113 inc/options.php:1193
+#: inc/options.php:1273 inc/options.php:1294 inc/options.php:1331
+#: inc/options.php:1411 inc/options.php:1448 inc/options.php:1469
+#: inc/options.php:1490 inc/options.php:1527 inc/options.php:1564
+#: inc/options.php:1601 inc/options.php:1638 inc/options.php:1675
+#: inc/options.php:1712 inc/options.php:1749 inc/options.php:1786
+#: inc/options.php:1823 inc/options.php:1903 inc/options.php:1940
+#: inc/options.php:1977 inc/options.php:2014 inc/options.php:2051
+msgid ""
+"Type in or load additional font sets which you would like to use with your "
+"chosen google font (latin-ext is loaded by default)"
+msgstr ""
+"Seçtiğiniz google fontuyla kullanmak istediğiniz ek font kümelerini yazın "
+"veya yükleyin (latin-ext varsayılan olarak yüklenir)"
+
+#: inc/options.php:489 inc/options.php:526 inc/options.php:563
+#: inc/options.php:600 inc/options.php:637 inc/options.php:662
+#: inc/options.php:678 inc/options.php:718 inc/options.php:743
+#: inc/options.php:759 inc/options.php:798 inc/options.php:823
+#: inc/options.php:839 inc/options.php:878 inc/options.php:903
+#: inc/options.php:919 inc/options.php:958 inc/options.php:983
+#: inc/options.php:999 inc/options.php:1038 inc/options.php:1063
+#: inc/options.php:1079 inc/options.php:1118 inc/options.php:1143
+#: inc/options.php:1159 inc/options.php:1198 inc/options.php:1223
+#: inc/options.php:1239 inc/options.php:1299 inc/options.php:1336
+#: inc/options.php:1361 inc/options.php:1377 inc/options.php:1416
+#: inc/options.php:1495 inc/options.php:1532 inc/options.php:1569
+#: inc/options.php:1606 inc/options.php:1643 inc/options.php:1680
+#: inc/options.php:1717 inc/options.php:1754 inc/options.php:1791
+#: inc/options.php:1828 inc/options.php:1853 inc/options.php:1869
+#: inc/options.php:1908 inc/options.php:1945 inc/options.php:1982
+#: inc/options.php:2019 inc/options.php:2056
+msgid "Select the font size"
+msgstr "Yazı tipi boyutunu seçin"
+
+#: inc/options.php:497 inc/options.php:534 inc/options.php:571
+#: inc/options.php:608 inc/options.php:645 inc/options.php:670
+#: inc/options.php:686 inc/options.php:726 inc/options.php:751
+#: inc/options.php:767 inc/options.php:806 inc/options.php:831
+#: inc/options.php:847 inc/options.php:886 inc/options.php:911
+#: inc/options.php:927 inc/options.php:966 inc/options.php:991
+#: inc/options.php:1007 inc/options.php:1046 inc/options.php:1071
+#: inc/options.php:1087 inc/options.php:1126 inc/options.php:1151
+#: inc/options.php:1167 inc/options.php:1206 inc/options.php:1231
+#: inc/options.php:1247 inc/options.php:1307 inc/options.php:1344
+#: inc/options.php:1369 inc/options.php:1385 inc/options.php:1424
+#: inc/options.php:1503 inc/options.php:1540 inc/options.php:1577
+#: inc/options.php:1614 inc/options.php:1651 inc/options.php:1688
+#: inc/options.php:1725 inc/options.php:1762 inc/options.php:1799
+#: inc/options.php:1836 inc/options.php:1861 inc/options.php:1877
+#: inc/options.php:1916 inc/options.php:1953 inc/options.php:1990
+#: inc/options.php:2027 inc/options.php:2064
+msgid "Select the line height"
+msgstr "Satır yüksekliğini seçin"
+
+#: inc/options.php:506
+msgid "Submenu Font"
+msgstr "Alt Menü Yazı Tipi"
+
+#: inc/options.php:543
+msgid "Overlay Menu Font"
+msgstr "Bindirme Menüsü Yazı Tipi"
+
+#: inc/options.php:580
+msgid "Mobile Menu Font"
+msgstr "Mobil Menü Yazı Tipi"
+
+#: inc/options.php:617
+msgid "Styled Subtitle Font"
+msgstr "Şekillendirilmiş Altyazı Yazı Tipi"
+
+#: inc/options.php:652 inc/options.php:733 inc/options.php:813
+#: inc/options.php:893 inc/options.php:973 inc/options.php:1053
+#: inc/options.php:1133 inc/options.php:1213 inc/options.php:1351
+#: inc/options.php:1843
+msgid "Use manual settings for mobiles and tablets"
+msgstr ""
+
+#: inc/options.php:661 inc/options.php:742 inc/options.php:822
+#: inc/options.php:902 inc/options.php:982 inc/options.php:1062
+#: inc/options.php:1142 inc/options.php:1222 inc/options.php:1360
+#: inc/options.php:1852
+msgid "Font Size for Tablets"
+msgstr ""
+
+#: inc/options.php:669 inc/options.php:750 inc/options.php:830
+#: inc/options.php:910 inc/options.php:990 inc/options.php:1070
+#: inc/options.php:1150 inc/options.php:1230 inc/options.php:1368
+#: inc/options.php:1860
+msgid "Line Height for Tablets"
+msgstr ""
+
+#: inc/options.php:677 inc/options.php:758 inc/options.php:838
+#: inc/options.php:918 inc/options.php:998 inc/options.php:1078
+#: inc/options.php:1158 inc/options.php:1238 inc/options.php:1376
+#: inc/options.php:1868
+msgid "Font Size for Mobiles"
+msgstr ""
+
+#: inc/options.php:685 inc/options.php:766 inc/options.php:846
+#: inc/options.php:926 inc/options.php:1006 inc/options.php:1086
+#: inc/options.php:1166 inc/options.php:1246 inc/options.php:1384
+#: inc/options.php:1876
+msgid "Line Height for Mobiles"
+msgstr ""
+
+#: inc/options.php:698
+msgid "H1 Font"
+msgstr "H1 Yazı Tipi"
+
+#: inc/options.php:778
+msgid "H2 Font"
+msgstr "H2 Yazı Tipi"
+
+#: inc/options.php:858
+msgid "H3 Font"
+msgstr "H3 Yazı Tipi"
+
+#: inc/options.php:938
+msgid "H4 Font"
+msgstr "H4 Yazı Tipi"
+
+#: inc/options.php:1018
+msgid "H5 Font"
+msgstr "H5 Yazı Tipi"
+
+#: inc/options.php:1098
+msgid "H6 Font"
+msgstr "H6 Yazı Tipi"
+
+#: inc/options.php:1178
+msgid "XLarge Title Font"
+msgstr "XLarge Başlık Yazı Tipi"
+
+#: inc/options.php:1258
+msgid "Light Title Font"
+msgstr "Aydınlık Tema Başlığı Yazı Tipi"
+
+#: inc/options.php:1279
+msgid "Body Font"
+msgstr "Gövde Yazı Tipi"
+
+#: inc/options.php:1316
+msgid "Title Excerpt Font"
+msgstr ""
+
+#: inc/options.php:1396
+msgid "Widget Title Font"
+msgstr "Pencere Öğesi Başlığı Yazı Tipi"
+
+#: inc/options.php:1433
+msgid "Button Font"
+msgstr "Düğme Yazı Tipi"
+
+#: inc/options.php:1454
+msgid "Button Thin Font"
+msgstr "Düğme İnce Yazı Tipi"
+
+#: inc/options.php:1475
+msgid "Portfolio Title Font"
+msgstr "Portföy Başlığı Yazı Tipi"
+
+#: inc/options.php:1512
+msgid "Portfolio Description Font"
+msgstr "Portföy Açıklaması Yazı Tipi"
+
+#: inc/options.php:1549
+msgid "Quickfinder Title Font (Bold Style)"
+msgstr "Quickfinder Başlık Yazı Tipi (Kalın Stil)"
+
+#: inc/options.php:1586
+msgid "Quickfinder Title Font (Thin Style)"
+msgstr "Quickfinder Başlık Yazı Tipi (İnce Stil)"
+
+#: inc/options.php:1623
+msgid "Quickfinder Description Font"
+msgstr "Quickfinder Açıklama Yazı Tipi"
+
+#: inc/options.php:1660
+msgid "Gallery Title Font"
+msgstr "Galeri Başlığı Yazı Tipi"
+
+#: inc/options.php:1697
+msgid "Gallery Title Font (Bold Style)"
+msgstr "Galeri Başlığı Yazı Tipi (Kalın Stil)"
+
+#: inc/options.php:1734
+msgid "Gallery Description Font"
+msgstr "Galeri Açıklaması Font"
+
+#: inc/options.php:1771
+msgid "Testimonials Quoted Text"
+msgstr "Görüşler Metin Aldı"
+
+#: inc/options.php:1808
+msgid "Counter Numbers"
+msgstr "Sayaç Numaraları"
+
+#: inc/options.php:1888
+msgid "Title Font for Tabs, Tours & Accordions (Bold Style)"
+msgstr ""
+
+#: inc/options.php:1925
+msgid "Title Font for Tabs, Tours & Accordions (Thin Style)"
+msgstr ""
+
+#: inc/options.php:1962
+msgid "WooCommerce Product Category Price"
+msgstr "WooCommerce Ürün Kategori Fiyatı"
+
+#: inc/options.php:1999
+msgid "NivoSlider Title Font"
+msgstr "NivoSlider Başlık Yazı Tipi"
+
+#: inc/options.php:2036
+msgid "NivoSlider Description Font"
+msgstr "NivoSlider Açıklama Yazı Tipi"
+
+#: inc/options.php:2076
+msgid "Colors"
+msgstr "Renkler"
+
+#: inc/options.php:2079
+msgid "Background And Main Colors"
+msgstr "Arkaplan ve Ana Renkler"
+
+#: inc/options.php:2082
+msgid "Background Color For Boxed Layouts &amp; Perspective Menu"
+msgstr ""
+
+#: inc/options.php:2084
+msgid "Select website's backround color in boxed layout and perspective menu"
+msgstr ""
+
+#: inc/options.php:2087
+msgid "Main Menu &amp; Header Area Background"
+msgstr ""
+
+#: inc/options.php:2089
+msgid "Background color for the website's header area with main menu and logo"
+msgstr "Ana menü ve logo ile web sitesinin başlık alanının arkaplan rengi"
+
+#: inc/options.php:2092
+msgid "Main Content Background Color"
+msgstr "Ana İçerik Arkaplan Rengi"
+
+#: inc/options.php:2094
+msgid ""
+"Main background color for pages, blog posts, portfolio &amp; shop items. It "
+"is also used as background for certain blog list styles, portfolio "
+"overviews, team items and tables. Additionally this color is used as text "
+"font color for text elements published on dark backgrounds, like footer on "
+"our demo website."
+msgstr ""
+
+#: inc/options.php:2097
+msgid "Styled Element Background Color"
+msgstr "Şekillendirilmiş Öğe Arkaplan Rengi"
+
+#: inc/options.php:2099
+msgid ""
+"After the main content background color this is a second most important "
+"background color for the website. It is used as background for following "
+"widgets: submenu, diagrams, project info, recent posts & comments, "
+"testimonials & teams. Also it is used as item's background color in grid "
+"overviews of blog posts and portfolio items; in testimonial, team and tables "
+"shortcodes as well as in background of sticky posts."
+msgstr ""
+"Ana içerik arkaplan renginden sonra bu, web sitesi için ikinci en önemli "
+"arkaplan rengidir. Aşağıdaki pencere öğeleri için arkaplan olarak "
+"kullanılır: alt menü, diyagramlar, proje bilgileri, son gönderiler ve "
+"yorumlar, referanslar ve ekipler. Ayrıca blog yazılarının ve portföy "
+"öğelerinin kılavuzlarına genel bakışta öğenin arkaplan rengi olarak "
+"kullanılır; referans olarak, takım ve tablolar kısa kodların yanı sıra "
+"yapışkan mesajların arkaplanında da bulunur."
+
+#: inc/options.php:2102
+msgid "Styled Element Color 1"
+msgstr "Stilize Eleman Rengi 1"
+
+#: inc/options.php:2104
+msgid ""
+"This color is used mainly as font text color of some widget elements, some "
+"elements like teams, testimonials, blog items. It is also used as background "
+"color for the label of sticky post in blogs"
+msgstr ""
+"Bu renk temel olarak bazı pencere öğelerinin, takımların, referansların, "
+"blog öğeleri gibi bazı öğelerin yazı tipi metin rengi olarak kullanılır. "
+"Ayrıca bloglarda yapışkan yazı etiketi için arkaplan rengi olarak kullanılır"
+
+#: inc/options.php:2107
+msgid "Styled Element Color 2"
+msgstr "Stilize Eleman Renk 2"
+
+#: inc/options.php:2109
+msgid "Background color for a few widget elements."
+msgstr "Birkaç pencere öğesi için arkaplan rengi."
+
+#: inc/options.php:2112
+msgid "Styled Element Color 3"
+msgstr "Stilize Eleman Rengi 3"
+
+#: inc/options.php:2114
+msgid ""
+"This color is used for following elements: likes icon and markers in widget "
+"headings "
+msgstr ""
+"Bu renk aşağıdaki öğeler için kullanılır: pencere öğelerinin başlıklarındaki "
+"simge ve işaretçileri gibi "
+
+#: inc/options.php:2117
+msgid "Styled Element Color 4"
+msgstr "Stilize Eleman Renk 4"
+
+#: inc/options.php:2119
+msgid "This color is used for following elements: woocommerce buttons"
+msgstr "Bu renk aşağıdaki öğeler için kullanılır: woocommerce düğmeleri"
+
+#: inc/options.php:2122
+msgid "Divider Default Color"
+msgstr "Bölücü Varsayılan Renk"
+
+#: inc/options.php:2124
+msgid ""
+"Default color for dividers used in theme: content dividers, widget dividers, "
+"blog & news posts dividers etc."
+msgstr ""
+"Temada kullanılan bölücüler için varsayılan renk: içerik bölücüler, pencere "
+"öğesi bölücüleri, blog ve haber gönderileri bölücüler vb."
+
+#: inc/options.php:2127
+msgid "Box Border & Sharing Icons In Blog Posts"
+msgstr "Blog Yazılarında Kutu Kenarlığı ve Simgeleri Paylaşma"
+
+#: inc/options.php:2129
+msgid ""
+"Color used as default border color in box elements in main content and "
+"sidebar widgets. Also this color is used as font color for social sharing "
+"icons in blog posts."
+msgstr ""
+"Ana içerik ve kenar çubuğu pencere öğeleri kutu öğelerinde varsayılan "
+"kenarlık rengi olarak kullanılan renk. Ayrıca bu renk, blog yazılarında "
+"sosyal paylaşım simgeleri için yazı tipi rengi olarak kullanılır."
+
+#: inc/options.php:2134
+msgid "Menu Colors"
+msgstr "Menü Renkleri"
+
+#: inc/options.php:2137 inc/options.php:2282
+msgid "Level 1 Text Color"
+msgstr "Seviye 1 Metin Rengi"
+
+#: inc/options.php:2141 inc/options.php:2286
+msgid "Level 1 Background Color"
+msgstr "Seviye 1 Arkaplan Rengi"
+
+#: inc/options.php:2145
+msgid "Level 1 Hover Text Color"
+msgstr "Seviye 1 Vurgulu Metin Rengi"
+
+#: inc/options.php:2149
+msgid "Level 1 Hover Background Color"
+msgstr "Seviye 1 Vurgulu Arkaplan Rengi"
+
+#: inc/options.php:2153 inc/options.php:2290
+msgid "Level 1 Active Text Color"
+msgstr "Seviye 1 Aktif Metin Rengi"
+
+#: inc/options.php:2157 inc/options.php:2294
+msgid "Level 1 Active Background Color"
+msgstr "Seviye 1 Aktif Arkaplan Rengi"
+
+#: inc/options.php:2161 inc/options.php:2298
+msgid "Level 2 Text Color"
+msgstr "Seviye 2 Metin Rengi"
+
+#: inc/options.php:2165 inc/options.php:2302
+msgid "Level 2 Background Color"
+msgstr "Seviye 2 Arkaplan Rengi"
+
+#: inc/options.php:2169
+msgid "Level 2 Hover Text Color"
+msgstr "Seviye 2 Vurgulu Metin Rengi"
+
+#: inc/options.php:2173
+msgid "Level 2 Hover Background Color"
+msgstr "Seviye 2 Vurgulu Arkaplan Rengi"
+
+#: inc/options.php:2177 inc/options.php:2306
+msgid "Level 2 Active Text Color"
+msgstr "Seviye 2 Aktif Metin Rengi"
+
+#: inc/options.php:2181 inc/options.php:2310
+msgid "Level 2 Active Background Color"
+msgstr "Seviye 2 Aktif Arkaplan Rengi"
+
+#: inc/options.php:2185
+msgid "Mega Menu Column Titles Text Color"
+msgstr "Mega Menü Sütun Başlıkları Metin Rengi"
+
+#: inc/options.php:2189
+msgid "Mega Menu Column Titles Hover Text Color"
+msgstr "Mega Menü Sütun Başlıkları Vurgu Metin Rengi"
+
+#: inc/options.php:2193
+msgid "Mega Menu Column Titles Active Text Color"
+msgstr "Mega Menü Sütun Başlıkları Aktif Metin Rengi"
+
+#: inc/options.php:2197 inc/options.php:2314
+msgid "Level 3+ Text Color"
+msgstr "Seviye 3+ Metin Rengi"
+
+#: inc/options.php:2201 inc/options.php:2318
+msgid "Level 3+ Background Color"
+msgstr "Seviye 3+ Arkaplan Rengi"
+
+#: inc/options.php:2205
+msgid "Level 3+ Hover Text Color"
+msgstr "Seviye 3+ Vurgu Metin Rengi"
+
+#: inc/options.php:2209
+msgid "Level 3+ Hover Background Color"
+msgstr "Seviye 3+ Vurgu Arkaplan Rengi"
+
+#: inc/options.php:2213 inc/options.php:2322
+msgid "Level 3+ Active Text Color"
+msgstr "Seviye 3+ Aktif Metin Rengi"
+
+#: inc/options.php:2217 inc/options.php:2326
+msgid "Level 3+ Active Background Color"
+msgstr "Seviye 3+ Aktif Arkaplan Rengi"
+
+#: inc/options.php:2221
+msgid "Level 1 Light Text Color"
+msgstr "Seviye 1 Açık Metin Rengi"
+
+#: inc/options.php:2225
+msgid "Level 1 Hover Light Text Color"
+msgstr "Seviye 1 Vurgulu Açık Metin Rengi"
+
+#: inc/options.php:2229
+msgid "Level 1 Active Light Text Color"
+msgstr "Seviye 1 Aktif Işık Metin Rengi"
+
+#: inc/options.php:2233
+msgid "Level 2+ Border Color"
+msgstr "Seviye 2+ Kenarlık Rengi"
+
+#: inc/options.php:2237
+msgid "Mega Menu Icons Color"
+msgstr "Mega Menü Simge Renkleri"
+
+#: inc/options.php:2241
+msgid "Overlay Menu Background Color"
+msgstr "Bindirme Menüsü Arkaplan Rengi"
+
+#: inc/options.php:2245
+msgid "Overlay Menu Text Color"
+msgstr "Bindirme Menü Metin Rengi"
+
+#: inc/options.php:2249
+msgid "Overlay Menu Hover Text Color"
+msgstr "Bindirme Menü Vurgulu Metin Rengi"
+
+#: inc/options.php:2253
+msgid "Overlay Menu Active Text Color"
+msgstr "Bindirme Menü Aktif Metin Rengi"
+
+#: inc/options.php:2257
+msgid "Hamburger Icon Color"
+msgstr "Hamburger Simge Rengi"
+
+#: inc/options.php:2261
+msgid "Hamburger Icon Light Color"
+msgstr "Hamburger Simge Açık Renk"
+
+#: inc/options.php:2267
+msgid "Mobile Menu Colors"
+msgstr "Mobil Menü Renkleri"
+
+#: inc/options.php:2270
+msgid "Mobile Menu Button Color"
+msgstr "Mobil Menü Düğmesi Rengi"
+
+#: inc/options.php:2274
+msgid "Mobile Menu Button Light Color"
+msgstr "Mobil Menü Düğmesi Açık Renk"
+
+#: inc/options.php:2278
+msgid "Menu Background Color"
+msgstr "Menü Arkaplan Rengi"
+
+#: inc/options.php:2330
+msgid "Border Color"
+msgstr "Kenarlık rengi"
+
+#: inc/options.php:2334
+msgid "Social Icon Color"
+msgstr "Sosyal Simge Rengi"
+
+#: inc/options.php:2338
+msgid "Hide Menu Button Color"
+msgstr "Menü Düğmesinin Rengini Gizle"
+
+#: inc/options.php:2344
+msgid "Top Area Colors"
+msgstr "Üst Alan Renkleri"
+
+#: inc/options.php:2347
+msgid "Top Area Background Color"
+msgstr "Üst Alan Arkaplan Rengi"
+
+#: inc/options.php:2349
+msgid ""
+"Background color for the selected style of top area (contacts & socials bar "
+"above main menu and logo). You can select from different top area styles in "
+"\"Header -> Top Area\""
+msgstr ""
+"Seçilen üst alan stili için arkaplan rengi (ana menünün ve logonun üstündeki "
+"rehber ve sosyal çubuklar). \"Başlık ->Üst Alan\" bölümündeki farklı üst "
+"alan stillerinden birini seçebilirsiniz."
+
+#: inc/options.php:2352
+msgid "Top Area Border Color"
+msgstr "Üst Alan Kenarlığı Rengi"
+
+#: inc/options.php:2356
+msgid "Top Area Separator Color"
+msgstr "Üst Alan Ayırıcı Rengi"
+
+#: inc/options.php:2360
+msgid "Top Area Text Color"
+msgstr "Üst Alan Metin Rengi"
+
+#: inc/options.php:2362
+msgid "Main font color for text used in top area"
+msgstr "Üst alanda kullanılan metin için ana yazı tipi rengi"
+
+#: inc/options.php:2365
+msgid "Top Area Link Text Color"
+msgstr "Üst Alan Bağlantısı Metin Rengi"
+
+#: inc/options.php:2367
+msgid "Color of the links used in top area"
+msgstr "Üst alanda kullanılan bağlantıların rengi"
+
+#: inc/options.php:2370
+msgid "Top Area Link Hover Text Color"
+msgstr "Üst Alan Bağlantısı Vurgulu Metin Rengi"
+
+#: inc/options.php:2372
+msgid "Color for links hovers used in top area"
+msgstr "Üst alanda kullanılan bağlantılar için renk"
+
+#: inc/options.php:2375
+msgid "Top Area Button Text Color"
+msgstr "Üst Alan Düğmesi Metin Rengi"
+
+#: inc/options.php:2377
+msgid "Font color for the button in top area (if used)"
+msgstr "Düğmenin üst alanındaki yazı tipi rengi (kullanılıyorsa)"
+
+#: inc/options.php:2380
+msgid "Top Area Button Background Color"
+msgstr "Üst Alan Düğmesi Arkaplan Rengi"
+
+#: inc/options.php:2382
+msgid "Background color for the button in top area (if used)"
+msgstr "Düğmenin üst alanındaki arkaplan rengi (kullanılıyorsa)"
+
+#: inc/options.php:2385
+msgid "Top Area Button Hover Text Color"
+msgstr "Üst Alan Düğmesi Vurgulu Metin Rengi"
+
+#: inc/options.php:2387
+msgid "Font hover color for the button in top area (if used)"
+msgstr "Düğmenin üst alanındaki yazı tipi vurgulu rengi (kullanılıyorsa)"
+
+#: inc/options.php:2390
+msgid "Top Area Button Hover Background Color"
+msgstr "Üst Alan Düğmesi Vurgulu Arkaplan Rengi"
+
+#: inc/options.php:2392
+msgid "Background hover color for the button in top area (if used)"
+msgstr ""
+"Düğmenin üst alanındaki arkaplan üzerine getirme rengi (kullanılıyorsa)"
+
+#: inc/options.php:2397
+msgid "Footer Area Colors"
+msgstr ""
+
+#: inc/options.php:2400
+msgid "Footer Background Color"
+msgstr "Altbilgi Arkaplan Rengi"
+
+#: inc/options.php:2402
+msgid ""
+"Background color of the footer area with copyrights and socials at the "
+"bottom of the website."
+msgstr ""
+"İnternet sitesinin altındaki telif hakları ve sosyal bilgilerle birlikte "
+"altbilgi alanının arkaplan rengi."
+
+#: inc/options.php:2405
+msgid "Footer Text Color"
+msgstr "Altbilgi Metin Rengi"
+
+#: inc/options.php:2409
+msgid "Footer menu font color"
+msgstr ""
+
+#: inc/options.php:2411
+msgid "Font color of footer menu"
+msgstr ""
+
+#: inc/options.php:2414
+msgid "Footer menu hover font color"
+msgstr ""
+
+#: inc/options.php:2416
+msgid "Font color of hover item in footer menu"
+msgstr ""
+
+#: inc/options.php:2419
+msgid "Footer menu separator color"
+msgstr ""
+
+#: inc/options.php:2421
+msgid "Color of a separator-line between menu items in footer"
+msgstr ""
+
+#: inc/options.php:2424
+msgid "Footer top border color"
+msgstr ""
+
+#: inc/options.php:2426
+msgid ""
+"Color of the border, separating website’s footer and footer widgetised area"
+msgstr ""
+
+#: inc/options.php:2429
+msgid "Footer Widgetised Area Background Color"
+msgstr "Altbilgi Pencere Öğesi Alanı Arkaplan Rengi"
+
+#: inc/options.php:2431
+msgid "Background color for widgetised area in footer"
+msgstr "Altbilgideki pencere öğesi alan için arkaplan rengi"
+
+#: inc/options.php:2434
+msgid "Footer Widget Title Color"
+msgstr "Altbilgi Pencere Öğesi Başlığı Rengi"
+
+#: inc/options.php:2436
+msgid "Font color of widget titles used in footer widgetised area"
+msgstr "Altbilgi alanında pencere öğesi başlıkları yazı tipi rengi"
+
+#: inc/options.php:2439
+msgid "Footer Widget Text Color"
+msgstr "Altbilgi Pencere Öğesi Metin Rengi"
+
+#: inc/options.php:2441
+msgid "Font color of text used in widgets in footer widgetised area"
+msgstr "Altbilgi alanında pencere öğesi metinleri yazı tipi rengi"
+
+#: inc/options.php:2444
+msgid "Footer Widget Link Color"
+msgstr "Altbilgi Pencere Öğesi Bağlantı Rengi"
+
+#: inc/options.php:2446
+msgid "Font color of links in widgets used in footer widgetised area"
+msgstr "Altbilgi alanında pencere öğesi bağlantıları yazı tipi rengi"
+
+#: inc/options.php:2449
+msgid "Footer Widget Hover Link Color"
+msgstr "Altbilgi Pencere Öğesi Vurgulu Bağlantı Rengi"
+
+#: inc/options.php:2451
+msgid "Hover color for links used in widgets in footer widgetised area"
+msgstr ""
+"Altbilgi pencere öğesi alanında bağlantı kullanan pencere öğeleri için vurgu "
+"rengi"
+
+#: inc/options.php:2454
+msgid "Footer Widget Active Link Color"
+msgstr "Altbilgi Pencere Öğesi Etkin Bağlantı Rengi"
+
+#: inc/options.php:2456
+msgid "Color for active links used in widgets in footer widgetised area"
+msgstr "Altbilgi alanında etkin bağlantı kullanılan pencere öğeleri renk"
+
+#: inc/options.php:2459
+msgid "Widget's title triangle color "
+msgstr ""
+
+#: inc/options.php:2461
+msgid "Color of the small triangle label after the widget's title in footer"
+msgstr ""
+
+#: inc/options.php:2466
+msgid "Text Colors"
+msgstr "Metin Renkleri"
+
+#: inc/options.php:2469
+msgid "Body Color"
+msgstr "Gövde rengi"
+
+#: inc/options.php:2473
+msgid "H1 Color"
+msgstr "H1 Renk"
+
+#: inc/options.php:2477
+msgid "H2 Color"
+msgstr "H2 Renk"
+
+#: inc/options.php:2481
+msgid "H3 Color"
+msgstr "H3 Renk"
+
+#: inc/options.php:2485
+msgid "H4 Color"
+msgstr "H4 Renk"
+
+#: inc/options.php:2489
+msgid "H5 Color"
+msgstr "H5 Renk"
+
+#: inc/options.php:2493
+msgid "H6 Color"
+msgstr "H6 Renk"
+
+#: inc/options.php:2497
+msgid "Link Color"
+msgstr "Bağlantı rengi"
+
+#: inc/options.php:2501
+msgid "Hover Link Color"
+msgstr "Vurgulu Bağlantı Rengi"
+
+#: inc/options.php:2505
+msgid "Active Link Color"
+msgstr "Aktif Bağlantı Rengi"
+
+#: inc/options.php:2509
+msgid "Copyright Text Color"
+msgstr "Telif Hakkı Metin Rengi"
+
+#: inc/options.php:2513
+msgid "Copyright Link Color"
+msgstr "Telif Hakkı Bağlantı Rengi"
+
+#: inc/options.php:2517
+msgid "Title Bar Default Background"
+msgstr "Başlık Çubuğu Varsayılan Arkaplanı"
+
+#: inc/options.php:2521
+msgid "Title Bar Default Font"
+msgstr "Başlık Çubuğu Varsayılan Yazı Tipi"
+
+#: inc/options.php:2525
+msgid "Date, Filter & Team Subtitle Color"
+msgstr "Tarih, Filtre ve Ekip Altyazı Rengi"
+
+#: inc/options.php:2529
+msgid "System Icons Font"
+msgstr "Sistem Simgeleri Yazı Tipi"
+
+#: inc/options.php:2533
+msgid "System Icons Font 2"
+msgstr "Sistem Simgeleri Yazı Tipi 2"
+
+#: inc/options.php:2539
+msgid "Button Colors"
+msgstr "Düğme renkleri"
+
+#: inc/options.php:2542
+msgid "Basic Text Color"
+msgstr "Temel Metin Rengi"
+
+#: inc/options.php:2544
+msgid ""
+"Font color for the text used in default flat buttons. Note: you can freely "
+"customise your buttons inside your content using \"Button\" shortcode in "
+"Visual Composer"
+msgstr ""
+"Varsayılan düz düğmelerde kullanılan metnin yazı tipi rengi. Not: Görsel "
+"Düzenleyici’deki \"Düğme\" kısa kodunu kullanarak düğmelerinizi içeriğinizin "
+"içinde rahatça özelleştirebilirsiniz"
+
+#: inc/options.php:2547
+msgid "Hover Text Color"
+msgstr "Vurgulu Metin Rengi"
+
+#: inc/options.php:2549
+msgid ""
+"Hover font color for the text used in default flat buttons. Note: you can "
+"freely customise your buttons inside your content using \"Button\" shortcode "
+"in Visual Composer"
+msgstr ""
+"Varsayılan vurgulu düğmelerde kullanılan metnin yazı tipi rengi. Not: Görsel "
+"Düzenleyici’deki \"Düğme\" kısa kodunu kullanarak düğmelerinizi içeriğinizin "
+"içinde rahatça özelleştirebilirsiniz"
+
+#: inc/options.php:2552
+msgid "Basic Background Color"
+msgstr "Temel Arkaplan Rengi"
+
+#: inc/options.php:2554
+msgid ""
+"Background color for default flat buttons. Note: you can freely customise "
+"your buttons inside your content using \"Button\" shortcode in Visual "
+"Composer"
+msgstr ""
+"Varsayılan düz düğmeler için arkaplan rengi. Not: Görsel Düzenleyici’deki "
+"\"Düğme\" kısa kodunu kullanarak düğmelerinizi içeriğinizin içinde rahatça "
+"özelleştirebilirsiniz"
+
+#: inc/options.php:2557
+msgid "Hover Background Color"
+msgstr "Vurgulu Arkaplan Rengi"
+
+#: inc/options.php:2559
+msgid ""
+"Hover background color for default flat buttons. Note: you can freely "
+"customise your buttons inside your content using \"Button\" shortcode in "
+"Visual Composer"
+msgstr ""
+"Varsayılan vurgulu düğmeler için arkaplan rengi. Not: Görsel Besteci’deki "
+"\"Düğme\" kısa kodunu kullanarak düğmelerinizi içeriğinizin içinde rahatça "
+"özelleştirebilirsiniz"
+
+#: inc/options.php:2562
+msgid "Basic Outline Text Color"
+msgstr "Temel Anahat Metin Rengi"
+
+#: inc/options.php:2564
+msgid ""
+"Font color for the text used in default outlined buttons. Note: you can "
+"freely customise your buttons inside your content using \"Button\" shortcode "
+"in Visual Composer"
+msgstr ""
+"Varsayılan anahatlı düğmelerde kullanılan metin için yazı tipi rengi. Not: "
+"Görsel Düzenleyici'deki \"Düğme\" kısa kodunu kullanarak düğmelerinizi "
+"içeriğinizin içinde rahatça özelleştirebilirsiniz"
+
+#: inc/options.php:2567
+msgid "Hover Outline Text Color"
+msgstr "Vurgulu Anahat Metin Rengi"
+
+#: inc/options.php:2569
+msgid ""
+"Hover font color for the text used in default outlined buttons. Note: you "
+"can freely customise your buttons inside your content using \"Button\" "
+"shortcode in Visual Composer"
+msgstr ""
+"Varsayılan vurgulu anahatlı düğmelerde kullanılan metin için yazı tipi "
+"rengi. Not: Görsel Düzenleyici’deki \"Düğme\" kısa kodunu kullanarak "
+"düğmelerinizi içeriğinizin içinde rahatça özelleştirebilirsiniz"
+
+#: inc/options.php:2572
+msgid "Basic Outline Border Color"
+msgstr "Temel Anahat Kenarlığı Rengi"
+
+#: inc/options.php:2574
+msgid ""
+"Border color used in default outlined buttons. Note: you can freely "
+"customise your buttons inside your content using \"Button\" shortcode in "
+"Visual Composer"
+msgstr ""
+"Varsayılan anahatlı düğmelerde kullanılan kenarlık rengi. Not: Görsel "
+"Düzenleyici’deki \"Düğme\" kısa kodunu kullanarak düğmelerinizi içeriğinizin "
+"içinde serbestçe özelleştirebilirsiniz"
+
+#: inc/options.php:2579
+msgid "Widgets Colors"
+msgstr "Pencere Öğelerinin Renkleri"
+
+#: inc/options.php:2582
+msgid "Widget Title Color"
+msgstr "Pencere Öğesi Başlığı Rengi"
+
+#: inc/options.php:2584
+msgid "Font color of widget titles used in sidebars"
+msgstr ""
+"Kenar çubuklarında kullanılan pencere öğesi başlıklarının yazı tipi rengi"
+
+#: inc/options.php:2587
+msgid "Widget Link Color"
+msgstr "Pencere Öğesi Bağlantı Rengi"
+
+#: inc/options.php:2589
+msgid "Font color of links in widgets used in sidebars"
+msgstr ""
+"Kenar çubuklarında kullanılan pencere öğelerindeki bağlantıların yazı tipi "
+"rengi"
+
+#: inc/options.php:2592
+msgid "Widget Hover Link Color"
+msgstr "Pencere Öğesi Vurgulu Bağlantı Rengi"
+
+#: inc/options.php:2594
+msgid "Hover color for links used in sidebar widgets"
+msgstr "Kenar çubuğu pencere öğelerinde kullanılan vurgu rengi"
+
+#: inc/options.php:2597
+msgid "Widget Active Link Color"
+msgstr "Pencere Öğesi Aktif Bağlantı Rengi"
+
+#: inc/options.php:2599
+msgid "Color for active links used in sidebar widgets"
+msgstr "Kenar çubuğu pencere öğelerinde kullanılan etkin bağlantılar için renk"
+
+#: inc/options.php:2604
+msgid "Portfolio Colors"
+msgstr "Portföy Renkleri"
+
+#: inc/options.php:2607
+msgid "Portfolio Overview Title Text"
+msgstr "Portföye Genel Bakış Başlık Metni"
+
+#: inc/options.php:2609
+msgid "Choose portfolio item's title color for grid-style portfolio overviews"
+msgstr ""
+"Izgara stili portföy genel görünümleri için portföy öğesinin başlık rengini "
+"seçin"
+
+#: inc/options.php:2612
+msgid "Portfolio Overview Description Text"
+msgstr "Portföye Genel Bakış Açıklama Metni"
+
+#: inc/options.php:2614
+msgid ""
+"Choose portfolio item's description color for grid-style portfolio overviews"
+msgstr ""
+"Izgara stili portföy genel görünümleri için portföy öğesinin açıklama "
+"rengini seçin"
+
+#: inc/options.php:2617
+msgid "Portfolio Date Color"
+msgstr "Portföy Tarihi Rengi"
+
+#: inc/options.php:2619
+msgid "Font color for showing the date in portfolio overviews"
+msgstr "Portföylere genel bakışta tarihi göstermek için yazı tipi rengi"
+
+#: inc/options.php:2622
+msgid "Portfolio Slider Arrow Font Color"
+msgstr ""
+
+#: inc/options.php:2626
+msgid "Portfolio Slider Arrow Font Color on Hover"
+msgstr ""
+
+#: inc/options.php:2630
+msgid "Portfolio Slider Arrow Background Color"
+msgstr ""
+
+#: inc/options.php:2634
+msgid "Portfolio Slider Arrow Background on Hover"
+msgstr ""
+
+#: inc/options.php:2638
+msgid "Sorting Controls Font Color"
+msgstr ""
+
+#: inc/options.php:2642
+msgid "Sorting Controls Background"
+msgstr ""
+
+#: inc/options.php:2646
+msgid "Sorting Controls Switch"
+msgstr ""
+
+#: inc/options.php:2650
+msgid "Separator"
+msgstr ""
+
+#: inc/options.php:2654
+msgid "Filter Button Font Color"
+msgstr ""
+
+#: inc/options.php:2658
+msgid "Filter Button Background"
+msgstr ""
+
+#: inc/options.php:2662
+msgid "Filter Button Font Color on Hover"
+msgstr ""
+
+#: inc/options.php:2666
+msgid "Filter Button Background on Hover"
+msgstr ""
+
+#: inc/options.php:2670
+msgid "Active Filter Button Font Color"
+msgstr ""
+
+#: inc/options.php:2674
+msgid "Active Filter Button Background"
+msgstr ""
+
+#: inc/options.php:2680
+msgid "Slideshow, Gallery And Image Box Colors"
+msgstr "Slayt Gösterisi, Galeri ve Resim Kutusu Renkleri"
+
+#: inc/options.php:2683
+msgid "Gallery Lightbox Caption Background"
+msgstr "Galeri Lightbox Altyazısı Arkaplanı"
+
+#: inc/options.php:2685
+msgid ""
+"Select background color for image description in image lightbox (zoomed view)"
+msgstr ""
+"Lightbox'ta resim açıklaması için arkaplan rengini seçin (yakınlaştırılmış "
+"görünüm)"
+
+#: inc/options.php:2688
+msgid "Gallery Lightbox Title Text"
+msgstr "Galeri Lightbox Başlık Metni"
+
+#: inc/options.php:2690
+msgid ""
+"Choose title color for image description in gallery in image lightbox "
+"(zoomed view)"
+msgstr ""
+"Galerideki Lightbox resim açıklaması için başlık resmini seçin "
+"(yakınlaştırma görünümü)"
+
+#: inc/options.php:2693
+msgid "Gallery Lightbox Description Text"
+msgstr "Galeri Lightbox Açıklama Metni"
+
+#: inc/options.php:2695
+msgid "Select text color for image description in image lightbox (zoomed view)"
+msgstr ""
+"Resim ışık kutusundaki resim açıklaması için metin rengi seçin "
+"(yakınlaştırılmış görünüm)"
+
+#: inc/options.php:2698
+msgid "Slideshow Arrow Background"
+msgstr "Slayt Okları İçin Arkaplan"
+
+#: inc/options.php:2700
+msgid ""
+"Background color for the arrows in Layerslider, Revolution & Nivo Slider "
+"slideshows"
+msgstr ""
+"Layerslider, Revolution & Nivo Slider slayt gösterilerinde oklar için "
+"arkaplan rengi"
+
+#: inc/options.php:2703
+msgid "Slideshow Arrow Hover Background"
+msgstr "Slayt Okları İçin Vurgulu Arkaplanı"
+
+#: inc/options.php:2705
+msgid ""
+"Hover background color for the arrows in Layerslider, Revolution & Nivo "
+"Slider slideshows"
+msgstr ""
+"Layerslider, Revolution ve Nivo Slider slayt gösterilerindeki oklar için "
+"vurgulu arkaplan rengi"
+
+#: inc/options.php:2708
+msgid "Slideshow Arrow Font"
+msgstr "Slayt Okları İçin Yazı Tipi"
+
+#: inc/options.php:2710
+msgid ""
+"Font color for the arrows in Layerslider, Revolution & Nivo Slider slideshows"
+msgstr ""
+"Layerslider, Revolution & Nivo Slider slayt gösterilerinde oklar için font "
+"rengi"
+
+#: inc/options.php:2713
+msgid "Sliders Arrow Font"
+msgstr "Slayt Okları İçin Yazı Tipleri"
+
+#: inc/options.php:2715
+msgid ""
+"Font color for the arrows in content sliders (not in Layeslider, Revolution "
+"or Nivo Sliders)"
+msgstr ""
+"İçerik slaytlarında oklar için yazı tipi rengi (Layeslider, Revolution veya "
+"Nivo Slider harici)"
+
+#: inc/options.php:2718
+msgid "Sliders Arrow Background"
+msgstr "Slayt Okları İçin Arkaplanları"
+
+#: inc/options.php:2720
+msgid ""
+"Backround color for the arrows in content sliders (not in Layeslider, "
+"Revolution or Nivo Sliders)"
+msgstr ""
+"İçerik slaytlarındaki oklar için arkaplan rengi (Layeslider, Revolution veya "
+"Nivo Slider harici)"
+
+#: inc/options.php:2723
+msgid "Sliders Arrow Hover Font"
+msgstr "Slayt Okları İçin Vurgulu Yazı Tipi"
+
+#: inc/options.php:2725
+msgid ""
+"Hover font color for the arrows in content sliders (not in Layeslider, "
+"Revolution or Nivo Sliders)"
+msgstr ""
+"İçerik slaytlarındaki oklar için vurgulu yazı tipi rengi (Layeslider, "
+"Revolution veya Nivo Slider harici)"
+
+#: inc/options.php:2728
+msgid "Sliders Arrow Hover Background"
+msgstr "Slayt Okları İçin Vurgulu Arkaplan"
+
+#: inc/options.php:2730
+msgid ""
+"Hover background color for the arrows in content sliders (not in Layeslider, "
+"Revolution or Nivo Sliders)"
+msgstr ""
+"İçerik slaytlarındaki oklar için vurgulu arkaplan rengi (Layeslider, "
+"Revolution veya Nivo Slider harici)"
+
+#: inc/options.php:2733
+msgid "\"Cyan Breeze\" Hover Color"
+msgstr "“Camgöbeği Esintisi” Vurgulu Rengi"
+
+#: inc/options.php:2737
+msgid "\"Zooming White\" Hover Color"
+msgstr "\"Beyaz Yakınlaştırma\" Vurgulu Rengi"
+
+#: inc/options.php:2741
+msgid "\"Horizontal Sliding\" Hover Color"
+msgstr "\"Yatay Slayt\" Vurgulu Rengi"
+
+#: inc/options.php:2745
+msgid "\"Vertical Sliding\" Hover Color"
+msgstr "\"Dikey Slayt\" Vurgulu Rengi"
+
+#: inc/options.php:2751
+msgid "Quickfinder Colors"
+msgstr "Quickfinder Renkleri"
+
+#: inc/options.php:2754
+msgid "Quickfinder Title Text"
+msgstr "Quickfinder Başlık Metni"
+
+#: inc/options.php:2756
+msgid ""
+"Font color for the default quickfinder titles. Note: you can freely "
+"customise your quickfinders inside your content using \"Quickfinder\" "
+"shortcode in Visual Composer"
+msgstr ""
+"Varsayılan quickfinder başlıkları için font rengi. Not: Visual Composer'da "
+"\"Quickfinder\" kısa kodu kullanarak quickfinder'lerinizi içeriğinizin "
+"içinde rahatça özelleştirebilirsiniz"
+
+#: inc/options.php:2759
+msgid "Quickfinder Description Text"
+msgstr "Quickfinder Açıklama Metin"
+
+#: inc/options.php:2761
+msgid ""
+"Font color for the default quickfinder description. Note: you can freely "
+"customise your quickfinders inside your content using \"Quickfinder\" "
+"shortcode in Visual Composer"
+msgstr ""
+"Varsayılan quickfinder açıklaması için yazı tipi rengi. Not: Visual "
+"Composer'da \"Quickfinder\" kısa kod kullanarak quickfinder'lerinizi "
+"içeriğinizin içinde rahatça özelleştirebilirsiniz"
+
+#: inc/options.php:2766
+msgid "Testimonial colors"
+msgstr ""
+
+#: inc/options.php:2769
+msgid "Slider Arrow Font Color"
+msgstr ""
+
+#: inc/options.php:2773
+msgid "Slider Arrow Font Color on Hover"
+msgstr ""
+
+#: inc/options.php:2777
+msgid "Slider Arrow Background Color"
+msgstr ""
+
+#: inc/options.php:2781
+msgid "Slider Arrow Background Color on Hover"
+msgstr ""
+
+#: inc/options.php:2787
+msgid "Bullets, Icons, Dropcaps & Pagination"
+msgstr "Madde İşaretleri, Simgeler, İlk Harfi Büyük ve Sayfalandırma"
+
+#: inc/options.php:2790
+msgid "Bullets Symbol"
+msgstr "Madde İşaretleri Simgesi"
+
+#: inc/options.php:2792
+msgid ""
+"This color is used in bullets in navigation & menu widgets as well as as "
+"font color for icons in contact widget"
+msgstr ""
+"Bu renk, gezinme ve menü pencere öğeleri madde imlerinin yanı sıra iletişim "
+"pencere öğesi simgeleri için yazı tipi renginde kullanılır"
+
+#: inc/options.php:2795
+msgid "Icons Font"
+msgstr "Simge Yazı Tipi"
+
+#: inc/options.php:2797
+msgid ""
+"Default font color for icons. Note: using icons shortcodes in Visual "
+"Composer you can freely customise your icons as you wish"
+msgstr ""
+"Simgeler için varsayılan yazı tipi rengi. Not: Visual Composer'da simgeler "
+"kısa kodlarını kullanarak, simgelerinizi istediğiniz gibi özgürce "
+"özelleştirebilirsiniz."
+
+#: inc/options.php:2800
+msgid "Icons In Portfolio & Gallery Hovers"
+msgstr ""
+
+#: inc/options.php:2802
+msgid ""
+"Font color for icons, used in portfolio & gallery hovers. By default the "
+"main website's background color is used"
+msgstr ""
+
+#: inc/options.php:2805
+msgid "Pagination Basic"
+msgstr "Temel Sayfalandırma"
+
+#: inc/options.php:2807
+msgid "Font color for numbers in classic pagination"
+msgstr "Klasik sayfalamadaki sayılar için yazı tipi rengi"
+
+#: inc/options.php:2810
+msgid "Pagination Basic Background"
+msgstr "Sayfalandırma Temel Arkaplanı"
+
+#: inc/options.php:2812
+msgid "Background color for numbers in classic pagination"
+msgstr "Klasik sayfalamadaki sayılar için arkaplan rengi"
+
+#: inc/options.php:2815
+msgid "Pagination Hover"
+msgstr "Sayfalandırma Vurgusu"
+
+#: inc/options.php:2817
+msgid "Hover color for classic pagination"
+msgstr "Klasik sayfalama için vurgulu renk"
+
+#: inc/options.php:2820
+msgid "Pagination Active"
+msgstr "Aktif Sayfalandırma"
+
+#: inc/options.php:2822
+msgid "Active color  for classic pagination"
+msgstr "Klasik sayfalandırma için aktif renk"
+
+#: inc/options.php:2825
+msgid "Slider Mini-Pagination (Not Active)"
+msgstr "Slayt Mini Sayfalama (Aktif Olmayan)"
+
+#: inc/options.php:2829
+msgid "Slider Mini-Pagination (Active)"
+msgstr "Slayt Mini Sayfalama (Aktif)"
+
+#: inc/options.php:2833
+msgid "Color of blockquotes icon in testimonials"
+msgstr ""
+
+#: inc/options.php:2837
+msgid "Color of blockquotes icon in blockquotes element"
+msgstr ""
+
+#: inc/options.php:2843
+msgid "Social Icons Colors"
+msgstr ""
+
+#: inc/options.php:2846
+msgid "Social Icons in Top Area"
+msgstr ""
+
+#: inc/options.php:2848
+msgid "Color of social icons used in top area"
+msgstr ""
+
+#: inc/options.php:2851
+msgid "Social Icons in Footer"
+msgstr ""
+
+#: inc/options.php:2853
+msgid "Color of social icons used in website's footer"
+msgstr ""
+
+#: inc/options.php:2856
+msgid "Social Icons on Pages, Posts, Portfolio Items"
+msgstr ""
+
+#: inc/options.php:2858
+msgid "Color of social icons used on pages, blog posts and portfolio items"
+msgstr ""
+
+#: inc/options.php:2861
+msgid "Social Icons on WooCommerce Pages"
+msgstr ""
+
+#: inc/options.php:2863
+msgid "Color of social icons used on WooCommerce pages"
+msgstr ""
+
+#: inc/options.php:2870
+msgid "Other Forms"
+msgstr ""
+
+#: inc/options.php:2873 inc/post-types/init.php:162
+msgid "Background"
+msgstr "Arkaplan"
+
+#: inc/options.php:2877
+msgid "Font"
+msgstr "Yazı tipi"
+
+#: inc/options.php:2881
+msgid "Border"
+msgstr "Kenar"
+
+#: inc/options.php:2887
+msgid "Breadcrumbs"
+msgstr "Rehber"
+
+#: inc/options.php:2890
+msgid "Breadcrumbs Color"
+msgstr "Rehber rengi"
+
+#: inc/options.php:2894
+msgid "Breadcrumbs Active Item Color"
+msgstr "Rehber Aktif Öğe Rengi"
+
+#: inc/options.php:2898
+msgid "Breadcrumbs Hover Color"
+msgstr "Rehber Vurgu Rengi"
+
+#: inc/options.php:2904
+msgid "Preloader Colors"
+msgstr ""
+
+#: inc/options.php:2907
+msgid "Page Preloader Background Colors"
+msgstr ""
+
+#: inc/options.php:2911
+msgid "Preloader line 1"
+msgstr ""
+
+#: inc/options.php:2915
+msgid "Preloader line 2"
+msgstr ""
+
+#: inc/options.php:2919
+msgid "Preloader line 3"
+msgstr ""
+
+#: inc/options.php:2928
+msgid "Backgrounds"
+msgstr "Arkaplan"
+
+#: inc/options.php:2931
+msgid "Background Images"
+msgstr "Arkaplan Resimleri"
+
+#: inc/options.php:2934
+msgid "Background for Boxed Layout"
+msgstr "Kutu Düzeni için Arkaplan"
+
+#: inc/options.php:2936
+msgid "Select or upload image file for website's backround in boxed layout"
+msgstr ""
+"Kutu düzeninde internet sitesinin arkaplanı için resim dosyası seçin veya "
+"yükleyin"
+
+#: inc/options.php:2939
+msgid "Background Patterns for Boxed Layout"
+msgstr "Kutu Düzeni Yerleşim için Arkaplan Desenleri"
+
+#: inc/options.php:2953
+msgid "Main Menu & Header Area Background"
+msgstr "Ana Menü ve Üstbilgi Alanı Arkaplanı"
+
+#: inc/options.php:2955
+msgid ""
+"Select or upload background image file for the website's header area with "
+"main menu and logo"
+msgstr ""
+"Ana menü ve logo ile internet sitesinin başlık alanı için arkaplan resim "
+"dosyasını seçin veya yükleyin"
+
+#: inc/options.php:2958
+msgid "Top Area Background"
+msgstr "Üst Alan Arkaplanı"
+
+#: inc/options.php:2960
+msgid ""
+"Select or upload background image file for the selected style of top area "
+"(contacts & socials bar above main menu and logo). You can select from "
+"different top area styles in \"Header -> Top Area\""
+msgstr ""
+"Seçilen üst alan stili için arkaplan resmi dosyasını seçin veya yükleyin "
+"(ana menünün ve logonun üstündeki rehber ve sosyal çubuklar). \"Başlık ->Üst "
+"Alan\" bölümündeki farklı üst alan stillerinden birini seçebilirsiniz."
+
+#: inc/options.php:2963
+msgid "Main Content Background"
+msgstr "Ana İçerik Arkaplanı"
+
+#: inc/options.php:2965
+msgid "Select or upload image file for website's main content background"
+msgstr ""
+"İnternet sitesinin ana içerik arkaplanı için resim dosyasını seçin veya "
+"yükleyin"
+
+#: inc/options.php:2968
+msgid "Footer Background"
+msgstr "Altbilgi Arkaplanı"
+
+#: inc/options.php:2970
+msgid ""
+"Select or upload background image file for the footer area with copyrights "
+"and socials at the bottom of the website."
+msgstr ""
+"İnternet sitesinin alt kısmında telif hakları ve sosyal bilgileri içeren "
+"altbilgi alanı için arkaplan resim dosyasını seçin veya yükleyin."
+
+#: inc/options.php:2973
+msgid " Footer Widgetised Area Background Image"
+msgstr " Altbilgi Pencere Öğesi Alan Arkaplan Resmi"
+
+#: inc/options.php:2975
+msgid "Select or upload background image file for widgetised area in footer"
+msgstr ""
+"Altbilgideki pencere öğesi alanı için arkaplan resim dosyasını seçin veya "
+"yükleyin"
+
+#: inc/options.php:2983 inc/options.php:2986
+msgid "NivoSlider Options"
+msgstr "NivoSlider Seçenekleri"
+
+#: inc/options.php:2989
+msgid "Effect"
+msgstr "Efekt"
+
+#: inc/options.php:3012
+msgid "Slices"
+msgstr "Dilimler"
+
+#: inc/options.php:3019
+msgid "Box Cols"
+msgstr "Kutu Sütunları"
+
+#: inc/options.php:3026
+msgid "Box Rows"
+msgstr "Kutu Satırları"
+
+#: inc/options.php:3033
+msgid "Animation Speed ( x 100 milliseconds )"
+msgstr "Animasyon Hızı (x 100 milisaniye)"
+
+#: inc/options.php:3040
+msgid "Pause Time ( x 1000 milliseconds )"
+msgstr "Duraklatma Süresi (x 1000 milisaniye)"
+
+#: inc/options.php:3047
+msgid "Direction Navigation"
+msgstr "Gönderi Yönü"
+
+#: inc/options.php:3053
+msgid "Control Navigation"
+msgstr "Gezinme Kontrolü"
+
+#: inc/options.php:3064
+msgid "Blog & Portfolio"
+msgstr "Blog ve Portföy"
+
+#: inc/options.php:3067
+msgid "Blog Post & News Settings"
+msgstr "Blog Gönderi ve Haber Ayarları"
+
+#: inc/options.php:3070
+msgid "Show author info"
+msgstr "Yazar bilgisini göster"
+
+#: inc/options.php:3076
+msgid "Excerpt lenght"
+msgstr "Seçim uzunluğu"
+
+#: inc/options.php:3083
+msgid "Hide author name"
+msgstr "Yazar adını gizle"
+
+#: inc/options.php:3089 inc/options.php:3148
+msgid "Hide date"
+msgstr "Tarihi gizle"
+
+#: inc/options.php:3095
+msgid "Hide date in blog categories"
+msgstr ""
+
+#: inc/options.php:3101
+msgid "Hide categories"
+msgstr "Kategorileri gizle"
+
+#: inc/options.php:3107
+msgid "Hide tags"
+msgstr "Etiketleri gizle"
+
+#: inc/options.php:3113
+msgid "Hide comments icon"
+msgstr "Yorumları gizle"
+
+#: inc/options.php:3119 inc/options.php:3160
+msgid "Hide likes"
+msgstr "Beğenileri gizle"
+
+#: inc/options.php:3125
+msgid "Hide posts navigation"
+msgstr "Gönderilerin gezintisini gizle"
+
+#: inc/options.php:3131 inc/options.php:3178
+msgid "Hide social sharing"
+msgstr "Sosyal paylaşımı gizle"
+
+#: inc/options.php:3137
+msgid "Hide related posts"
+msgstr "İlgili gönderileri gizle"
+
+#: inc/options.php:3145
+msgid "Portfolio Page Settings"
+msgstr "Portföy Sayfası Ayarları"
+
+#: inc/options.php:3154
+msgid "Hide portfolio sets"
+msgstr "Portföy kümelerini gizle"
+
+#: inc/options.php:3166
+msgid "Hide posts top navigation"
+msgstr "Gönderilerin üst gezintisini gizle"
+
+#: inc/options.php:3172
+msgid "Hide posts bottom navigation"
+msgstr "Gönderilerin alt gezintisini gizle"
+
+#: inc/options.php:3189
+msgid "Footer"
+msgstr "Alt Bilgi"
+
+#: inc/options.php:3192
+msgid "Footer Options"
+msgstr "Altbilgi Seçenekleri"
+
+#: inc/options.php:3195
+msgid "Activate default footer"
+msgstr "Varsayılan altbilgiyi etkinleştir"
+
+#: inc/options.php:3201
+msgid "Footer Text"
+msgstr "Altbilgi metni"
+
+#: inc/options.php:3205 inc/post-types/init.php:328
+msgid "Custom Footer"
+msgstr "Özel Altbilgi"
+
+#: inc/options.php:3211
+msgid "Hide footer widget area"
+msgstr "Altbilgi pencere öğesi alanını gizle"
+
+#: inc/options.php:3222
+msgid "Contacts & Socials"
+msgstr "İletişim & Sosyal B."
+
+#: inc/options.php:3225
+msgid "Contacts"
+msgstr "İletişim"
+
+#: inc/options.php:3228 inc/options.php:3258
+msgid "Address"
+msgstr "Adres"
+
+#: inc/options.php:3233 inc/options.php:3284
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/options.php:3238 inc/options.php:3310
+msgid "Fax"
+msgstr "Faks"
+
+#: inc/options.php:3243 inc/options.php:3336 woocommerce/share.php:40
+msgid "Email"
+msgstr "E-posta"
+
+#: inc/options.php:3255
+msgid "Top Area Contacts"
+msgstr "Üst Alan İletişim Bilgileri"
+
+#: inc/options.php:3262 inc/options.php:3288 inc/options.php:3314
+#: inc/options.php:3340 inc/options.php:3366
+msgid "Text"
+msgstr ""
+
+#: inc/options.php:3267 inc/options.php:3293 inc/options.php:3319
+#: inc/options.php:3345 inc/options.php:3371 inc/post-types/init.php:200
+msgid "Icon Color"
+msgstr "Simge Rengi"
+
+#: inc/options.php:3271 inc/options.php:3297 inc/options.php:3323
+#: inc/options.php:3349 inc/options.php:3375 inc/post-types/init.php:186
+msgid "Icon Pack"
+msgstr "Simge Paketi"
+
+#: inc/options.php:3390
+msgid "Socials"
+msgstr "Sosyal Bağlantılar"
+
+#: inc/options.php:3397
+msgid "Display Links For Sharing Posts On Social Networks"
+msgstr "Sosyal Ağlarda Gönderi Paylaşımı için Bağlantıları Görüntüle"
+
+#: inc/options.php:3410
+msgid "Contact Form 7 & Mailchimp Forms"
+msgstr ""
+
+#: inc/options.php:3416
+msgid "Contact Form Light"
+msgstr ""
+
+#: inc/options.php:3420 inc/options.php:3548 inc/options.php:3680
+#: inc/options.php:3738 inc/options.php:3800
+msgid "Use Custom Styles"
+msgstr ""
+
+#: inc/options.php:3429 inc/options.php:3557 inc/options.php:3689
+#: inc/options.php:3751 inc/options.php:3813
+msgid "Input Font Color"
+msgstr ""
+
+#: inc/options.php:3433 inc/options.php:3561 inc/options.php:3693
+#: inc/options.php:3755 inc/options.php:3817
+msgid "Input Background Color"
+msgstr ""
+
+#: inc/options.php:3437 inc/options.php:3565 inc/options.php:3697
+#: inc/options.php:3759 inc/options.php:3821
+msgid "Input Border Color"
+msgstr ""
+
+#: inc/options.php:3441 inc/options.php:3569 inc/options.php:3701
+#: inc/options.php:3763 inc/options.php:3825
+msgid "Input Placeholder Font Color"
+msgstr ""
+
+#: inc/options.php:3445 inc/options.php:3573
+msgid "Input Icon Color"
+msgstr ""
+
+#: inc/options.php:3449 inc/options.php:3577 inc/options.php:3709
+#: inc/options.php:3771 inc/options.php:3833
+msgid "Label Font Color"
+msgstr ""
+
+#: inc/options.php:3453 inc/options.php:3581
+msgid "Button Style"
+msgstr ""
+
+#: inc/options.php:3456 inc/options.php:3584
+msgid "Flat"
+msgstr ""
+
+#: inc/options.php:3457 inc/options.php:3585
+msgid "Outline"
+msgstr ""
+
+#: inc/options.php:3462 inc/options.php:3590
+msgid "Button Position"
+msgstr ""
+
+#: inc/options.php:3465 inc/options.php:3593
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/options.php:3468 inc/options.php:3596 inc/post-types/init.php:104
+msgid "Center"
+msgstr "Merkez"
+
+#: inc/options.php:3473 inc/options.php:3601
+msgid "Button Size"
+msgstr ""
+
+#: inc/options.php:3476 inc/options.php:3604
+msgid "Tiny"
+msgstr ""
+
+#: inc/options.php:3478 inc/options.php:3606 inc/post-types/init.php:220
+msgid "Medium"
+msgstr "Orta"
+
+#: inc/options.php:3479 inc/options.php:3607 inc/post-types/init.php:220
+msgid "Large"
+msgstr "Büyük"
+
+#: inc/options.php:3480 inc/options.php:3608
+msgid "Giant"
+msgstr ""
+
+#: inc/options.php:3485 inc/options.php:3613
+msgid "Button Text Weight"
+msgstr ""
+
+#: inc/options.php:3488 inc/options.php:3616 inc/options.php:3880
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/options.php:3489 inc/options.php:3617
+msgid "Thin"
+msgstr ""
+
+#: inc/options.php:3494 inc/options.php:3622
+msgid "Button Border Width"
+msgstr ""
+
+#: inc/options.php:3500 inc/options.php:3628
+msgid "Button Border Radius"
+msgstr ""
+
+#: inc/options.php:3507 inc/options.php:3635
+msgid "Button No Uppercase"
+msgstr ""
+
+#: inc/options.php:3516 inc/options.php:3644 inc/options.php:3713
+#: inc/options.php:3775 inc/options.php:3837
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/options.php:3520 inc/options.php:3648 inc/options.php:3717
+#: inc/options.php:3779 inc/options.php:3841
+msgid "Button Hover Text Color"
+msgstr ""
+
+#: inc/options.php:3524 inc/options.php:3652 inc/options.php:3721
+#: inc/options.php:3783 inc/options.php:3845
+msgid "Button Backround Color"
+msgstr ""
+
+#: inc/options.php:3528 inc/options.php:3656 inc/options.php:3725
+#: inc/options.php:3787 inc/options.php:3849
+msgid "Button Hover Backround Color"
+msgstr ""
+
+#: inc/options.php:3532 inc/options.php:3660
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/options.php:3536 inc/options.php:3664
+msgid "Button Hover Border Color"
+msgstr ""
+
+#: inc/options.php:3544
+msgid "Contact Form dark"
+msgstr ""
+
+#: inc/options.php:3676
+msgid "MailChimp inside Content"
+msgstr ""
+
+#: inc/options.php:3705 inc/options.php:3767 inc/options.php:3829
+msgid "Font Color"
+msgstr ""
+
+#: inc/options.php:3734
+msgid "MailChimp inside Sidebars"
+msgstr ""
+
+#: inc/options.php:3747 inc/options.php:3809 inc/post-types/init.php:176
+#: inc/post-types/init.php:690
+msgid "Background Color"
+msgstr "Arkaplan rengi"
+
+#: inc/options.php:3796
+msgid "MailChimp inside Footer"
+msgstr ""
+
+#: inc/options.php:3862 inc/options.php:4342
+msgid "WooCommerce Settings"
+msgstr "WooCommerce Ayarları"
+
+#: inc/options.php:3865
+msgid "Size Guide Image"
+msgstr "Kılavuz Boyut Resmi"
+
+#: inc/options.php:3867
+msgid "Upload your size guide image here"
+msgstr "Klavuz boyut resminizi buraya yükleyin"
+
+#: inc/options.php:3870
+msgid "Quick view"
+msgstr "Hızlı Görünüm"
+
+#: inc/options.php:3874
+msgid "Enable product quick view"
+msgstr "Ürünün hızlı görünümünü etkinleştir"
+
+#: inc/options.php:3877
+msgid "Products pagination"
+msgstr "Ürün sayfalama"
+
+#: inc/options.php:3882
+msgid "Infinite Scroll"
+msgstr "Sonsuz kaydırma"
+
+#: inc/options.php:3885
+msgid "WooCommerce products pagination type"
+msgstr "WooCommerce ürünleri sayfalama türü"
+
+#: inc/options.php:3888
+msgid "Enable catalog mode"
+msgstr "Katalog modunu etkinleştir"
+
+#: inc/options.php:3892
+msgid ""
+"Enable catalog mode. This will disable Add To Cart buttons / Checkout and "
+"Shopping cart."
+msgstr ""
+"Katalog modunu etkinleştir. Bu, Sepete Ekle düğmelerini / Ödeme ve Alışveriş "
+"sepetini devre dışı bırakacaktır."
+
+#: inc/options.php:3896
+msgid "Hide Card Icon"
+msgstr ""
+
+#: inc/options.php:3902
+msgid "Checkout Page"
+msgstr "Ödeme Sayfası"
+
+#: inc/options.php:3905
+msgid "Multi-Step Checkout"
+msgstr "Çok Adımlı Ödeme"
+
+#: inc/options.php:3906
+msgid "One-Page Checkout"
+msgstr "Tek Sayfada Ödeme"
+
+#: inc/options.php:3909
+msgid "WooCommerce checkout view"
+msgstr "WooCommerce ödeme görünümü"
+
+#: inc/options.php:3912
+msgid "Cart Icon Position For Hamburger Menu"
+msgstr "Hamburger Menüsü İçin Alışveriş Arabası Simge Konumu"
+
+#: inc/options.php:3915
+msgid "Visible In Menu Bar"
+msgstr "Menü Çubuğunda Görüntülenir"
+
+#: inc/options.php:3916
+msgid "Visible On-Top Near Hamburger Icon"
+msgstr "Hamburger Simgesinin Yakınında Görülebilir"
+
+#: inc/options.php:3920
+msgid "Product amount label (cart icon)"
+msgstr ""
+
+#: inc/options.php:3923
+msgid "Show Positions Amount"
+msgstr ""
+
+#: inc/options.php:3924
+msgid "Show Total Product Amount"
+msgstr ""
+
+#: inc/options.php:3928
+msgid "Activate thesod's Product Image Settings"
+msgstr ""
+
+#: inc/options.php:3935
+msgid "WooCommerce Catalog Image Size"
+msgstr ""
+
+#: inc/options.php:3939 inc/options.php:3959 inc/options.php:3979
+msgid "Width"
+msgstr ""
+
+#: inc/options.php:3946 inc/options.php:3966 inc/options.php:3986
+msgid "Height"
+msgstr ""
+
+#: inc/options.php:3955
+msgid "WooCommerce Single Product Image Size"
+msgstr ""
+
+#: inc/options.php:3975
+msgid "WooCommerce Product Thumbnails Image Size"
+msgstr ""
+
+#: inc/options.php:3998
+msgid "WooCommerce Fonts"
+msgstr "WooCommerce Yazı Tipleri"
+
+#: inc/options.php:4002 inc/options.php:4273
+msgid "Product Title (Listings & Grids)"
+msgstr "Ürün Başlığı (Listeler ve Izgaralar)"
+
+#: inc/options.php:4036 inc/options.php:4277
+msgid "Product Title (Product Page)"
+msgstr "Ürün Başlığı (Ürün Sayfası)"
+
+#: inc/options.php:4069 inc/options.php:4281
+msgid "Product Title (Widget)"
+msgstr "Ürün Başlığı (Pencere Öğesi)"
+
+#: inc/options.php:4102 inc/options.php:4285
+msgid "Product Title (Cart)"
+msgstr "Ürün Başlığı (Sepet)"
+
+#: inc/options.php:4136 inc/options.php:4289
+msgid "Product Price (Listings & Grids)"
+msgstr "Ürün Fiyatı (İlanlar ve Izgaralar)"
+
+#: inc/options.php:4169 inc/options.php:4293
+msgid "Product Price (Product Page)"
+msgstr "Ürün Fiyatı (Ürün Sayfası)"
+
+#: inc/options.php:4202 inc/options.php:4297
+msgid "Product Price (Widget)"
+msgstr "Ürün Fiyatı (Pencere Öğesi)"
+
+#: inc/options.php:4235 inc/options.php:4301
+msgid "Product Price (Cart)"
+msgstr "Ürün Fiyatı (Sepet)"
+
+#: inc/options.php:4270
+msgid "WooCommerce Colors"
+msgstr "WooCommerce Renkleri"
+
+#: inc/options.php:4305
+msgid "Product Separator (Listings & Grids)"
+msgstr "Ürün Ayırıcı (Listeler ve Izgaralar)"
+
+#: inc/options.php:4309
+msgid " Cart & checkout table titles"
+msgstr ""
+
+#: inc/options.php:4313
+msgid "Cart & checkout table header background"
+msgstr ""
+
+#: inc/options.php:4317
+msgid "Cart & checkout form labels"
+msgstr ""
+
+#: inc/options.php:4321
+msgid "Checkout inactive step title"
+msgstr ""
+
+#: inc/options.php:4325
+msgid "Checkout inactive step background"
+msgstr ""
+
+#: inc/options.php:4329
+msgid "Checkout active step title"
+msgstr ""
+
+#: inc/options.php:4333
+msgid "Checkout active step background"
+msgstr ""
+
+#: inc/options.php:4415
+#, php-format
+msgid "Activate %s Icon"
+msgstr ""
+
+#: inc/options.php:4423
+#, php-format
+msgid "%s Link"
+msgstr ""
+
+#: inc/options.php:5913
+msgid "thesod Theme Options"
+msgstr ""
+
+#: inc/options.php:5921
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "üzerinde"
+
+#: inc/options.php:5924
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "üzerinde"
+
+#: inc/options.php:5949
+msgid "Get all from font."
+msgstr "Yazı tipinden hepsini al."
+
+#: inc/options.php:5951
+msgid "et colors, backgrounds and fonts options to default?"
+msgstr "renkler, arkaplanlar ve yazı tipi seçenekleri sıfırlansın mı?"
+
+#: inc/options.php:5952
+msgid "Update backup data?"
+msgstr "Yedekleme verileri güncellensin mi?"
+
+#: inc/options.php:5953
+msgid "Restore settings from backup data?"
+msgstr "Ayarları yedeklemelerden geri yüklensin mi?"
+
+#: inc/options.php:5954
+msgid "Import settings?"
+msgstr "Ayarlar içe aktarılsın mı?"
+
+#: inc/options.php:5985 inc/options.php:6153
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: inc/options.php:5994
+msgid "Backup"
+msgstr "Yedek"
+
+#: inc/options.php:5995
+msgid "Theme activation"
+msgstr "Tema aktivasyonu"
+
+#: inc/options.php:6020
+msgid "Default page options for new pages, posts & portfolio items"
+msgstr ""
+"Yeni sayfalar, gönderiler ve portföy öğeleri için varsayılan sayfa "
+"seçenekleri"
+
+#: inc/options.php:6026
+msgid "Default page options for blog list"
+msgstr "Blog listesi için varsayılan sayfa seçenekleri"
+
+#: inc/options.php:6032
+msgid "Default page options for search results"
+msgstr "Arama sonuçları için varsayılan sayfa seçenekleri"
+
+#: inc/options.php:6047
+msgid "Backup and Restore Theme Settings"
+msgstr "Tema Ayarlarını Yedekleme ve Geri Yükleme"
+
+#: inc/options.php:6050
+msgid ""
+"If you would like to experiment with the settings of your theme and don't "
+"want to loose your previous settings, use the \"Backup Settings\"-button to "
+"backup your current theme options. You can restore these options later using "
+"the button \"Restore Settings\"."
+msgstr ""
+"Temanızın ayarlarını denemek ve önceki ayarlarınızı kaybetmek "
+"istemiyorsanız, geçerli tema seçeneklerinizi yedeklemek için \"Yedekleme "
+"Ayarları\" düğmesini kullanın. Bu seçenekleri daha sonra \"Ayarları Geri "
+"Yükle\" düğmesini kullanarak geri yükleyebilirsiniz."
+
+#: inc/options.php:6052 inc/options.php:6054
+msgid "Last backup"
+msgstr "Son yedekleme"
+
+#: inc/options.php:6054
+msgid "No backups yet"
+msgstr "Henüz hiçbir yedekleme yok"
+
+#: inc/options.php:6057
+msgid "Backup Settings"
+msgstr "Yedekleme ayarları"
+
+#: inc/options.php:6058
+msgid "Restore Settings"
+msgstr "Ayarları eski haline getir"
+
+#: inc/options.php:6062
+msgid ""
+"In order to apply the settings of another thesod theme used in a different "
+"install just copy and paste the settings in the text box and click on "
+"\"Import Settings\"."
+msgstr ""
+"Farklı bir kurulumda kullanılan başka bir thesod tema ayarlarını uygulamak "
+"için ayarları metin kutusuna kopyalayıp yapıştırın ve \"Ayarları Al\" 'a "
+"tıklayın."
+
+#: inc/options.php:6068
+msgid "Import Settings"
+msgstr "Ayarları İçe Aktar"
+
+#: inc/options.php:6079
+msgid "Welcome to thesod - Creative Multi-Purpose WordPress Theme"
+msgstr "thesod'e Hoş Geldiniz - Çok Amaçlı Yaratıcı WordPress Teması"
+
+#: inc/options.php:6082
+msgid ""
+"Thank you for purchasing thesod! Would you like to import our awesome demos "
+"and take advantage of our amazing features? Please activate your copy of "
+"thesod:"
+msgstr ""
+"thesod'i satın aldığınız için teşekkür ederiz! Müthiş demolarımızı içe "
+"aktarmak ve harika özelliklerimizden yararlanmak ister misiniz? Lütfen "
+"thesod kopyanızı etkinleştirin:"
+
+#: inc/options.php:6085
+msgid "Enter purchase code, e.g. cb0e057f-a05d-4758-b314-024db98eff85"
+msgstr "Satın alma kodunu girin, örn. Cb0e057f-a05d-4758-b314-024db98eff85"
+
+#: inc/options.php:6086 plugins/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "Etkinleştirme"
+
+#: inc/options.php:6089 inc/options.php:6894
+msgid "Thank you, your purchase code is valid. thesod has been activated."
+msgstr "Teşekkürler, satın alma kodunuz geçerlidir. thesod aktive edildi."
+
+#: inc/options.php:6120
+msgid "Ajax error. Try again..."
+msgstr "Ajax hatası. Tekrar deneyin..."
+
+#: inc/options.php:6141
+msgid "RATE thesod"
+msgstr "thesod Oylama"
+
+#: inc/options.php:6142
+#, php-format
+msgid ""
+"Please don’t forget to rate thesod and leave a nice review, it means a lot "
+"for us and our theme.<br />Simply log in into your Themeforest, go to <a "
+"href=\"%s\">Downloads section</a> and click 5 stars next to the thesod "
+"WordPress theme as shown on screenshot below:"
+msgstr ""
+"Lütfen thesod'i derecelendirmeyi ve güzel bir inceleme bırakmayı unutma, bu "
+"bizim ve temamız için çok önemli.<br />Sadece Themeforest hesabınıza giriş "
+"yapın, <a href=\"%s\">Yüklemeler bölümüne gidin</a> ve aşağıdaki ekran "
+"görüntüsünde gösterildiği gibi thesod WordPress temasının yanındaki 5 "
+"yıldızı tıklayın:"
+
+#: inc/options.php:6153
+msgid "Reset Style Settings"
+msgstr "Stil Ayarlarını Sıfırla"
+
+#: inc/options.php:6845 inc/options.php:6863
+#, php-format
+msgid ""
+"thesod's styles cannot be customized because file \"%s\" cannot be modified. "
+"Please check your server's settings. Then click \"Save Changes\" button."
+msgstr ""
+"\"%s\" dosyası değiştirilemediğinden, stiller özelleştirilemez. Lütfen "
+"sunucunuzun ayarlarını kontrol edin. Ardından \"Değişiklikleri Kaydet\" "
+"düğmesini tıklayın."
+
+#: inc/options.php:6889 plugins/plugins.php:255
+msgid "Some troubles with connecting to thesod server."
+msgstr "thesod sunucusuna bağlanmakta bazı sorunlar yaşandı."
+
+#: inc/options.php:6893
+#, php-format
+msgid "<a href=\"%s\">Begin installing plugins</a>"
+msgstr ""
+
+#: inc/options.php:6897
+msgid ""
+"The purchase code you have entered is not valid. thesod has not been "
+"activated."
+msgstr "Girdiğiniz satın alma kodu geçerli değil. thesod aktifleştirilmedi."
+
+#: inc/options.php:6901
+msgid "Purchase code is empty."
+msgstr "Satın alma kodu boş."
+
+#: inc/options.php:6964
+#, php-format
+msgid ""
+"Welcome to thesod! Would you like to import our awesome demos and take "
+"advantage of our amazing features? Please <a href=\"%s\">activate</a> your "
+"copy of thesod."
+msgstr ""
+"thesod'e Hoşgeldiniz! Müthiş demolarımızı içe aktarmak ve harika "
+"özelliklerimizden yararlanmak ister misiniz? Lütfen thesod'i <a href=\"%s"
+"\">etkinleştirin</a>."
+
+#: inc/options.php:6964 inc/options.php:6966
+msgid "Dismiss this notice."
+msgstr "Bu bildirimi göz ardı et."
+
+#: inc/options.php:6966
+#, php-format
+msgid ""
+"Welcome to thesod! Would you like to import our awesome demos and take "
+"advantage of our amazing features? led. Please install \"Envato WordPress "
+"Toolkit\" plugin and fill <a href=\"%s\">Envato \"User Account Information"
+"\"</a>."
+msgstr ""
+"thesod'e Hoşgeldiniz! Müthiş demolarımızı içe aktarmak ve harika "
+"özelliklerimizden yararlanmak ister misiniz? Lütfen \"Envato WordPress "
+"Toolkit\" eklentisini yükleyin ve <a href=\"%s\">Envato \"Kullanıcı Hesabı "
+"Bilgilerinizi\"</a> doldurun."
+
+#: inc/options.php:6974 inc/post-types/init.php:27 inc/post-types/init.php:1266
+#: inc/woocommerce.php:733
+msgid "Page Title"
+msgstr "Sayfa Başlığı"
+
+#: inc/options.php:6975 inc/post-types/init.php:1267
+msgid "Page Header"
+msgstr "Sayfa Üst Bilgisi"
+
+#: inc/options.php:6976 inc/post-types/init.php:29 inc/post-types/init.php:1268
+#: inc/woocommerce.php:734
+msgid "Page Sidebar"
+msgstr "Sayfa Kenar Çubuğu"
+
+#: inc/options.php:6978 inc/post-types/init.php:31 inc/post-types/init.php:1270
+msgid "Page Slideshow"
+msgstr "Sayfa Slayt Gösterisi"
+
+#: inc/options.php:6980 inc/post-types/init.php:33 inc/post-types/init.php:1272
+msgid "Additional Options"
+msgstr "Ek seçenekler"
+
+#: inc/options.php:6981 inc/post-types/init.php:34 inc/post-types/init.php:1273
+msgid "Page Preloader"
+msgstr "Sayfa Ön Yükleyicisi"
+
+#: inc/options.php:7059
+msgid ""
+"WARNING: custom.css file is missing in your thesod installation. Custom.css "
+"is important for proper functioning of thesod. <a href=\"#\" onclick="
+"\"document.getElementById('thesod-generate-empty-form').submit(); return "
+"false;\">Please regenerate it now.</a> All your settings will remain, this "
+"action will not affect your setup."
+msgstr ""
+
+#: inc/post-types/init.php:28
+msgid "Page Header & Footer"
+msgstr "Sayfa Üstbilgisi ve Altbilgisi"
+
+#: inc/post-types/init.php:36
+msgid "Size Guide"
+msgstr "Ölçü Rehberi"
+
+#: inc/post-types/init.php:37
+msgid "Blog Post Settings"
+msgstr ""
+
+#: inc/post-types/init.php:60 inc/post-types/init.php:62
+#: inc/post-types/init.php:478 inc/post-types/init.php:571
+msgid "None"
+msgstr "Yok"
+
+#: inc/post-types/init.php:60 inc/post-types/init.php:589
+msgid "YouTube"
+msgstr "Youtube"
+
+#: inc/post-types/init.php:60 inc/post-types/init.php:589
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/post-types/init.php:60 inc/post-types/init.php:589
+msgid "Self-Hosted Video"
+msgstr "Barındırılan Video"
+
+#: inc/post-types/init.php:61
+msgid "Regular Title"
+msgstr ""
+
+#: inc/post-types/init.php:61
+msgid "Custom Title"
+msgstr ""
+
+#: inc/post-types/init.php:62
+msgid "45&deg; Left"
+msgstr "45&deg; Sol"
+
+#: inc/post-types/init.php:62
+msgid "45&deg; Right"
+msgstr "45&deg; Sağ"
+
+#: inc/post-types/init.php:62
+msgid "90&deg;"
+msgstr "90&deg;"
+
+#: inc/post-types/init.php:66
+msgid "Type of Page Title"
+msgstr ""
+
+#: inc/post-types/init.php:70
+msgid "Select Custom Title"
+msgstr ""
+
+#: inc/post-types/init.php:76
+msgid "Use rich content title / HTML formatting"
+msgstr ""
+
+#: inc/post-types/init.php:88
+msgid "Excerpt"
+msgstr "Alıntı"
+
+#: inc/post-types/init.php:96
+msgid "Use Page Own Style & Background Settings"
+msgstr ""
+
+#: inc/post-types/init.php:100
+msgid "Style &amp; Alignment"
+msgstr "Stil &amp; Hizalanma"
+
+#: inc/post-types/init.php:103
+msgid "Alignment"
+msgstr "Hizalanma"
+
+#: inc/post-types/init.php:110
+msgid "Padding Top"
+msgstr "Üst Dolgu"
+
+#: inc/post-types/init.php:113
+msgid "Padding Bottom"
+msgstr "Alt Dolgu"
+
+#: inc/post-types/init.php:137
+msgid "Title &amp; Excerpt"
+msgstr "Başlık &amp; Alıntı"
+
+#: inc/post-types/init.php:140
+msgid "Title Text Color"
+msgstr "Başlık Metin Rengi"
+
+#: inc/post-types/init.php:143
+msgid "Excerpt Color"
+msgstr "Alıntı Rengi"
+
+#: inc/post-types/init.php:147
+msgid "Title Max Width"
+msgstr "Başlık Maksimum Genişlik"
+
+#: inc/post-types/init.php:150
+msgid "Excerpt Max Width"
+msgstr "Alıntı Maksimum Genişlik"
+
+#: inc/post-types/init.php:153
+msgid "Title Top Margin"
+msgstr "Başlık Üst Marj"
+
+#: inc/post-types/init.php:156
+msgid "Excerpt Top Margin"
+msgstr "Alıntı Üst Marjı"
+
+#: inc/post-types/init.php:165
+msgid "Background Image"
+msgstr "Arkaplan resmi"
+
+#: inc/post-types/init.php:174
+msgid "Parallax Background"
+msgstr ""
+
+#: inc/post-types/init.php:203
+msgid "Icon Color 2"
+msgstr "Simge Rengi 2"
+
+#: inc/post-types/init.php:206
+msgid "Icon Style"
+msgstr "Simge Stili"
+
+#: inc/post-types/init.php:210
+msgid "Icon Background Color"
+msgstr "Simge Arkaplan Rengi"
+
+#: inc/post-types/init.php:213
+msgid "Icon Border Color"
+msgstr "Simge Kenarlığı Rengi"
+
+#: inc/post-types/init.php:216
+msgid "Icon Shape"
+msgstr "Simge Şekli"
+
+#: inc/post-types/init.php:217
+msgid "Circle"
+msgstr "Daire"
+
+#: inc/post-types/init.php:217
+msgid "Square"
+msgstr "Kare"
+
+#: inc/post-types/init.php:217
+msgid "Rhombus"
+msgstr "Eşkenar dörtgen"
+
+#: inc/post-types/init.php:217
+msgid "Hexagon"
+msgstr "Altıgen"
+
+#: inc/post-types/init.php:219
+msgid "Icon Size"
+msgstr "Simge boyutu"
+
+#: inc/post-types/init.php:220
+msgid "Extra Large"
+msgstr "Ekstra büyük"
+
+#: inc/post-types/init.php:226
+msgid "Video Background"
+msgstr "Video Arkaplan"
+
+#: inc/post-types/init.php:229
+msgid "Video Background Type"
+msgstr "Video Arkaplan Türü"
+
+#: inc/post-types/init.php:232 inc/post-types/init.php:672
+msgid "Link to video or video ID (for YouTube or Vimeo)"
+msgstr "Video veya video kimliğine bağlantı (YouTube veya Vimeo için)"
+
+#: inc/post-types/init.php:235 inc/post-types/init.php:675
+msgid "Video Background Aspect Ratio (16:9, 16:10, 4:3...)"
+msgstr "Video Arkaplanı Görüntü Oranı (16: 9, 16:10, 4: 3 ...)"
+
+#: inc/post-types/init.php:239
+msgid "Video Overlay Color"
+msgstr "Video Yerleşimi Rengi"
+
+#: inc/post-types/init.php:242
+msgid "Video Overlay Opacity (0 - 1)"
+msgstr "Video Yerleşimi Opaklığı (0 - 1)"
+
+#: inc/post-types/init.php:245
+msgid "Video Poster"
+msgstr "Video Afişi"
+
+#: inc/post-types/init.php:322
+msgid "Transparent Menu On Header"
+msgstr "Üst Alan  Şeffaf Menü"
+
+#: inc/post-types/init.php:323
+msgid "Header Opacity (0-100%)"
+msgstr "Üst Alan Şeffaflığı (% 0-100)"
+
+#: inc/post-types/init.php:326
+msgid "Use Light Menu &amp; Logo"
+msgstr "Hafif Menü Kullan &amp; Logo"
+
+#: inc/post-types/init.php:334
+msgid "Transparent Top Area"
+msgstr ""
+
+#: inc/post-types/init.php:335
+msgid "Top Area Opacity (0-100%)"
+msgstr ""
+
+#: inc/post-types/init.php:338
+msgid "Hide Top Area"
+msgstr "Üst Alanı Gizle"
+
+#: inc/post-types/init.php:341
+msgid "Hide Default Footer"
+msgstr "Varsayılan Altbilgiyi Gizle"
+
+#: inc/post-types/init.php:344
+msgid "Hide Footer Widget Area"
+msgstr "Altbilgi Pencere Alanını Gizle"
+
+#: inc/post-types/init.php:378
+msgid "Page as One-Pager"
+msgstr "Tek Sayfalık Olarak Sayfala"
+
+#: inc/post-types/init.php:380
+msgid "Page as fullscreen vertical slider"
+msgstr "Tam ekran dikey slayt olarak sayfala"
+
+#: inc/post-types/init.php:382
+msgid "Page as fullscreen vertical slider keep on mobile"
+msgstr ""
+
+#: inc/post-types/init.php:387
+msgid "Parallax Footer"
+msgstr "Parallax Alt Bilgisi"
+
+#: inc/post-types/init.php:391
+msgid "Disable top margin"
+msgstr "Üst marjı devre dışı bırak"
+
+#: inc/post-types/init.php:393
+msgid "Disable bottom margin"
+msgstr "Alt kenar boşluğunu devre dışı bırak"
+
+#: inc/post-types/init.php:398
+msgid "Lazy loading disabled"
+msgstr "Gecikmeli yükleme devre dışı"
+
+#: inc/post-types/init.php:400
+msgid "Redirect to subpage"
+msgstr "Alt sayfaya yönlendir"
+
+#: inc/post-types/init.php:405
+msgid "Hide Header"
+msgstr "Başlığı Gizle"
+
+#: inc/post-types/init.php:407
+msgid "Hide Footer"
+msgstr "Altbilgiyi Gizle"
+
+#: inc/post-types/init.php:418
+msgid "Highlight product in grids (double-size product image)"
+msgstr ""
+
+#: inc/post-types/init.php:479
+msgid "All Slides"
+msgstr "Tüm Slaytlar"
+
+#: inc/post-types/init.php:509
+msgid "Slideshow Type"
+msgstr "Slayt Gösterisi Tipi"
+
+#: inc/post-types/init.php:513
+msgid "Select Slideshow"
+msgstr "Slayt Gösterisini Seçin"
+
+#: inc/post-types/init.php:518
+msgid "Select LayerSlider"
+msgstr "LayerSlider Seçin"
+
+#: inc/post-types/init.php:524
+msgid "Select Revolution Slider"
+msgstr "Revolution Slaytı Seçin"
+
+#: inc/post-types/init.php:575
+msgid "Sidebar Position"
+msgstr "Kenar Çubuğu Konumu"
+
+#: inc/post-types/init.php:580
+msgid "Sticky sidebar"
+msgstr "Yapışkan kenar çubuğu"
+
+#: inc/post-types/init.php:593
+msgid "Featured Post"
+msgstr ""
+
+#: inc/post-types/init.php:597
+msgid "Feature This Post In Featured Posts Slider?"
+msgstr ""
+
+#: inc/post-types/init.php:602
+msgid "Highlighted Post"
+msgstr ""
+
+#: inc/post-types/init.php:606
+msgid "Highlight This Post In Blog Grid / Blog List?"
+msgstr ""
+
+#: inc/post-types/init.php:614 inc/post-types/init.php:734
+msgid "Highlight Style"
+msgstr ""
+
+#: inc/post-types/init.php:619 inc/post-types/init.php:739
+msgid "Title's Background Color (Post has a left position in grid)"
+msgstr ""
+
+#: inc/post-types/init.php:622 inc/post-types/init.php:742
+msgid "Title's Text Color (Post has a left position in grid)"
+msgstr ""
+
+#: inc/post-types/init.php:625 inc/post-types/init.php:745
+msgid "Title's Background Color (Post has a right position in grid)"
+msgstr ""
+
+#: inc/post-types/init.php:628 inc/post-types/init.php:748
+msgid "Title's Text Color (Post has a right position in grid)"
+msgstr ""
+
+#: inc/post-types/init.php:657
+msgid "Featured Content"
+msgstr ""
+
+#: inc/post-types/init.php:661
+msgid "Show Featured Content (Image, Video, Audio, Gallery) Inside Blog Post?"
+msgstr ""
+
+#: inc/post-types/init.php:666
+msgid "For Video Post"
+msgstr "Video Yazısı İçin"
+
+#: inc/post-types/init.php:669
+msgid "Video Type"
+msgstr "Video türü"
+
+#: inc/post-types/init.php:681
+msgid "For Quote Post"
+msgstr "Gönderi İçin Alıntı"
+
+#: inc/post-types/init.php:684
+msgid "Quote Text"
+msgstr "Alıntı Metni"
+
+#: inc/post-types/init.php:687
+msgid "Quote Author"
+msgstr "Alıntı Yapan"
+
+#: inc/post-types/init.php:693
+msgid "Author &amp; Link Color"
+msgstr "Yazar &amp; Bağlantı rengi"
+
+#: inc/post-types/init.php:699
+msgid "For Audio Post"
+msgstr "Sesli Gönderi İçin"
+
+#: inc/post-types/init.php:702
+msgid "Audio"
+msgstr "Ses"
+
+#: inc/post-types/init.php:709
+msgid "For Gallery Post"
+msgstr "Galeri Gönderileri İçin"
+
+#: inc/post-types/init.php:712
+msgid "Gallery"
+msgstr "Galeri"
+
+#: inc/post-types/init.php:715
+msgid "Autoscroll (msec)"
+msgstr "Otomatik kaydırma (msec)"
+
+#: inc/post-types/init.php:722
+msgid "Highlight"
+msgstr ""
+
+#: inc/post-types/init.php:1109
+msgid "Disable size guide"
+msgstr "Boyut kılavuzunu devre dışı bırak"
+
+#: inc/post-types/init.php:1111
+msgid "Use custom size guide"
+msgstr "Özel boyut kılavuzunu kullanın"
+
+#: inc/post-types/init.php:1112
+msgid "Size guide custom image"
+msgstr "Boyut kılavuzu özel görüntü"
+
+#: inc/post-types/init.php:1304
+msgid "Use custom page options"
+msgstr "Özel sayfa seçeneklerini kullanın"
+
+#: inc/template-tags.php:33
+msgid "&larr; Previous"
+msgstr "&larr; Önceki"
+
+#: inc/template-tags.php:34
+msgid "Next &rarr;"
+msgstr "Sonraki &rarr;"
+
+#: inc/template-tags.php:41
+msgid "Posts navigation"
+msgstr "Gönderi gezintisi"
+
+#: inc/template-tags.php:62
+msgid "Post navigation"
+msgstr "Gönderi gezintisi"
+
+#: inc/template-tags.php:66
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "<span class=\"meta-nav\">Yayınlandı</span>%title"
+
+#: inc/template-tags.php:68
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr "<span class=\"meta-nav\">Önceki Gönderi</span>%title"
+
+#: inc/template-tags.php:69
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr "<span class=\"meta-nav\">Sonraki Gönderi</span>%title"
+
+#: inc/woocommerce.php:58
+msgid "Product Description"
+msgstr "Ürün Açıklaması"
+
+#: inc/woocommerce.php:59
+msgid "Product Hover"
+msgstr "Ürün Vurgusu"
+
+#: inc/woocommerce.php:85
+msgid "Disable hover with alternative product image"
+msgstr "Alternatif ürün resmiyle vurguyu devre dışı bırakın"
+
+#: inc/woocommerce.php:251
+#, php-format
+msgid "Show %d On Page"
+msgstr "Sayfada %d göster"
+
+#: inc/woocommerce.php:350
+msgid "New"
+msgstr "Yeni"
+
+#: inc/woocommerce.php:357
+msgid "Out <span class=\"small\">of stock</span>"
+msgstr "<Span class=\"small\">Stoklar Tükendi</span>"
+
+#: inc/woocommerce.php:420
+msgid "Size guide"
+msgstr "Ölçü Rehberi"
+
+#: inc/woocommerce.php:560
+msgid "Quick View"
+msgstr "Hızlı Görünüm"
+
+#: inc/woocommerce.php:569
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s kalemi"
+msgstr[1] "%s kalemi"
+
+#: inc/woocommerce.php:680
+#, php-format
+msgid "You Have <span class=\"items-count\">%d Items</span> In Your Cart"
+msgstr "Sepetinizde <span class=\"items-count\">%d</span> Öğeniz Var"
+
+#: inc/woocommerce.php:708
+#, php-format
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo;"
+
+#: inc/woocommerce.php:714
+#, php-format
+msgid "%s has been added to your cart."
+msgid_plural "%s have been added to your cart."
+msgstr[0] "%s sepetinize eklendi."
+msgstr[1] "%s sepetinize eklendi."
+
+#: inc/woocommerce.php:720
+msgid "Continue shopping"
+msgstr "Alışverişe devam"
+
+#: inc/woocommerce.php:724 woocommerce/cart/mini-cart.php:101
+msgid "View cart"
+msgstr "Sepeti görüntüle"
+
+#: plugins/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Gerekli Eklentileri yükleyin"
+
+#: plugins/class-tgm-plugin-activation.php:335 plugins/plugins.php:117
+#: plugins/plugins.php:118
+msgid "Install Plugins"
+msgstr "Eklentileri Yükle"
+
+#: plugins/class-tgm-plugin-activation.php:337 plugins/plugins.php:119
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Eklenti Kuruluyor: %s"
+
+#: plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Güncelleme Eklentisi: %s"
+
+#: plugins/class-tgm-plugin-activation.php:340 plugins/plugins.php:120
+msgid "Something went wrong with the plugin API."
+msgstr "Eklenti API'sında bir sorun oluştu."
+
+#: plugins/class-tgm-plugin-activation.php:343 plugins/plugins.php:121
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Bu tema şu eklentiyi gerektiriyor: %1$s ."
+msgstr[1] "Bu tema şu eklentileri gerektiriyor: %1$s ."
+
+#: plugins/class-tgm-plugin-activation.php:349 plugins/plugins.php:122
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Bu tema şu eklentiyi tavsiye ediyor: %1$s ."
+msgstr[1] "Bu tema şu eklentileri tavsiye ediyor: %1$s ."
+
+#: plugins/class-tgm-plugin-activation.php:355 plugins/plugins.php:127
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Bu tema ile maksimum uyumluluk sağlamak için aşağıdaki eklentinin en son "
+"sürümüne güncellenmesi gerekiyor: %1$s ."
+msgstr[1] ""
+"Bu tema ile maksimum uyumluluk sağlamak için aşağıdaki eklentinin en son "
+"sürümüne güncellenmesi gerekiyor: %1$s ."
+
+#: plugins/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "%1$s için bir güncelleme mevcut."
+msgstr[1] "%1$s için güncellemeler mevcut."
+
+#: plugins/class-tgm-plugin-activation.php:367 plugins/plugins.php:124
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Aşağıdaki gerekli eklenti şu anda etkin değil: %1$s ."
+msgstr[1] "Aşağıdaki gerekli eklentiler şu anda etkin değil: %1$s ."
+
+#: plugins/class-tgm-plugin-activation.php:373 plugins/plugins.php:125
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Aşağıdaki önerilen eklenti şu anda etkin değil: %1$s ."
+msgstr[1] "Aşağıdaki önerilen eklentiler şu anda etkin değil: %1$s ."
+
+#: plugins/class-tgm-plugin-activation.php:378 plugins/plugins.php:129
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Eklentiyi yüklemeye başla"
+msgstr[1] "Eklentileri yüklemeye başla"
+
+#: plugins/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Eklentiyi güncellemeye başla"
+msgstr[1] "Eklentileri güncellemeye başla"
+
+#: plugins/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Eklentiyi etkinleştirmeye başla"
+msgstr[1] "Eklentileri etkinleştirmeye başla"
+
+#: plugins/class-tgm-plugin-activation.php:392 plugins/plugins.php:131
+msgid "Return to Required Plugins Installer"
+msgstr "Gerekli Eklenti Yükleyicilere Dön"
+
+#: plugins/class-tgm-plugin-activation.php:393
+#: plugins/class-tgm-plugin-activation.php:912
+#: plugins/class-tgm-plugin-activation.php:2618
+#: plugins/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "Gösterge Tablosuna Dön"
+
+#: plugins/class-tgm-plugin-activation.php:394
+#: plugins/class-tgm-plugin-activation.php:3244 plugins/plugins.php:132
+msgid "Plugin activated successfully."
+msgstr "Eklenti başarıyla etkinleştirildi."
+
+#: plugins/class-tgm-plugin-activation.php:395
+#: plugins/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Aşağıdaki eklenti başarıyla etkinleştirildi:"
+msgstr[1] "Aşağıdaki eklentiler başarıyla etkinleştirildi:"
+
+#: plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Hiçbir işlem yapılmadı. %1$s eklentisi zaten etkindi."
+
+#: plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Eklenti aktif değil. Bu tema için %s daha yüksek bir sürümü gerekiyor. "
+"Lütfen eklentiyi güncelleyin."
+
+#: plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tüm eklentiler başarıyla kuruldu ve aktifleştirildi. %1$s"
+
+#: plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Bu bildirimi göz ardı et"
+
+#: plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Yüklemek, güncellemek veya etkinleştirmek için bir veya daha fazla gerekli "
+"veya önerilen eklenti var."
+
+#: plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Lütfen yardım için bu sitenin yöneticisine başvurun."
+
+#: plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Bu eklentinin temanızla uyumlu olması için güncellenmesi gerekiyor."
+
+#: plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Güncelleştirme gerekli"
+
+#: plugins/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Uzak eklenti paketi, seo uyumlu bir başlık dosyası içermiyor ve yeniden "
+"adlandırılamıyor."
+
+#: plugins/class-tgm-plugin-activation.php:1019
+#: plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Lütfen eklenti sağlayıcısına başvurun ve eklentilerini WordPress kurallarına "
+"göre paketlemelerini isteyin."
+
+#: plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Uzak eklenti paketi birden fazla dosyadan oluşur, ancak dosyalar bir "
+"klasörde paketlenmez."
+
+#: plugins/class-tgm-plugin-activation.php:1206
+#: plugins/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "ve"
+
+#: plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: plugins/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "Gerekli"
+
+#: plugins/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "Tavsiye edilen"
+
+#: plugins/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "WordPress Deposu"
+
+#: plugins/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "Dış kaynak"
+
+#: plugins/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "Ön Paketlenmiş"
+
+#: plugins/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "Yüklü değil"
+
+#: plugins/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "Yüklendi ancak Aktif Değil"
+
+#: plugins/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "Aktif"
+
+#: plugins/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "Gerekli Güncelleme Mevcut değil"
+
+#: plugins/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "Güncelleme Gerektirir"
+
+#: plugins/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "Önerilen güncelleştirme"
+
+#: plugins/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s , %2$s"
+
+#: plugins/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Hepsi <span class=\"count\">( %s )</span>"
+msgstr[1] "Hepsi <span class=\"count\">( %s )</span>"
+
+#: plugins/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Yüklemek için <span class=\"count\">( %s )</span>"
+msgstr[1] "Yüklemek için <span class=\"count\">( %s )</span>"
+
+#: plugins/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Güncelleme Kullanılabilir <span class=\"count\">( %s )</span>"
+msgstr[1] "Güncellemeler Kullanılabilir <span class=\"count\">( %s )</span>"
+
+#: plugins/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Etkinleştirmek için <span class=\"count\">( %s )</span>"
+msgstr[1] "Etkinleştirmek için <span class=\"count\">( %s )</span>"
+
+#: plugins/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "bilinmeyen"
+
+#: plugins/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "Kurulu sürümü:"
+
+#: plugins/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "Gerekli minimum sürüm:"
+
+#: plugins/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "Mevcut sürüm:"
+
+#: plugins/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "Yüklenecek, güncellenecek veya etkinleştirilecek eklenti yok."
+
+#: plugins/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "Eklenti"
+
+#: plugins/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "Kaynak"
+
+#: plugins/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr "Tip"
+
+#: plugins/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "Versiyon"
+
+#: plugins/class-tgm-plugin-activation.php:2639
+#: woocommerce/wishlist-view.php:360
+msgid "Status"
+msgstr "Durum"
+
+#: plugins/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "%2$s yükleyin"
+
+#: plugins/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$s güncellemesi"
+
+#: plugins/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s etkinleştir"
+
+#: plugins/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "Eklenti yazarından yükseltme mesajı:"
+
+#: plugins/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "Kur"
+
+#: plugins/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "Güncelleştirme"
+
+#: plugins/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Yüklenecek eklenti seçilmedi. Hiçbir işlem yapılmadı."
+
+#: plugins/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Güncellenecek eklenti seçilmedi. Hiçbir işlem yapılmadı."
+
+#: plugins/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "Şu anda yüklenecek eklenti yok."
+
+#: plugins/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "Şu anda güncellenecek eklenti yok."
+
+#: plugins/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Etkinleştirilecek eklenti seçilmedi. Hiçbir işlem yapılmadı."
+
+#: plugins/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "Şu anda etkinleştirilecek eklenti yok."
+
+#: plugins/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "Eklenti aktivasyonu başarısız oldu."
+
+#: plugins/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s Eklentisi Güncelleniyor (%2$d/%3$d)"
+
+#: plugins/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s yüklenirken bir hata oluştu: <strong>%2$s</strong>."
+
+#: plugins/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s kurulumu başarısız oldu."
+
+#: plugins/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Kurulum ve aktivasyon işlemi başlıyor. Bu işlem bazı sunucularda biraz zaman "
+"alabilir, bu yüzden lütfen sabırlı olun."
+
+#: plugins/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s başarıyla yüklendi ve etkinleştirildi."
+
+#: plugins/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "Tüm kurulumlar ve etkinleştirmeler tamamlandı."
+
+#: plugins/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s Eklentisini Yükleme ve Etkinleştirme (%2$d/%3$d)"
+
+#: plugins/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Yükleme işlemi başlıyor. Bu işlem bazı sunucularda biraz zaman alabilir, bu "
+"yüzden lütfen sabırlı olun."
+
+#: plugins/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s başarıyla yüklendi."
+
+#: plugins/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "Tüm kurulumlar tamamlandı."
+
+#: plugins/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s Eklentisi Yükleme (%2$d/%3$d)"
+
+#: plugins/plugins.php:9 plugins/plugins.php:150
+msgid "thesod Theme Elements"
+msgstr "thesod Tema Öğeleri"
+
+#: plugins/plugins.php:29 plugins/plugins.php:176
+msgid "thesod Demo Import"
+msgstr ""
+
+#: plugins/plugins.php:39 plugins/plugins.php:189
+msgid "LayerSlider WP"
+msgstr "LayerSlider WP"
+
+#: plugins/plugins.php:49 plugins/plugins.php:202
+msgid "Revolution Slider"
+msgstr "Revolution Slayt"
+
+#: plugins/plugins.php:59
+msgid "Wordpress Page Widgets"
+msgstr "Wordpress Sayfa Pencere Öğeleri"
+
+#: plugins/plugins.php:64 plugins/plugins.php:215
+msgid "WPBakery Visual Composer"
+msgstr "WPBakery Visual Composer"
+
+#: plugins/plugins.php:74
+msgid "Contact Form 7"
+msgstr "İletişim Formu 7"
+
+#: plugins/plugins.php:79
+msgid "MailChimp for WordPress"
+msgstr "WordPress için MailChimp"
+
+#: plugins/plugins.php:84
+msgid "Easy Forms for MailChimp by YIKES"
+msgstr "MailChimp için YIKES'ten Kolay Formlar"
+
+#: plugins/plugins.php:89
+msgid "ZillaLikes"
+msgstr "ZillaLikes"
+
+#: plugins/plugins.php:102
+msgid "YITH WooCommerce Wishlist"
+msgstr "YITH WooCommerce İstek Listesi"
+
+#: plugins/plugins.php:123
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Maalesef, %s eklentisini yüklemek için gerekli izniniz yok. Eklentiyi kurma "
+"konusunda yardım için bu sitenin yöneticisine başvurun."
+msgstr[1] ""
+"Maalesef, %s eklentisini yüklemek için gerekli izniniz yok. Eklentiyi kurma "
+"konusunda yardım için bu sitenin yöneticisine başvurun."
+
+#: plugins/plugins.php:126
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Maalesef, %s eklentisini etkinleştirmek için gerekli izniniz yok. Eklentiyi "
+"aktif hale getirme konusunda yardım için bu sitenin yöneticisine başvurun."
+msgstr[1] ""
+"Maalesef, %s eklentisini etkinleştirmek için gerekli izniniz yok. Eklentiyi "
+"aktif hale getirme konusunda yardım için bu sitenin yöneticisine başvurun."
+
+#: plugins/plugins.php:128
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Maalesef, %s eklentisini güncellemek için gerekli izniniz yok. Eklentinin "
+"güncellenmesiyle ilgili yardım için bu sitenin yöneticisine başvurun."
+msgstr[1] ""
+"Maalesef, %s eklentisini güncellemek için gerekli izniniz yok. Eklentinin "
+"güncellenmesiyle ilgili yardım için bu sitenin yöneticisine başvurun."
+
+#: plugins/plugins.php:130
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Yüklü eklentiyi etkinleştir"
+msgstr[1] "Yüklü eklentiyi etkinleştir"
+
+#: plugins/plugins.php:133
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tüm eklentiler başarıyla kuruldu ve aktifleştirildi. %s"
+
+#: plugins/plugins.php:163
+msgid "thesod Import"
+msgstr "thesod İçe Aktarma"
+
+#: plugins/plugins.php:250 plugins/plugins.php:260
+#, php-format
+msgid ""
+"Purchase code verification failed. <a href=\"%s\" target=\"_blank\">Activate "
+"thesod</a>"
+msgstr ""
+
+#: plugins/plugins.php:304
+msgid ""
+"Before updating, it would be better if you make a backup of your current "
+"theme files (via FTP). Also please note: if you have done any code "
+"modifications directly in parent’s theme source files, this changes may be "
+"overwritten. We recommend to use thesod child theme for any code "
+"modifications and customizations in order to ensure all further updates "
+"without any issues."
+msgstr ""
+
+#: plugins/plugins.php:307
+msgid "I have read this notice and agree to proceed"
+msgstr ""
+
+#: plugins/plugins.php:310
+msgid "Proceed with update"
+msgstr ""
+
+#: plugins/plugins.php:333
+#, php-format
+msgid ""
+"There is a new version of thesod theme available. Your current version is "
+"<strong>%s</strong>. Update to <strong>%s</strong>."
+msgstr ""
+
+#: plugins/plugins.php:334
+#, php-format
+msgid ""
+"<strong><a href=\"%s\" class=\"thesod-view-details-link\">View update "
+"details</a></strong> or <strong><a href=\"%s\" class=\"thesod-update-link"
+"\">Update now</a></strong>."
+msgstr ""
+
+#: plugins/plugins.php:362
+#, php-format
+msgid ""
+"There is a new version of <strong>%s</strong> plugin available. Your current "
+"version is <strong>%s</strong>. Update to <strong>%s</strong>."
+msgstr ""
+
+#: plugins/plugins.php:363
+#, php-format
+msgid "<strong><a href=\"%s\">Update now</a></strong>."
+msgstr ""
+
+#: single-thesod_footer.php:10
+msgid ""
+" This is a dummy page content for footer builder. This content will not be "
+"displayed anywhere, it serves for testing purposes only to showcase the "
+"appearance of your footer template on some page."
+msgstr ""
+
+#: vc_templates/post_block/_item.php:22 vc_templates/vc_posts_slider.php:149
+#, php-format
+msgid "Permalink to %s"
+msgstr "%s için kalıcı bağlantı"
+
+#: vc_templates/post_block/_item.php:22
+msgid "Read more..."
+msgstr "Devamı..."
+
+#: vc_templates/vc_posts_grid.php:153
+msgid "All"
+msgstr "Herşey"
+
+#: vc_templates/vc_posts_grid.php:194 vc_templates/vc_posts_slider.php:189
+msgid "Nothing found."
+msgstr "Hiçbirşey Bulunamadı."
+
+#: woocommerce/cart/cart-shipping.php:51
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:61
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:66
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28 woocommerce/order/order-details.php:85
+msgid "Cart totals"
+msgstr "Sepet toplamları"
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:34
+#: woocommerce/checkout/review-order.php:133
+msgid "Subtotal"
+msgstr "Ara toplam"
+
+#: woocommerce/cart/cart-totals.php:55 woocommerce/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr "Nakliye"
+
+#: woocommerce/cart/cart-totals.php:56
+msgid "Please choose your shipping destination"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:71
+#, php-format
+msgid "(estimated for %s)"
+msgstr "( %s için tahmin edildi)"
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:126
+#: woocommerce/cart/cart.php:272 woocommerce/cart/cart.php:301
+#: woocommerce/checkout/review-order.php:32
+#: woocommerce/checkout/review-order.php:90
+#: woocommerce/checkout/review-order.php:180
+#: woocommerce/order/order-details.php:53
+msgid "Total"
+msgstr "Genel Toplam"
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:80
+#: woocommerce/cart/cart.php:230 woocommerce/checkout/review-order.php:28
+#: woocommerce/checkout/review-order.php:89
+#: woocommerce/order/order-details.php:51 woocommerce/wishlist-view.php:61
+msgid "Product"
+msgstr "Ürün"
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:102
+#: woocommerce/cart/cart.php:270 woocommerce/wishlist-view.php:68
+#: woocommerce/wishlist-view.php:350
+msgid "Price"
+msgstr "Fiyat"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:108
+#: woocommerce/cart/cart.php:271 woocommerce/cart/cart.php:283
+#: woocommerce/checkout/review-order.php:30
+#: woocommerce/order/order-details.php:52
+msgid "Quantity"
+msgstr "Miktar"
+
+#: woocommerce/cart/cart.php:59 woocommerce/cart/cart.php:258
+#: woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr "Bu öğeyi kaldır"
+
+#: woocommerce/cart/cart.php:97 woocommerce/cart/cart.php:246
+msgid "Available on backorder"
+msgstr "Arka planda mevcut"
+
+#: woocommerce/cart/cart.php:144 woocommerce/cart/cart.php:320
+#: woocommerce/checkout/form-coupon.php:38
+msgid "Coupon code"
+msgstr "Kupon Kodu"
+
+#: woocommerce/cart/cart.php:148 woocommerce/cart/cart.php:153
+#: woocommerce/cart/cart.php:324 woocommerce/checkout/form-coupon.php:42
+#: woocommerce/checkout/form-coupon.php:47
+msgid "Apply coupon"
+msgstr "Kuponu uygula"
+
+#: woocommerce/cart/cart.php:167 woocommerce/cart/cart.php:172
+#: woocommerce/cart/cart.php:345 woocommerce/cart/cart.php:350
+msgid "Update cart"
+msgstr "Sepeti güncelle"
+
+#: woocommerce/cart/cart.php:181 woocommerce/cart/cart.php:359
+#: woocommerce/cart/mini-cart.php:116
+msgid "Checkout"
+msgstr "Ödeme yap"
+
+#: woocommerce/cart/cart.php:329
+msgid "Apply"
+msgstr "Uygula"
+
+#: woocommerce/cart/cross-sells.php:28
+#: woocommerce/single-product/related.php:27
+msgid "You may be interested in"
+msgstr "Bunlar ilginizi çekebilir"
+
+#: woocommerce/cart/mini-cart.php:75
+msgid "No products in the cart."
+msgstr "Sepetinizde ürün yok."
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate shipping"
+msgstr "Kargoyu hesapla"
+
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Select a country&hellip;"
+msgstr "Bir ülke seçin&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:55
+#: woocommerce/cart/shipping-calculator.php:67
+msgid "State / County"
+msgstr "İl / İlçe"
+
+#: woocommerce/cart/shipping-calculator.php:56
+msgid "Select a state&hellip;"
+msgstr "Şehir seçin&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:76
+msgid "City"
+msgstr "Şehir"
+
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "Postcode / ZIP"
+msgstr "Posta kodu / ZIP"
+
+#: woocommerce/cart/shipping-calculator.php:91
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr "Toplamları güncelle"
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing &amp; Shipping"
+msgstr "Faturalandırma &amp; Nakliye"
+
+#: woocommerce/checkout/form-billing.php:32
+msgid "Billing details"
+msgstr "Fatura Detayları"
+
+#: woocommerce/checkout/form-billing.php:56
+#: woocommerce/checkout/form-billing.php:104
+msgid "Create an account?"
+msgstr "Bir hesap oluşturulsun mu?"
+
+#: woocommerce/checkout/form-billing.php:67
+#: woocommerce/checkout/form-billing.php:93
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"Aşağıdaki bilgileri girerek bir hesap açın. Eğer eski bir müşteriyseniz, "
+"lütfen sayfanın üst kısmından giriş yapın."
+
+#: woocommerce/checkout/form-billing.php:89
+#: woocommerce/checkout/form-billing.php:111
+#: woocommerce/myaccount/form-login.php:79
+#: woocommerce/myaccount/form-login.php:119
+#: woocommerce/myaccount/form-login.php:126
+msgid "Register"
+msgstr "Kayıt ol"
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr "Ödeme yapmak için giriş yapmış olmalısınız."
+
+#: woocommerce/checkout/form-checkout.php:41
+msgid "1. Billing"
+msgstr "1. Faturalandırma"
+
+#: woocommerce/checkout/form-checkout.php:42
+msgid "2. Payment"
+msgstr "2. Ödeme"
+
+#: woocommerce/checkout/form-checkout.php:43
+msgid "3. Confirmation"
+msgstr "3. Onay"
+
+#: woocommerce/checkout/form-checkout.php:45
+msgid "1. Sign in"
+msgstr "1. Giriş yap"
+
+#: woocommerce/checkout/form-checkout.php:46
+msgid "2. Billing"
+msgstr "2. Faturalandırma"
+
+#: woocommerce/checkout/form-checkout.php:47
+msgid "3. Payment"
+msgstr "3. Ödeme"
+
+#: woocommerce/checkout/form-checkout.php:48
+msgid "4. Confirmation"
+msgstr "4. Onay"
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Shopping cart"
+msgstr "Alışveriş kartı"
+
+#: woocommerce/checkout/form-checkout.php:56
+msgid "Checkout details"
+msgstr "Ödeme detayları"
+
+#: woocommerce/checkout/form-checkout.php:57
+msgid "Order complete"
+msgstr "Sipariş tamamlandı"
+
+#: woocommerce/checkout/form-checkout.php:84
+msgid "New customer"
+msgstr "Yeni müşteri"
+
+#: woocommerce/checkout/form-checkout.php:89
+msgid "checkout as guest"
+msgstr "misafir olarak ödeme"
+
+#: woocommerce/checkout/form-checkout.php:102
+msgid "create an account"
+msgstr "hesap oluştur"
+
+#: woocommerce/checkout/form-checkout.php:138
+#: woocommerce/checkout/form-checkout.php:143
+#: woocommerce/checkout/payment.php:56 woocommerce/checkout/payment.php:61
+msgid "Previous step"
+msgstr "Önceki adım"
+
+#: woocommerce/checkout/form-checkout.php:151
+#: woocommerce/checkout/form-checkout.php:156
+msgid "Next step"
+msgstr "Sonraki adım"
+
+#: woocommerce/checkout/form-checkout.php:168
+msgid "Your order"
+msgstr "Siparişiniz"
+
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Have a coupon?"
+msgstr "Kuponunuz var mı?"
+
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Click here to enter your code"
+msgstr "Kodunuzu girmek için buraya tıklayın"
+
+#: woocommerce/checkout/form-login.php:31
+msgid "Existing customer"
+msgstr "Mevcut müşteri"
+
+#: woocommerce/checkout/form-login.php:47
+msgid "Returning customer?"
+msgstr "Zaten müşterimiz misiniz?"
+
+#: woocommerce/checkout/form-login.php:47
+msgid "Click here to login"
+msgstr "Giriş yapmak için buraya tıklayın"
+
+#: woocommerce/checkout/form-shipping.php:25
+msgid "Different address?"
+msgstr "Farklı adres?"
+
+#: woocommerce/checkout/form-shipping.php:30
+msgid "Ship to a different address?"
+msgstr "Farklı bir adrese gönderilsin mi?"
+
+#: woocommerce/checkout/form-shipping.php:60
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr "Ek bilgi"
+
+#: woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Maalesef, bulunduğunuz yer için uygun ödeme yöntemi bulunmuyor. Yardıma "
+"ihtiyacınız varsa veya alternatif düzenlemeler yapmak istiyorsanız lütfen "
+"bizimle iletişime geçin."
+
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Mevcut ödeme yöntemlerini görmek için yukarıdaki bilgileri doldurunuz."
+
+#: woocommerce/checkout/payment.php:42
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"Maalesef, sipariş verdiğiniz banka işleminizi reddettiği için siparişiniz "
+"işleme koyulamıyor. Lütfen satın alma işlemini tekrar deneyin."
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr "Ödeme"
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr "Hesabım"
+
+#: woocommerce/checkout/thankyou.php:42 woocommerce/checkout/thankyou.php:84
+msgid "Thank you. Your order has been received."
+msgstr "Teşekkür ederim. Siparişiniz alındı."
+
+#: woocommerce/checkout/thankyou.php:47
+msgid "Order number:"
+msgstr "Sipariş numarası:"
+
+#: woocommerce/checkout/thankyou.php:52
+msgid "Date:"
+msgstr "Tarih:"
+
+#: woocommerce/checkout/thankyou.php:64
+msgid "Total:"
+msgstr "Genel Toplam:"
+
+#: woocommerce/checkout/thankyou.php:70
+msgid "Payment method:"
+msgstr "Ödeme şekli:"
+
+#: woocommerce/global/form-login.php:35
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Username or email"
+msgstr "Kullanıcı adı ya da email"
+
+#: woocommerce/global/form-login.php:39 woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-login.php:102
+msgid "Password"
+msgstr "Parola"
+
+#: woocommerce/global/form-login.php:51 woocommerce/global/form-login.php:58
+#: woocommerce/myaccount/form-login.php:28
+#: woocommerce/myaccount/form-login.php:50
+#: woocommerce/myaccount/form-login.php:57
+msgid "Login"
+msgstr "Oturum aç"
+
+#: woocommerce/global/form-login.php:65 woocommerce/myaccount/form-login.php:63
+msgid "Remember me"
+msgstr "Beni Hatırla"
+
+#: woocommerce/global/form-login.php:70 woocommerce/myaccount/form-login.php:67
+msgid "Lost your password?"
+msgstr "Şifreni mi unuttun?"
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:27
+#, fuzzy
+#| msgid "Showing the single result"
+#| msgid_plural "Showing all %d results"
+msgid "Showing the single result"
+msgstr "Tek sonuç göster"
+
+#: woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:35
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/sale-flash.php:28
+msgid "Sale!"
+msgstr "Satış!"
+
+#: woocommerce/myaccount/form-edit-account.php:23
+msgid "Account details"
+msgstr "Hesap detayları"
+
+#: woocommerce/myaccount/form-edit-account.php:28
+msgid "First name"
+msgstr "İsim"
+
+#: woocommerce/myaccount/form-edit-account.php:32
+msgid "Last name"
+msgstr "Soyadı"
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid "Display name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:39
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:44
+#: woocommerce/myaccount/form-login.php:95
+msgid "Email address"
+msgstr "E"
+
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Password change"
+msgstr "Parola değişimi"
+
+#: woocommerce/myaccount/form-edit-account.php:51
+msgid "Current password (leave blank to leave unchanged)"
+msgstr "Geçerli şifre (değişmeden bırakmak için boş bırakın)"
+
+#: woocommerce/myaccount/form-edit-account.php:55
+msgid "New password (leave blank to leave unchanged)"
+msgstr "Yeni şifre (değişmeden bırakmak için boş bırakın)"
+
+#: woocommerce/myaccount/form-edit-account.php:59
+msgid "Confirm new password"
+msgstr "Yeni şifreyi onayla"
+
+#: woocommerce/myaccount/form-edit-account.php:72
+#: woocommerce/myaccount/form-edit-account.php:77
+msgid "Save changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/order/order-details-customer.php:50
+msgid "Billing address"
+msgstr "Fatura Adresi"
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/order/order-details-customer.php:60
+msgid "Shipping address"
+msgstr "Teslimat adresi"
+
+#: woocommerce/myaccount/form-edit-address.php:49
+#: woocommerce/myaccount/form-edit-address.php:54
+msgid "Save address"
+msgstr "Adresi kaydet"
+
+#: woocommerce/myaccount/form-login.php:35
+msgid "Username or email address"
+msgstr "Kullanıcı Adı yada Eposta Adresi"
+
+#: woocommerce/myaccount/form-login.php:88
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: woocommerce/myaccount/form-login.php:107
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Şifreni mi unuttun? lütfen kullanıcı adınızı ya da e-posta adresinizi girin. "
+"E-posta yoluyla yeni bir şifre oluşturmak için bir bağlantı alacaksınız."
+
+#: woocommerce/myaccount/form-lost-password.php:41
+#: woocommerce/myaccount/form-lost-password.php:46
+msgid "Reset password"
+msgstr "Şifreyi yenile"
+
+#: woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr "Aşağıya yeni bir şifre girin."
+
+#: woocommerce/myaccount/form-reset-password.php:28
+msgid "New password"
+msgstr "Yeni Şifre"
+
+#: woocommerce/myaccount/form-reset-password.php:32
+msgid "Re-enter new password"
+msgstr "Yeni şifreyi tekrar giriniz"
+
+#: woocommerce/myaccount/orders.php:50
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: woocommerce/myaccount/orders.php:62
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] "%1$s %2$s öğesi için %2$s"
+msgstr[1] "%1$s %2$s öğesi için %2$s"
+
+#: woocommerce/myaccount/orders.php:91
+msgid "Previous"
+msgstr "Önceki"
+
+#: woocommerce/myaccount/orders.php:103
+msgid "Go to the shop"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:105
+msgid "No order has been made yet."
+msgstr "Henüz bir sipariş verilmedi."
+
+#: woocommerce/order/order-details-customer.php:26
+msgid "Customer details"
+msgstr "Müşteri detayları"
+
+#: woocommerce/order/order-details-customer.php:28
+#: woocommerce/order/order-details.php:97
+msgid "Note:"
+msgstr "Not:"
+
+#: woocommerce/order/order-details-customer.php:53
+#: woocommerce/order/order-details-customer.php:63
+#: woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr "N / A"
+
+#: woocommerce/order/order-details.php:45
+msgid "Order details"
+msgstr "Sipariş detayları"
+
+#: woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr "Ürünlerde arayın&hellip;"
+
+#: woocommerce/product-searchform.php:25
+msgctxt "label"
+msgid "Search for:"
+msgstr "Ara:"
+
+#: woocommerce/share.php:16
+msgid "Twitter"
+msgstr "Twitter"
+
+#: woocommerce/share.php:22
+msgid "Facebook"
+msgstr "Facebook"
+
+#: woocommerce/share.php:28
+msgid "Google+"
+msgstr "Google+"
+
+#: woocommerce/share.php:34
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: woocommerce/share.php:40
+msgid "I wanted you to see this site"
+msgstr "Bu siteyi görmeni istedim"
+
+#: woocommerce/single-product-reviews.php:36
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Reviews"
+msgstr "Yorumlar"
+
+#: woocommerce/single-product-reviews.php:68
+msgid "There are no reviews yet."
+msgstr "Henüz hiç yorum yapılmamış."
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Add <span class=\"light\">a review</span>"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s için bir yanıt bırakın"
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Submit Review"
+msgstr "Yorum Gönder"
+
+#: woocommerce/single-product-reviews.php:99
+msgid "You must be %slogged in%S to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+msgid "Your rating"
+msgstr "Puanınız"
+
+#: woocommerce/single-product-reviews.php:104
+msgid "Rate&hellip;"
+msgstr "Puan&hellip;"
+
+#: woocommerce/single-product-reviews.php:105
+msgid "Perfect"
+msgstr "Mükemmel"
+
+#: woocommerce/single-product-reviews.php:106
+msgid "Good"
+msgstr "İyi"
+
+#: woocommerce/single-product-reviews.php:107
+msgid "Average"
+msgstr "Ortalama"
+
+#: woocommerce/single-product-reviews.php:108
+msgid "Not that bad"
+msgstr "O kadar da kötü değil"
+
+#: woocommerce/single-product-reviews.php:109
+msgid "Very poor"
+msgstr "Çok kötü"
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Your message"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "Yalnızca bu ürünü alan giriş yapan müşteriler yorum bırakabilir."
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "Bu ürün şu anda stokta bulunmamaktadır ve mevcut değildir."
+
+#: woocommerce/single-product/add-to-cart/variable.php:47
+msgid "Clear"
+msgstr "Açık"
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr "SKU:"
+
+#: woocommerce/single-product/meta.php:35
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Kategori:"
+msgstr[1] "Kategori:"
+
+#: woocommerce/single-product/meta.php:37
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Etiket:"
+msgstr[1] "Etiket:"
+
+#: woocommerce/single-product/rating.php:40
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s müşteri incelemesi"
+msgstr[1] "%s müşteri incelemesi"
+
+#: woocommerce/single-product/review.php:39
+msgid "Your comment is awaiting approval"
+msgstr "Yorumunuz onay bekliyor"
+
+#: woocommerce/single-product/review.php:44
+msgid "verified owner"
+msgstr "onaylı sahip"
+
+#: woocommerce/single-product/review.php:51
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "5 üzerinden %d"
+
+#: woocommerce/single-product/review.php:52
+msgid "out of 5"
+msgstr "5 üzerinden"
+
+#: woocommerce/wishlist-view.php:29
+#, php-format
+msgid "You Have <span class=\"items-count\">%d Items</span> In Wishlist:"
+msgstr "<Span class=\"items-count\">İstek Listesinde %d ürününüz var</span>:"
+
+#: woocommerce/wishlist-view.php:81
+msgid "Stock Status"
+msgstr "Stok durumu"
+
+#: woocommerce/wishlist-view.php:127 woocommerce/wishlist-view.php:337
+msgid "Remove this product"
+msgstr "Bu ürünü kaldır"
+
+#: woocommerce/wishlist-view.php:145 woocommerce/wishlist-view.php:389
+msgid "Free!"
+msgstr "Ücretsiz!"
+
+#: woocommerce/wishlist-view.php:154 woocommerce/wishlist-view.php:400
+msgid "Out of Stock"
+msgstr "Stoklar tükendi"
+
+#: woocommerce/wishlist-view.php:157 woocommerce/wishlist-view.php:403
+msgid "In Stock"
+msgstr "Stokta var"
+
+#: woocommerce/wishlist-view.php:168 woocommerce/wishlist-view.php:414
+#, php-format
+msgid "Added on : %s"
+msgstr "Eklendi: %s"
+
+#: woocommerce/wishlist-view.php:209 woocommerce/wishlist-view.php:455
+msgid "Shared"
+msgstr "Paylaşılan"
+
+#: woocommerce/wishlist-view.php:212 woocommerce/wishlist-view.php:458
+msgid "Private"
+msgstr "Özel"
+
+#: woocommerce/wishlist-view.php:215 woocommerce/wishlist-view.php:461
+msgid "Public"
+msgstr "Halka açık"
+
+#: woocommerce/wishlist-view.php:234 woocommerce/wishlist-view.php:485
+msgid "No products were added to the wishlist"
+msgstr "İstek listesine ürün eklenmedi"
+
+#: woocommerce/wishlist-view.php:255 woocommerce/wishlist-view.php:502
+msgid "Add the selected products to the cart"
+msgstr "Seçilen ürünleri sepete ekle"
+
+#: woocommerce/wishlist-view.php:263 woocommerce/wishlist-view.php:510
+#: woocommerce/wishlist-view.php:550
+msgid "Ask for an estimate"
+msgstr "Bir tahmin isteyin"
+
+#~ msgid "Fonts Manager"
+#~ msgstr "Yazı Tipi Yöneticisi"
+
+#~ msgid "Mobile Logo"
+#~ msgstr "Mobil Logo"
+
+#~ msgid "Light Mobile Logo"
+#~ msgstr "Hafif Mobil Logo"
+
+#~ msgid ""
+#~ "Here you can define your own slug to appear as part of portfolio's URL. "
+#~ "By default /pf/ is used"
+#~ msgstr ""
+#~ "Burada, portföy URL’sinin bir parçası olarak görünmek için kendi "
+#~ "bilginizi tanımlayabilirsiniz. Varsayılan olarak /pf/ kullanılır"
+
+#~ msgid ""
+#~ "Here you can define your own slug to appear as part of news URL. By "
+#~ "default /news/ is used"
+#~ msgstr ""
+#~ "Burada, haber URL’sinin bir parçası olarak görünmek için kendi bilginizi "
+#~ "tanımlayabilirsiniz. Varsayılan olarak /news/ kullanılır"
+
+#~ msgid "Header"
+#~ msgstr "Başlık"
+
+#~ msgid "Background Color For Boxed Layout and Perspective Layout"
+#~ msgstr "Kutulu Düzen ve Perspektif Düzeni İçin Arkaplan Rengi"
+
+#~ msgid ""
+#~ "Select website's backround color in boxed layout and perspective layout"
+#~ msgstr ""
+#~ "Kutulu düzende ve perspektif düzende web sitesinin artalan rengini seçin"
+
+#~ msgid ""
+#~ "Main background color for pages, blog posts, portfolio & shop items. It "
+#~ "is also used as background for certain blog list styles, portfolio "
+#~ "overviews, team items and tables. Additionally this color is used as text "
+#~ "font color for text elements published on dark backgrounds, like footer "
+#~ "on our demo website."
+#~ msgstr ""
+#~ "Sayfalar, blog yazıları, portföy ve mağaza öğeleri için ana arkaplan "
+#~ "rengi. Ayrıca belirli blog listesi stilleri, portföy genel bilgileri, "
+#~ "takım öğeleri ve tablolar için arkaplan olarak kullanılır. Ek olarak, bu "
+#~ "renk, demo web sitemizde altbilgi gibi koyu arkaplanlarda yayınlanan "
+#~ "metin öğelerinde metin yazı tipi rengi olarak kullanılır."
+
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgid "Activate Twitter Icon"
+#~ msgstr "Twitter Simgesini Etkinleştir"
+
+#~ msgid "Activate Facebook Icon"
+#~ msgstr "Facebook Simgesini Etkinleştir"
+
+#~ msgid "Activate LinkedIn Icon"
+#~ msgstr "LinkedIn Simgesini Etkinleştir"
+
+#~ msgid "Activate Google Plus Icon"
+#~ msgstr "Google Plus Simgesini Etkinleştir"
+
+#~ msgid "Activate StumbleUpon Icon"
+#~ msgstr "StumbleUpon Simgesini Etkinleştir"
+
+#~ msgid "Activate RSS Icon"
+#~ msgstr "RSS Simgesini Etkinleştir"
+
+#~ msgid "Activate Vimeo Icon"
+#~ msgstr "Vimeo Simgesini Etkinleştir"
+
+#~ msgid "Activate Instagram Icon"
+#~ msgstr "Instagram Simgesini Etkinleştir"
+
+#~ msgid "Activate Pinterest Icon"
+#~ msgstr "Pinterest Simgesini Etkinleştir"
+
+#~ msgid "Activate YouTube Icon"
+#~ msgstr "YouTube Simgesini Etkinleştir"
+
+#~ msgid "Activate Flickr Icon"
+#~ msgstr "Flickr Simgesini Etkinleştir"
+
+#~ msgid "Twitter Profile Link"
+#~ msgstr "Twitter Profil Bağlantısı"
+
+#~ msgid "Enter URL to your twitter profile"
+#~ msgstr "Twitter profilinize URL girin"
+
+#~ msgid "Facebook Profile Link"
+#~ msgstr "Facebook Profil Bağlantısı"
+
+#~ msgid "Enter URL to your facebook profile"
+#~ msgstr "Facebook profilinize URL giriniz"
+
+#~ msgid "LinkedIn Profile Link"
+#~ msgstr "LinkedIn Profil Bağlantısı"
+
+#~ msgid "Enter URL to your linkedin profile"
+#~ msgstr "Linkedin profilinize URL girin"
+
+#~ msgid "Google Plus Profile Link"
+#~ msgstr "Google Plus Profil Bağlantısı"
+
+#~ msgid "Enter URL to your google+ profile"
+#~ msgstr "Google + profilinize URL girin"
+
+#~ msgid "StumbleUpon Profile Link"
+#~ msgstr "StumbleUpon Profil Bağlantısı"
+
+#~ msgid "Enter URL to your stumbleupon profile"
+#~ msgstr "Stumbleupon profilinize URL’yi girin"
+
+#~ msgid "RSS Link"
+#~ msgstr "RSS Bağlantısı"
+
+#~ msgid "Vimeo Link"
+#~ msgstr "Vimeo Bağlantısı"
+
+#~ msgid "Instagram Link"
+#~ msgstr "Instagram Bağlantısı"
+
+#~ msgid "Pinterest Link"
+#~ msgstr "Pinterest Bağlantısı"
+
+#~ msgid "Youtube Link"
+#~ msgstr "Youtube Bağlantısı"
+
+#~ msgid "Flickr Link"
+#~ msgstr "Flickr Bağlantısı"
+
+#~ msgid "thesod theme options"
+#~ msgstr "thesod tema seçenekleri"
+
+#~ msgid "Theme options"
+#~ msgstr "Tema ayarları"
+
+#~ msgid "Blog Item Settings"
+#~ msgstr "Blog Öğesi Ayarları"
+
+#~ msgid "Enable"
+#~ msgstr "Aktif"
+
+#~ msgid "Disable"
+#~ msgstr "Devre dışı"
+
+#~ msgid "Enable Page Title"
+#~ msgstr "Sayfa Başlığını Etkinleştir"
+
+#~ msgid "Rich Content Title"
+#~ msgstr "Zengin İçerik Başlığı"
+
+#~ msgid "Use rich content title"
+#~ msgstr "Zengin içerik başlığı kullan"
+
+#~ msgid "Featured Product Type"
+#~ msgstr "Özellikli ürün tipi"
+
+#~ msgid "Featured Image"
+#~ msgstr "Özellikli resim"
+
+#~ msgid "Show Featured Content"
+#~ msgstr "Öne Çıkan İçeriği Göster"
+
+#~ msgid "Show Details"
+#~ msgstr "Detayları göster"
+
+#~ msgid "Hide Details"
+#~ msgstr "Detayları gizle"
+
+#~ msgid "Black Studio TinyMCE Widget"
+#~ msgstr "Siyah Stüdyo TinyMCE Pencere Öğesi"
+
+#~ msgid "Envato WordPress Toolkit"
+#~ msgstr "Envato WordPress Araç Takımı"
+
+#~ msgid ""
+#~ "Purchase code verification failed. <a href=\"%s\">Activate thesod</a>"
+#~ msgstr ""
+#~ "Satınalma kodu doğrulaması başarısız oldu. <a href=\"%s\">thesod'i "
+#~ "Etkinleştir</a>"
+
+#~ msgid ""
+#~ "Verification failed. Please install \"Envato WordPress Toolkit\" plugin "
+#~ "and fill <a href=\"%s\">Envato \"User Account Information\"</a>"
+#~ msgstr ""
+#~ "Doğrulama başarısız oldu. Lütfen \"Envato WordPress Toolkit\" eklentisini "
+#~ "yükleyin ve <a href=\"%s\">Envato\"Kullanıcı Hesabı Bilgileri\"</a> "
+#~ "doldurun."
+
+#~ msgid "This is test text for testing footer template."
+#~ msgstr "Bu altbilgi şablonunu test etmek için test metnidir."
+
+#~ msgid ""
+#~ "Shipping costs will be calculated once you have provided your address."
+#~ msgstr "Adresinizi girdikten sonra nakliye bedeli hesaplanacaktır."
+
+#~ msgid ""
+#~ "There are no shipping methods available. Please double check your "
+#~ "address, or contact us if you need any help."
+#~ msgstr ""
+#~ "Oraya gönderim yöntemi yoktur. Lütfen adresinizi iki kez kontrol edin "
+#~ "veya yardıma ihtiyacınız olursa bizimle iletişime geçin."
+
+#~ msgid ""
+#~ "Since your browser does not support JavaScript, or it is disabled, please "
+#~ "ensure you click the <em>Update Totals</em> button before placing your "
+#~ "order. You may be charged more than the amount stated above if you fail "
+#~ "to do so."
+#~ msgstr ""
+#~ "Tarayıcınız JavaScript'i desteklemediğinden veya devre dışı "
+#~ "bırakıldığından, siparişinizi vermeden önce lütfen <em>Toplamları "
+#~ "Güncelle</em> düğmesini tıkladığınızdan emin olun. Bunu yapmazsanız, "
+#~ "yukarıda belirtilen tutardan daha fazla ücretlendirilebilirsiniz."
+
+#~ msgid ""
+#~ "I&rsquo;ve read and accept the <a href=\"%s\" class=\"woocommerce-terms-"
+#~ "and-conditions-link\">terms &amp; conditions</a>"
+#~ msgstr ""
+#~ "<a href=\"%s\" class=\"woocommerce-terms-and-conditions-link\">şartları "
+#~ "&amp; okudum ve kabul ediyorum koşulları</a>"
+
+#~ msgctxt "with first and last result"
+#~ msgid "Showing the single result"
+#~ msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+#~ msgstr[0] "Tek sonuç göster"
+#~ msgstr[1] "%3$d için sonuçlar %1$d&ndash;%2$d"
+
+#~ msgid "Anti-spam"
+#~ msgstr "Anti Spam"
+
+#~ msgid "View"
+#~ msgstr "Görünüm"
+
+#~ msgid "Go shop"
+#~ msgstr "Alışveriş başla"
+
+#~ msgid "%s review for %s%s%s"
+#~ msgid_plural "%s reviews for %s%s%s"
+#~ msgstr[0] "%s için inceleme %s %s %s"
+#~ msgstr[1] "%s için incelemeler %s %s %s"
+
+#~ msgid "Add a review"
+#~ msgstr "İnceleme ekle"
+
+#~ msgid "Be the first to review &ldquo;%s&rdquo;"
+#~ msgstr "İlk yorum yapan siz olun &ldquo;%s&rdquo;"
+
+#~ msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+#~ msgstr "Yorum için <a href=\"%s\">giriş</a> yapmış olmalısınız."
+
+#~ msgid "Your Message"
+#~ msgstr "Mesajınız"

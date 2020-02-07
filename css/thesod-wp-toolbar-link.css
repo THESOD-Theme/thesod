@@ -1,0 +1,12 @@
+#wp-admin-bar-thesod-theme-options > a {
+	background: #3A96A3;
+	color: #ffffff;
+}
+#wp-admin-bar-thesod-support-center > a {
+	background: #0073AA;
+	color: #ffffff;
+}
+#wp-admin-bar-thesod-documentation > a {
+	background: #47B39C;
+	color: #ffffff;
+}

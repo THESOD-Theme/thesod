@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'thesod-arrows';
+    src:  url('../fonts/arrows/thesod-arrows.eot?p5r839');
+    src:  url('../fonts/arrows/thesod-arrows.eot?p5r839#iefix') format('embedded-opentype'),
+    url('../fonts/arrows/thesod-arrows.ttf?p5r839') format('truetype'),
+    url('../fonts/arrows/thesod-arrows.woff?p5r839') format('woff'),
+    url('../fonts/arrows/thesod-arrows.svg?p5r839#thesod-arrows') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

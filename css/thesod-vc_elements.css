@@ -1,0 +1,155 @@
+.compose-mode .vc_element-container > div.vc_container-block:first-of-type {
+	margin-top: 31px;
+}
+.vc_editor .no-top-margin:first-child {
+    padding-top: 110px;
+}
+
+
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+	margin-bottom: 1.1em;
+}
+
+.wpb_row:last-of-type {
+	margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+	.wpb_row {
+		margin-top: -1.421em;
+	}
+	.wpb_row > * {
+		margin-top: 1.421em;
+	}
+}
+
+.sod-alert-box .wpb_text_column p:first-child,
+.sod-alert-box .wpb_text_column *:first-child,
+.sod-icon-with-text .wpb_text_column p:first-child,
+.sod-icon-with-text .wpb_text_column *:first-child {
+	margin-top: 0;
+}
+
+.vc_sod_portfolio_slider > *,
+.vc_sod_portfolio > *,
+.vc_sod_product_grid > *,
+.vc_sod_product_slider > * {
+	display: none;
+}
+.vc_sod_portfolio_slider,
+.vc_sod_portfolio {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/portfolio-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_product_grid,
+.vc_sod_product_slider {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/products-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_testimonials > * {
+	display: none;
+}
+.vc_sod_testimonials {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/testimonials-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_countdown > * {
+	display: none;
+}
+.vc_sod_countdown {
+	height: 200px;
+	background: #f0f4f7 url('../images/admin-images/countdown-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_news > * {
+	display: none;
+}
+.vc_sod_news {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/blog-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_news_grid {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/blog-extended-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_featured_posts_slider {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/featured-posts-slider-dummy.png') no-repeat 50% 40%;
+}
+.vc_sod_gallery > * {
+	display: none;
+}
+.vc_sod_gallery {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/gallery-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_diagram > * {
+	display: none;
+}
+.vc_sod_diagram {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/diagram-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_clients > * {
+	display: none;
+}
+.vc_sod_clients {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/clients-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_counter > * {
+	display: none;
+}
+.vc_sod_counter {
+	width: 25%;
+	padding: 0 21px;
+}
+.sod-counter-style-vertical .vc_sod_counter {
+	width: 100%;
+	padding: 0;
+}
+.vc_sod_counter > .counter-shortcode-dummy {
+	display: block;
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/counter-dummy.png') no-repeat 50% 50%;
+}
+.vc_sod_instagram_gallery > * {
+	display: none;
+}
+.vc_sod_instagram_gallery {
+	height: 300px;
+	background: #f0f4f7 url('../images/admin-images/instagram-dummy.png') no-repeat 50% 50%;
+}
+
+.vc_sod_divider {
+	padding: 3px 0;
+	background: -webkit-repeating-linear-gradient(-45deg, #f1f5f8 0px, #f1f5f8 1px, transparent 1px, transparent 10px);
+	background: -moz-repeating-linear-gradient(-45deg, #f1f5f8 0px, #f1f5f8 1px, transparent 1px, transparent 10px);
+	background: -o-repeating-linear-gradient(-45deg, #f1f5f8 0px, #f1f5f8 1px, transparent 1px, transparent 10px);
+	background: -ms-repeating-linear-gradient(-45deg, #f1f5f8 0px, #f1f5f8 1px, transparent 1px, transparent 10px);
+	background: repeating-linear-gradient(-45deg, #f1f5f8 0px, #f1f5f8 1px, transparent 1px, transparent 10px);
+}
+.vc_sod_dropcap {
+	float: left;
+	z-index: 1;
+}
+
+.compose-mode .vc_element .vc_element-container,
+.compose-mode .vc_element vc_container-block {
+	padding-bottom: 30px;
+}
+
+.compose-mode .vc_sod_pricing_column.vc_element {
+	display: inline-block;
+}
+
+.vc_sod_pricing_column .pricing-column-wrapper {
+	width: 100%;
+}
+
+.compose-mode .fullwidth-block-inner .container {
+	max-width: 100%;
+}
+.compose-mode .vc_container-block .fullwidth-block {
+	margin-left: -21px;
+	margin-right: -21px;
+}

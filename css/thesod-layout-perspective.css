@@ -1,0 +1,267 @@
+/* Menu perspective */
+.thesod-perspective > .thesod-perspective-menu-wrapper.mobile-menu-layout-default {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+	max-height: 100vh;
+}
+
+.thesod-perspective > .mobile-menu-layout-overlay #primary-navigation.responsive .overlay-menu-wrapper {
+	z-index: 1001;
+}
+.thesod-perspective .mobile-menu-layout-overlay #perspective-menu-buttons .menu-toggle {
+	z-index: 1002;
+}
+.thesod-perspective.modalview {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	-webkit-perspective: 1500px;
+	perspective: 1500px;
+}
+
+.thesod-perspective.modalview #page {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+
+.thesod-perspective #page:not(.layout-boxed) {
+	max-width: 100%;
+}
+
+.thesod-perspective.modalview.animate #page {
+	overflow-y: hidden;
+}
+
+/*.thesod-perspective.modalview #page::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0px;
+	opacity: 0;
+	background: rgba(0,0,0,0.2);
+	-webkit-transition: opacity 0.4s, height 0s 0.4s;
+	transition: opacity 0.4s, height 0s 0.4s;
+}
+
+.thesod-perspective.animate #page::after {
+	opacity: 1;
+	height: 101%;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}*/
+
+/* Outer Nav */
+#thesod-perspective .perspective-navigation:not(.responsive) {
+	visibility: hidden;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 360px;
+	min-height: 100%;
+	box-shadow: 0 0 2px 0 rgba(56, 69, 84, 0.2);
+	-moz-box-shadow: 0 0 2px 0 rgba(56, 69, 84, 0.2);
+	-webkit-box-shadow: 0 0 2px 0 rgba(56, 69, 84, 0.2);
+	padding: 145px 45px 0;
+	margin: 0;
+	opacity: 0;
+	-webkit-transform: translateX(100px);
+	transform: translateX(100px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+}
+
+#thesod-perspective.modalview .perspective-navigation:not(.responsive) {
+	visibility: visible;
+}
+
+#thesod-perspective #primary-navigation.responsive .perspective-menu-close {
+	display: none;
+}
+
+#thesod-perspective #primary-navigation .perspective-menu-close {
+	display: block;
+	border: none;
+	width: 36px;
+	height: 30px;
+	text-indent: 100%;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	position: absolute;
+	left: 42px;
+	top: 37px;
+	cursor: pointer;
+	outline: none;
+	background: transparent;
+	padding: 0;
+}
+
+#thesod-perspective #primary-navigation .perspective-menu-close:before,
+#thesod-perspective #primary-navigation .perspective-menu-close:after {
+	display: block;
+	content: '';
+	position: absolute;
+	height: 4px;
+	width: 100%;
+	left: 0;
+	background: #000000;
+}
+
+#thesod-perspective #primary-navigation .perspective-menu-close:before {
+	transform: rotate(45deg);
+	top: 13px;
+}
+
+#thesod-perspective #primary-navigation .perspective-menu-close:after {
+	top: 13px;
+	transform: rotate(-45deg);
+}
+#thesod-perspective #primary-navigation .perspective-menu-close.toggle-size-small:before,
+#thesod-perspective #primary-navigation .perspective-menu-close.toggle-size-small:after {
+	height: 2px;
+	width: 18px;
+	left: 9px;
+}
+
+#thesod-perspective.effect-moveleft.animate .thesod-perspective-menu-wrapper {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 99999;
+}
+
+#thesod-perspective.effect-moveleft.animate .perspective-navigation:not(.responsive) {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	z-index: 99999;
+}
+
+#thesod-perspective .perspective-navigation:not(.responsive) #primary-menu {
+    margin: 0;
+    display: block;
+}
+
+#thesod-perspective .perspective-navigation #primary-menu.no-responsive > li {
+	white-space: nowrap;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	padding-left: 45px;
+	margin-left: -45px;
+	display: block;
+}
+
+#thesod-perspective #primary-menu.no-responsive > li.menu-item-logo {
+	display: none;
+}
+
+#thesod-perspective .perspective-navigation #primary-menu.no-responsive > li > a {
+	padding: 12px 0 13px;
+}
+
+#thesod-perspective .perspective-navigation #primary-menu.no-responsive > li > ul {
+	top: 0;
+	right: 100%;
+	left: auto;
+}
+
+#thesod-perspective .perspective-navigation #primary-menu.no-responsive li.menu-item-search {
+	display: none;
+}
+
+#thesod-perspective .perspective-navigation #primary-menu.no-responsive li.menu-item-language.menu-item-has-children li {
+	display: block;
+}
+
+.thesod-perspective.modalview.effect-moveleft #page {
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+}
+
+.thesod-perspective.modalview.effect-moveleft #page::after {
+	background: rgba(255,255,255,0.6);
+}
+
+.thesod-perspective.modalview.effect-moveleft.animate #page {
+	-webkit-transform: rotateY(25deg);
+	transform: rotateY(25deg);
+	/*max-width: 1300px;*/
+	z-index: 1;
+}
+
+.thesod-perspective.effect-moveleft .perspective-navigation #primary-menu.no-responsive > li {
+	opacity: 0;
+	-webkit-transform: translateX(100px) translateZ(-1000px);
+	transform: translateX(100px) translateZ(-1000px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu.no-responsive > li {
+	opacity: 1;
+	-webkit-transform: translateX(0) translateZ(0);
+	transform: translateX(0) translateZ(0);
+	-webkit-transition-delay: 0.04s;
+	transition-delay: 0.04s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu.no-responsive > li:nth-child(2) {
+	-webkit-transition-delay: 0.08s;
+	transition-delay: 0.08s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu.no-responsive > li:nth-child(3) {
+	-webkit-transition-delay: 0.12s;
+	transition-delay: 0.12s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu.no-responsive > li:nth-child(4) {
+	-webkit-transition-delay: 0.16s;
+	transition-delay: 0.16s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu.no-responsive > li:nth-child(5) {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu.no-responsive > li:nth-child(6) {
+	-webkit-transition-delay: 0.24s;
+	transition-delay: 0.24s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu.no-responsive > li:nth-child(7) {
+	-webkit-transition-delay: 0.28s;
+	transition-delay: 0.28s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu.no-responsive > li:nth-child(8) {
+	-webkit-transition-delay: 0.32s;
+	transition-delay: 0.32s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu.no-responsive > li:nth-child(9) {
+	-webkit-transition-delay: 0.36s;
+	transition-delay: 0.36s;
+}
+
+.thesod-perspective.effect-moveleft.animate .perspective-navigation #primary-menu > li:nth-child(10) {
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
